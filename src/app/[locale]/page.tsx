@@ -1,4 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
+import { AgendaSection } from "@/components/sections/AgendaSection";
 import { Beneficiaries } from "@/components/sections/Beneficiaries";
 import { EcosystemSection } from "@/components/sections/EcosystemSection";
 import { FirstSteps } from "@/components/sections/FirstSteps";
@@ -26,6 +27,7 @@ export default function HomePage({
       {SHOW_PROPOSED && <FirstSteps />}
       <Beneficiaries />
       <PartnerGroups />
+      <AgendaSection />
     </main>
   );
 }

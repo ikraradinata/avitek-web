@@ -14,6 +14,9 @@ export const STEP_STATES: readonly StepState[] = [
 // Indeks baris agenda yang disorot, dihitung dari 0
 export const KEY_AGENDA_ROWS: readonly number[] = [5, 6];
 
+// Jumlah baris agenda yang tampil sebelum tombol "agenda lengkap" dibuka
+export const VISIBLE_AGENDA_ROWS = 7;
+
 // Tujuan tautan footer, urutannya sama dengan footer.*Links di messages
 export const FOOTER_COLUMNS = [
   {
