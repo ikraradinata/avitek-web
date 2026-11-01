@@ -93,7 +93,7 @@
       {
         "year": "Nov 2026",
         "title": "AVITEK KUKM diluncurkan",
-        "text": "Proyek dilaporkan, dan asosiasi resmi mengambil alih keberlanjutannya."
+        "text": "Proyek dilaporkan, dan AVITEK KUKM diluncurkan untuk melanjutkan hasilnya."
       }
     ]
   },
@@ -106,8 +106,8 @@
         "title": "Untuk anggota",
         "text": "Koperasi dan UKM mendapat jalur lanjutan untuk meningkatkan kapasitas produksi dan daya saing.",
         "points": [
-          "Pendampingan teknis lanjutan",
-          "Akses pelatihan di SFTC",
+          "Mekanisme pendampingan yang sedang dikembangkan",
+          "Informasi peluang pelatihan sesuai ketersediaan dan ketentuan mitra",
           "Forum berbagi praktik antaranggota"
         ]
       },
@@ -115,9 +115,9 @@
         "title": "Untuk mitra",
         "text": "Industri, penyedia teknologi, dan kampus menemukan mitra implementasi yang sudah siap secara digital.",
         "points": [
-          "Lokasi uji coba dan pilot project",
+          "Peluang uji coba dan pilot project yang masih diusulkan",
           "Kolaborasi riset terapan",
-          "Jejaring dengan mitra Korea"
+          "Peluang kolaborasi dengan mitra Korea sesuai mandat dan persetujuan para pihak"
         ]
       },
       {
@@ -126,7 +126,7 @@
         "points": [
           "Model replikasi smart factory skala UKM",
           "Masukan kebijakan berbasis data lapangan",
-          "Tenaga ahli lokal yang bersertifikat"
+          "Pengembangan kapasitas tenaga ahli lokal"
         ]
       }
     ]
@@ -461,8 +461,7 @@
     "colMore": "Lainnya",
     "moreLinks": [
       "Keanggotaan",
-      "Ajukan kemitraan",
-      "Tata kelola & legal"
+      "Ajukan kemitraan"
     ],
     "colContact": "Kontak",
     "copyright": "© 2026 AVITEK KUKM – Asosiasi Inovasi Teknologi Koperasi & UKM",

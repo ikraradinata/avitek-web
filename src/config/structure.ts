@@ -31,7 +31,7 @@ export const FOOTER_MENU = [
 
 // Tujuan kolom Lainnya, urutannya sama dengan footer.moreLinks.
 // Nilai "mitra" berarti tautan ke formulir sekaligus memilih jalur mitra.
-export const FOOTER_MORE_HASHES = ["gabung", "mitra", "tentang"] as const;
+export const FOOTER_MORE_HASHES = ["gabung", "mitra"] as const;
 
 // Jumlah stasiun pada visual hero, satu stasiun untuk tiap penerima manfaat
 export const STATION_COUNT = 30;

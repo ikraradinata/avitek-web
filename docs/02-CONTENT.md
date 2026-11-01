@@ -117,7 +117,7 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `track.items.3.text` | Seminar di BINUS Alam Sutera, tempat penerima manfaat membagikan dampak penerapan smart factory. | A seminar at BINUS Alam Sutera where beneficiaries shared the impact of their smart factories. | Terverifikasi |
 | `track.items.4.year` | Nov 2026 | Nov 2026 | Terverifikasi |
 | `track.items.4.title` | AVITEK KUKM diluncurkan | AVITEK KUKM launches | Terverifikasi |
-| `track.items.4.text` | Proyek dilaporkan, dan asosiasi resmi mengambil alih keberlanjutannya. | The project reports its results, and the association formally takes over its continuity. | Terverifikasi |
+| `track.items.4.text` | Proyek dilaporkan, dan AVITEK KUKM diluncurkan untuk melanjutkan hasilnya. | The project reports its results, and AVITEK KUKM launches to carry them forward. | **Usulan** |
 
 ## 5. Mengapa AVITEK
 
@@ -128,19 +128,19 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `why.intro` | Hibah punya batas waktu, tapi kebutuhan pendampingan, pelatihan, dan jejaring tidak. Tanpa wadah lanjutan, pengetahuan yang dibangun empat tahun mudah tercerai-berai. AVITEK dibentuk agar hasilnya terus tumbuh. | Grants end; the need for mentoring, training, and networks doesn't. Without a home to carry it on, four years of know-how can easily scatter. AVITEK was formed so the results keep growing. | **Usulan** |
 | `why.cards.0.title` | Untuk anggota | For members | **Usulan** |
 | `why.cards.0.text` | Koperasi dan UKM mendapat jalur lanjutan untuk meningkatkan kapasitas produksi dan daya saing. | Cooperatives and SMEs get a clear path to keep raising production capacity and competitiveness. | **Usulan** |
-| `why.cards.0.points.0` | Pendampingan teknis lanjutan | Ongoing technical mentoring | **Usulan** |
-| `why.cards.0.points.1` | Akses pelatihan di SFTC | Access to SFTC training | **Usulan** |
+| `why.cards.0.points.0` | Mekanisme pendampingan yang sedang dikembangkan | Mentoring arrangements under development | **Usulan** |
+| `why.cards.0.points.1` | Informasi peluang pelatihan sesuai ketersediaan dan ketentuan mitra | Training opportunities announced as partner availability and terms allow | **Usulan** |
 | `why.cards.0.points.2` | Forum berbagi praktik antaranggota | A forum for members to share practices | **Usulan** |
 | `why.cards.1.title` | Untuk mitra | For partners | **Usulan** |
 | `why.cards.1.text` | Industri, penyedia teknologi, dan kampus menemukan mitra implementasi yang sudah siap secara digital. | Industry, technology providers, and universities find implementation partners that are already digitally ready. | **Usulan** |
-| `why.cards.1.points.0` | Lokasi uji coba dan pilot project | Test sites and pilot projects | **Usulan** |
+| `why.cards.1.points.0` | Peluang uji coba dan pilot project yang masih diusulkan | Proposed test site and pilot opportunities | **Usulan** |
 | `why.cards.1.points.1` | Kolaborasi riset terapan | Applied research collaboration | **Usulan** |
-| `why.cards.1.points.2` | Jejaring dengan mitra Korea | Links with Korean partners | **Usulan** |
+| `why.cards.1.points.2` | Peluang kolaborasi dengan mitra Korea sesuai mandat dan persetujuan para pihak | Collaboration opportunities with Korean partners, subject to each party's mandate and consent | **Usulan** |
 | `why.cards.2.title` | Untuk Indonesia | For Indonesia | **Usulan** |
 | `why.cards.2.text` | Transformasi digital koperasi dan UKM berjalan berkelanjutan, tidak bergantung pada satu proyek. | Digital transformation of cooperatives and SMEs keeps going, without depending on a single project. | **Usulan** |
 | `why.cards.2.points.0` | Model replikasi smart factory skala UKM | A replicable smart factory model for SMEs | **Usulan** |
 | `why.cards.2.points.1` | Masukan kebijakan berbasis data lapangan | Policy input grounded in field data | **Usulan** |
-| `why.cards.2.points.2` | Tenaga ahli lokal yang bersertifikat | Certified local experts | **Usulan** |
+| `why.cards.2.points.2` | Pengembangan kapasitas tenaga ahli lokal | Building the capacity of local experts | **Usulan** |
 
 ## 6. Ekosistem inovasi
 
@@ -381,7 +381,6 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `footer.colMore` | Lainnya | More | UI |
 | `footer.moreLinks.0` | Keanggotaan | Membership | UI |
 | `footer.moreLinks.1` | Ajukan kemitraan | Propose a partnership | UI |
-| `footer.moreLinks.2` | Tata kelola & legal | Governance & legal | UI |
 | `footer.colContact` | Kontak | Contact | UI |
 | `footer.copyright` | © 2026 AVITEK KUKM – Asosiasi Inovasi Teknologi Koperasi & UKM | © 2026 AVITEK KUKM – Association of Technology Innovation for Cooperatives and SMEs | UI |
 | `footer.privacy` | Kebijakan privasi | Privacy policy | UI |

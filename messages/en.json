@@ -93,7 +93,7 @@
       {
         "year": "Nov 2026",
         "title": "AVITEK KUKM launches",
-        "text": "The project reports its results, and the association formally takes over its continuity."
+        "text": "The project reports its results, and AVITEK KUKM launches to carry them forward."
       }
     ]
   },
@@ -106,8 +106,8 @@
         "title": "For members",
         "text": "Cooperatives and SMEs get a clear path to keep raising production capacity and competitiveness.",
         "points": [
-          "Ongoing technical mentoring",
-          "Access to SFTC training",
+          "Mentoring arrangements under development",
+          "Training opportunities announced as partner availability and terms allow",
           "A forum for members to share practices"
         ]
       },
@@ -115,9 +115,9 @@
         "title": "For partners",
         "text": "Industry, technology providers, and universities find implementation partners that are already digitally ready.",
         "points": [
-          "Test sites and pilot projects",
+          "Proposed test site and pilot opportunities",
           "Applied research collaboration",
-          "Links with Korean partners"
+          "Collaboration opportunities with Korean partners, subject to each party's mandate and consent"
         ]
       },
       {
@@ -126,7 +126,7 @@
         "points": [
           "A replicable smart factory model for SMEs",
           "Policy input grounded in field data",
-          "Certified local experts"
+          "Building the capacity of local experts"
         ]
       }
     ]
@@ -461,8 +461,7 @@
     "colMore": "More",
     "moreLinks": [
       "Membership",
-      "Propose a partnership",
-      "Governance & legal"
+      "Propose a partnership"
     ],
     "colContact": "Contact",
     "copyright": "© 2026 AVITEK KUKM – Association of Technology Innovation for Cooperatives and SMEs",
