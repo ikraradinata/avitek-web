@@ -57,6 +57,10 @@
     @apply relative mx-auto max-w-wrap px-6;
   }
 
+  .section {
+    @apply relative py-[72px] sm:py-24;
+  }
+
   /* Satu-satunya momen animasi: 30 stasiun menyala, lalu hub emas muncul */
   .station {
     @apply relative aspect-square rounded-[7px] bg-navy-2;

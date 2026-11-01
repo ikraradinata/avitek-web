@@ -1,5 +1,6 @@
 import { setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/sections/Hero";
+import { ProjectTimeline } from "@/components/sections/ProjectTimeline";
 
 export default function HomePage({
   params: { locale },
@@ -11,6 +12,7 @@ export default function HomePage({
   return (
     <main id="top">
       <Hero />
+      <ProjectTimeline />
     </main>
   );
 }
