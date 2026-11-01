@@ -103,12 +103,12 @@ Pembayaran iuran online, LMS, aplikasi mobile, dan terjemahan otomatis di sisi k
 | F-02 | Dropdown Wawasan | Wajib | Bisa dibuka dengan klik dan Enter, ditutup dengan Esc atau klik di luar. `aria-expanded` ikut berubah. |
 | F-03 | Visual 30 stasiun | Wajib | Menyala berurutan sekali, statis jika `prefers-reduced-motion`. |
 | F-04 | Rundown agenda bisa dibuka-tutup | Wajib | Default 7 baris. Label tombol berganti sesuai bahasa. |
-| F-05 | Formulir 3 jalur | Wajib | Pilihan jalur mengubah judul, label, dan tombol. Kategori disembunyikan untuk jalur kehadiran. |
+| F-05 | Formulir 2 jalur (minat keanggotaan, kemitraan) | Wajib | Pilihan jalur mengubah judul, label, dan tombol. Jalur kehadiran ditutup setelah acara 3 November. |
 | F-06 | Validasi formulir | Wajib | Galat ditampilkan **dalam bahasa aktif**. Validasi Zod di klien dan server. |
 | F-07 | Simpan pendaftaran | Wajib | Tersimpan di Google Sheet akun asosiasi, tab sesuai jalur, **dengan kolom bahasa**. |
 | F-08 | Notifikasi ke sekretariat | Sebaiknya | Email ke sekretariat (selalu dalam Bahasa Indonesia), menyebut bahasa pendaftar. |
 | F-09 | Anti-spam | Wajib | Honeypot dan pembatasan per IP per jam: 5 kiriman untuk anggota dan mitra, 30 kiriman untuk kehadiran karena tamu berbagi Wi-Fi lokasi. |
-| F-10 | CTA memilih jalur formulir | Wajib | "Konfirmasi kehadiran" dan "Ajukan kemitraan" langsung memilih jalur yang sesuai. |
+| F-10 | CTA memilih jalur formulir | Wajib | "Daftar minat keanggotaan" dan "Ajukan kemitraan" langsung memilih jalur yang sesuai. |
 | **F-11** | **Pemilih bahasa ID/EN** | Wajib | Selalu terlihat di header (desktop dan mobile). Berpindah ke URL padanan (`/id#acara` → `/en#acara`) dengan posisi anchor dipertahankan. Pilihan disimpan di cookie `NEXT_LOCALE`. `aria-pressed` diperbarui. |
 | **F-12** | **Deteksi bahasa awal** | Wajib | `/` dialihkan sesuai cookie, lalu `Accept-Language` (bahasa Korea dan bahasa lain diarahkan ke `/en`), lalu default `/id`. Halaman `/id` dan `/en` tidak pernah dialihkan otomatis. |
 | **F-13** | **SEO multibahasa** | Wajib | `<html lang>` sesuai bahasa. `hreflang` id, en, dan x-default (→ `/id`). Canonical per bahasa. Sitemap memuat kedua bahasa. `og:locale` `id_ID` / `en_US` beserta `og:locale:alternate`. |

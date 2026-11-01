@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "AVITEK KUKM — Association of Technology Innovation for Cooperatives and SMEs",
-    "description": "AVITEK KUKM carries forward the results of the 2023–2026 Korea–Indonesia Smart Factory ODA project and connects cooperatives, SMEs, academia, industry, and government.",
+    "title": "AVITEK KUKM | Technology Innovation Ecosystem for Cooperatives and SMEs",
+    "description": "AVITEK KUKM brings together cooperatives, SMEs, universities, industry, government, and partners to apply technology innovation that is relevant and lasting.",
     "fullName": "Association of Technology Innovation for Cooperatives and SMEs",
     "tagline": "Collaboration, innovation, business"
   },
@@ -27,17 +27,11 @@
     }
   },
   "hero": {
-    "badge": "AVITEK KUKM launch, 3 November 2026",
-    "title": "Smart factories don't stop when the project ends.",
-    "lede": "From 2023 to 2026, the Korea–Indonesia Smart Factory ODA project helped 30 cooperatives and SMEs adopt smart production technology. AVITEK KUKM exists so those results keep being used, improved, and passed on to more businesses.",
-    "dateLabel": "Date",
-    "date": "Tuesday, 3 November 2026",
-    "timeLabel": "Time",
-    "time": "10:00 WIB until close (registration 09:30)",
-    "venueLabel": "Venue",
-    "venue": "2nd Floor Auditorium, Ministry of Cooperatives of the Republic of Indonesia, Jl. H.R. Rasuna Said Kav. 3–4, South Jakarta",
-    "ctaRsvp": "Confirm attendance",
-    "ctaAgenda": "See the agenda",
+    "badge": "Launched 3 November 2026",
+    "title": "Technology innovation that works for cooperatives and SMEs.",
+    "lede": "AVITEK KUKM is a collaborative ecosystem that helps Indonesian cooperatives and SMEs turn real needs on the ground into steps for applying technology, shared learning, and opportunities to work together.",
+    "ctaPrimary": "Find your path",
+    "ctaSecondary": "Register membership interest",
     "visualLabel": "Illustration of the 30 beneficiary cooperatives and SMEs connected to AVITEK KUKM",
     "visualCaption": "cooperatives and SMEs already run smart factories",
     "hubName": "AVITEK KUKM",
@@ -221,7 +215,7 @@
   "bene": {
     "kicker": "From the factory floor",
     "title": "Cooperatives that have done it",
-    "intro": "Beneficiary representatives will share the impact of their smart factories at the 3 November forum. Their full stories will follow on the Insights page.",
+    "intro": "Three of the 30 cooperatives and SMEs that benefited from the Smart Factory ODA project. Their full stories will be published once approved.",
     "items": [
       {
         "loc": "Pangalengan, West Java",
@@ -309,8 +303,8 @@
     "cta": "Propose a partnership"
   },
   "agenda": {
-    "kicker": "Agenda & forum",
-    "title": "Upcoming event",
+    "kicker": "Event archive",
+    "title": "The AVITEK KUKM launch",
     "intro": "AVITEK KUKM launches during the Korea–Indonesia Smart Factory Project Report, Dissemination and Appreciation Forum.",
     "day": "03",
     "month": "November 2026",
@@ -391,7 +385,7 @@
     ],
     "showAll": "Show full agenda",
     "hideAll": "Hide full agenda",
-    "note": "The agenda is provisional and may change."
+    "note": "This is the agenda as planned before the event. What took place on the day may differ."
   },
   "join": {
     "kicker": "Join now",
@@ -400,13 +394,13 @@
     "groupLabel": "Choose how to join",
     "paths": {
       "anggota": {
-        "label": "Register as a member",
+        "label": "Register membership interest",
         "hint": "Cooperatives, SMEs, academics, or practitioners",
-        "title": "Register as a member",
-        "sub": "Fill in a few details. Fields marked * are required.",
+        "title": "Register your interest in AVITEK KUKM membership",
+        "sub": "Tell us briefly about your organization and needs. Submitting this form does not mean membership is approved. Fields marked * are required.",
         "msg": "What would you like to develop with AVITEK?",
-        "submit": "Send registration",
-        "ok": "Registration sent"
+        "submit": "Submit membership interest",
+        "ok": "Your interest has been received"
       },
       "mitra": {
         "label": "Propose a partnership",
@@ -416,15 +410,6 @@
         "msg": "Proposed cooperation",
         "submit": "Send proposal",
         "ok": "Partnership proposal sent"
-      },
-      "hadir": {
-        "label": "Confirm attendance on 3 November",
-        "hint": "For invited launch guests",
-        "title": "Confirm attendance on 3 November",
-        "sub": "For invited guests at the AVITEK KUKM launch at the Ministry of Cooperatives.",
-        "msg": "Note for the organizers (optional)",
-        "submit": "Confirm attendance",
-        "ok": "Attendance confirmed"
       }
     },
     "fields": {

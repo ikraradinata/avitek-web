@@ -26,7 +26,7 @@ export async function submitJoin(input: SubmissionInput): Promise<SubmitResult> 
   const parsed = submissionSchema.safeParse(input);
   if (!parsed.success) {
     const fields = invalidFields(parsed.error);
-    const path = input?.path === "mitra" || input?.path === "hadir" ? input.path : "anggota";
+    const path = input?.path === "mitra" ? "mitra" : "anggota";
     const message = validationMessage(fields, path, (key, values) => t(key, values));
     return {
       ok: false,

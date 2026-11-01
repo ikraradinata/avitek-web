@@ -4,7 +4,6 @@ import { SITE_URL } from "@/lib/seo";
 
 // F-15: data terstruktur untuk mesin pencari, semua teks dari messages
 export async function JsonLd({ locale }: Readonly<{ locale: string }>) {
-  const hero = await getTranslations({ locale, namespace: "hero" });
   const agenda = await getTranslations({ locale, namespace: "agenda" });
   const englishMeta = await getTranslations({ locale: "en", namespace: "meta" });
 
@@ -31,7 +30,7 @@ export async function JsonLd({ locale }: Readonly<{ locale: string }>) {
         inLanguage: locale,
         url: `${SITE_URL}/${locale}#acara`,
         image: `${SITE_URL}/og-${locale}.png`,
-        location: { "@type": "Place", name: hero("venue"), address: hero("venue") },
+        location: { "@type": "Place", name: agenda("where"), address: agenda("where") },
         organizer: { "@id": organization["@id"] },
       },
     ],
