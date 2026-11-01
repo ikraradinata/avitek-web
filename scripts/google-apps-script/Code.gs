@@ -73,10 +73,11 @@ function appendSubmission(data) {
   getTab(data.path).appendRow(row);
 }
 
-// Isian yang diawali = + - @ bisa dijalankan Sheet sebagai rumus, jadi dipaksa menjadi teks
+// Paksa menjadi teks: awalan = + - @ bisa dijalankan sebagai rumus, dan angka
+// seperti 0812... akan kehilangan nol di depan jika dibaca Sheet sebagai bilangan
 function asPlainText(value) {
   var text = value === undefined || value === null ? '' : String(value);
-  return /^[=+\-@\t\r]/.test(text) ? "'" + text : text;
+  return /^[=+\-@\t\r0-9]/.test(text) ? "'" + text : text;
 }
 
 function getTab(path) {
