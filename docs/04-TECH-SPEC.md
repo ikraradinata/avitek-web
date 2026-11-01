@@ -50,7 +50,7 @@ avitek-web/
 │  │  ├─ sections/ (Hero, FigureStrip, ProjectTimeline, WhySection, EcosystemSection,
 │  │  │             ProgramSection, FirstSteps, Beneficiaries, PartnerGroups, AgendaSection, JoinSection)
 │  │  ├─ ui/ (shadcn + Kicker, SectionHead, Badge, Tag)
-│  │  └─ graphics/ (StationGrid, WaveBackground, DiagonalPattern, DotGrid, EcosystemDiagram, LogoMark)
+│  │  └─ graphics/ (StationGrid, WaveBackground, DiagonalPattern, DotGrid, EcosystemDiagram, FooterWave)
 │  ├─ config/
 │  │  └─ structure.ts              # data non-teks: href, warna kartu, state langkah, baris kunci agenda
 │  └─ lib/ (schema.ts, google-sheet.ts, flags.ts, utils.ts)

@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { LogoMark } from "@/components/graphics/LogoMark";
+import Image from "next/image";
 import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
 import { MobileMenu } from "@/components/layout/MobileMenu";
 import { NavDropdown } from "@/components/layout/NavDropdown";
@@ -7,7 +7,7 @@ import { Link } from "@/i18n/navigation";
 import { SHOW_PROPOSED } from "@/lib/flags";
 
 const MENU_ITEM =
-  "block w-full cursor-pointer rounded-lg px-3.5 py-2.5 text-left md:px-2.5 lg:px-3.5 text-[.95rem] font-semibold text-navy no-underline hover:bg-mist md:w-auto";
+  "block w-full cursor-pointer rounded-lg px-3.5 py-2.5 text-left md:px-2 lg:px-3 text-[.95rem] font-semibold text-navy no-underline hover:bg-mist md:w-auto";
 
 const DROPDOWN_LINK =
   "block rounded-lg px-3 py-2.5 text-[.95rem] no-underline hover:bg-ice";
@@ -17,23 +17,27 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-mist bg-ice/95 backdrop-blur-[10px] backdrop-saturate-[1.3]">
-      <div className="wrap flex h-[74px] items-center justify-between gap-6">
+      <div className="wrap flex h-[74px] items-center gap-3">
         <Link
           href={{ pathname: "/", hash: "top" }}
           aria-label={t("home")}
-          className="flex items-center gap-3 text-navy no-underline"
+          className="shrink-0"
         >
-          <LogoMark size={42} />
-          <span>
-            <b className="block text-xl font-extrabold leading-none tracking-[.02em]">
-              AVITEK
-            </b>
-            <span className="mt-[3px] block text-[.72rem] font-bold tracking-[.08em] text-teal-ink">
-              KUKM
-            </span>
-          </span>
+          <Image
+            src="/logo-avitek.svg"
+            alt=""
+            width={118}
+            height={44}
+            priority
+            unoptimized
+          />
         </Link>
         <MobileMenu languageSwitcher={<LanguageSwitcher />}>
+          <li>
+            <Link href={{ pathname: "/", hash: "top" }} className={MENU_ITEM}>
+              {t("homeLink")}
+            </Link>
+          </li>
           <li>
             <Link href={{ pathname: "/", hash: "tentang" }} className={MENU_ITEM}>
               {t("about")}

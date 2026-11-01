@@ -25,13 +25,13 @@ export function MobileMenu({
         }}
         className={cn(
           "absolute left-0 right-0 top-[74px] flex-col gap-0.5 border-b border-mist bg-ice px-4 pb-5 pt-3",
-          "md:static md:flex md:flex-row md:items-center md:gap-1.5 md:border-0 md:bg-transparent md:p-0",
+          "md:static md:ml-auto md:flex md:flex-row md:items-center md:gap-0.5 md:border-0 md:bg-transparent md:p-0",
           open ? "flex" : "hidden",
         )}
       >
         {children}
       </ul>
-      <div className="flex items-center gap-2.5">
+      <div className="ml-auto flex items-center gap-2.5 md:ml-1">
         {languageSwitcher}
         <button
           type="button"

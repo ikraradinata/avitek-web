@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "AVITEK KUKM, go to homepage",
+    "homeLink": "Home",
     "about": "About",
     "program": "Programs",
     "partnership": "Partnership",
@@ -450,28 +451,21 @@
   },
   "footer": {
     "about": "Association of Technology Innovation for Cooperatives and SMEs. Collaboration, innovation, and business for the digital transformation of Indonesia's cooperatives and SMEs.",
-    "colOrg": "Organization",
-    "orgLinks": [
-      "About AVITEK",
-      "Organizational structure",
-      "Founding members",
+    "values": [
+      "Technology-driven",
+      "Inclusive",
+      "Collaborative",
+      "Impactful"
+    ],
+    "colMenu": "Menu",
+    "colMore": "More",
+    "moreLinks": [
+      "Membership",
+      "Propose a partnership",
       "Governance & legal"
     ],
-    "colProgram": "Programs",
-    "programLinks": [
-      "Programs",
-      "Partnership",
-      "Events",
-      "Insights"
-    ],
-    "colJoin": "Get involved",
-    "joinLinks": [
-      "Membership",
-      "Member directory",
-      "Propose a partnership",
-      "Contact"
-    ],
-    "copyright": "© 2026 AVITEK KUKM",
+    "colContact": "Contact",
+    "copyright": "© 2026 AVITEK KUKM – Association of Technology Innovation for Cooperatives and SMEs",
     "privacy": "Privacy policy",
     "mockFlag": "Mockup v0.4 bilingual, not final"
   },

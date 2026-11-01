@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "AVITEK KUKM, ke beranda",
+    "homeLink": "Beranda",
     "about": "Tentang",
     "program": "Program",
     "partnership": "Kemitraan",
@@ -450,28 +451,21 @@
   },
   "footer": {
     "about": "Asosiasi Inovasi Teknologi Koperasi dan UKM. Kolaborasi, inovasi, dan bisnis untuk transformasi digital koperasi dan UKM Indonesia.",
-    "colOrg": "Organisasi",
-    "orgLinks": [
-      "Tentang AVITEK",
-      "Struktur organisasi",
-      "Anggota pendiri",
+    "values": [
+      "Berbasis teknologi",
+      "Inklusif",
+      "Kolaboratif",
+      "Berdampak"
+    ],
+    "colMenu": "Menu",
+    "colMore": "Lainnya",
+    "moreLinks": [
+      "Keanggotaan",
+      "Ajukan kemitraan",
       "Tata kelola & legal"
     ],
-    "colProgram": "Program",
-    "programLinks": [
-      "Program",
-      "Kemitraan",
-      "Acara",
-      "Wawasan"
-    ],
-    "colJoin": "Bergabung",
-    "joinLinks": [
-      "Keanggotaan",
-      "Direktori anggota",
-      "Ajukan kemitraan",
-      "Kontak"
-    ],
-    "copyright": "© 2026 AVITEK KUKM",
+    "colContact": "Kontak",
+    "copyright": "© 2026 AVITEK KUKM – Asosiasi Inovasi Teknologi Koperasi & UKM",
     "privacy": "Kebijakan privasi",
     "mockFlag": "Mockup v0.4 bilingual, belum final"
   },

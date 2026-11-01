@@ -17,24 +17,21 @@ export const KEY_AGENDA_ROWS: readonly number[] = [5, 6];
 // Jumlah baris agenda yang tampil sebelum tombol "agenda lengkap" dibuka
 export const VISIBLE_AGENDA_ROWS = 7;
 
-// Tujuan tautan footer, urutannya sama dengan footer.*Links di messages
-export const FOOTER_COLUMNS = [
-  {
-    titleKey: "colOrg",
-    linksKey: "orgLinks",
-    hashes: ["tentang", "tentang", "tentang", "tentang"],
-  },
-  {
-    titleKey: "colProgram",
-    linksKey: "programLinks",
-    hashes: ["program", "kemitraan", "acara", "penerima"],
-  },
-  {
-    titleKey: "colJoin",
-    linksKey: "joinLinks",
-    hashes: ["gabung", "gabung", "gabung", "gabung"],
-  },
+export const CONTACT_EMAIL = "asosiasi.avitek@gmail.com";
+
+// Kolom Menu di footer, labelnya dari namespace nav
+export const FOOTER_MENU = [
+  { labelKey: "homeLink", hash: "top" },
+  { labelKey: "about", hash: "tentang" },
+  { labelKey: "program", hash: "program" },
+  { labelKey: "partnership", hash: "kemitraan" },
+  { labelKey: "insights", hash: "penerima" },
+  { labelKey: "events", hash: "acara" },
 ] as const;
+
+// Tujuan kolom Lainnya, urutannya sama dengan footer.moreLinks.
+// Nilai "mitra" berarti tautan ke formulir sekaligus memilih jalur mitra.
+export const FOOTER_MORE_HASHES = ["gabung", "mitra", "tentang"] as const;
 
 // Jumlah stasiun pada visual hero, satu stasiun untuk tiap penerima manfaat
 export const STATION_COUNT = 30;

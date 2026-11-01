@@ -43,6 +43,7 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | Kunci | Bahasa Indonesia | English | Status |
 |---|---|---|---|
 | `nav.home` | AVITEK KUKM, ke beranda | AVITEK KUKM, go to homepage | UI |
+| `nav.homeLink` | Beranda | Home | UI |
 | `nav.about` | Tentang | About | UI |
 | `nav.program` | Program | Programs | UI |
 | `nav.partnership` | Kemitraan | Partnership | UI |
@@ -372,22 +373,17 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | Kunci | Bahasa Indonesia | English | Status |
 |---|---|---|---|
 | `footer.about` | Asosiasi Inovasi Teknologi Koperasi dan UKM. Kolaborasi, inovasi, dan bisnis untuk transformasi digital koperasi dan UKM Indonesia. | Association of Technology Innovation for Cooperatives and SMEs. Collaboration, innovation, and business for the digital transformation of Indonesia's cooperatives and SMEs. | **Usulan** |
-| `footer.colOrg` | Organisasi | Organization | UI |
-| `footer.orgLinks.0` | Tentang AVITEK | About AVITEK | UI |
-| `footer.orgLinks.1` | Struktur organisasi | Organizational structure | UI |
-| `footer.orgLinks.2` | Anggota pendiri | Founding members | UI |
-| `footer.orgLinks.3` | Tata kelola & legal | Governance & legal | UI |
-| `footer.colProgram` | Program | Programs | UI |
-| `footer.programLinks.0` | Program | Programs | UI |
-| `footer.programLinks.1` | Kemitraan | Partnership | UI |
-| `footer.programLinks.2` | Acara | Events | UI |
-| `footer.programLinks.3` | Wawasan | Insights | UI |
-| `footer.colJoin` | Bergabung | Get involved | UI |
-| `footer.joinLinks.0` | Keanggotaan | Membership | UI |
-| `footer.joinLinks.1` | Direktori anggota | Member directory | UI |
-| `footer.joinLinks.2` | Ajukan kemitraan | Propose a partnership | UI |
-| `footer.joinLinks.3` | Kontak | Contact | UI |
-| `footer.copyright` | © 2026 AVITEK KUKM | © 2026 AVITEK KUKM | Nama diri |
+| `footer.values.0` | Berbasis teknologi | Technology-driven | **Usulan** |
+| `footer.values.1` | Inklusif | Inclusive | **Usulan** |
+| `footer.values.2` | Kolaboratif | Collaborative | **Usulan** |
+| `footer.values.3` | Berdampak | Impactful | **Usulan** |
+| `footer.colMenu` | Menu | Menu | UI |
+| `footer.colMore` | Lainnya | More | UI |
+| `footer.moreLinks.0` | Keanggotaan | Membership | UI |
+| `footer.moreLinks.1` | Ajukan kemitraan | Propose a partnership | UI |
+| `footer.moreLinks.2` | Tata kelola & legal | Governance & legal | UI |
+| `footer.colContact` | Kontak | Contact | UI |
+| `footer.copyright` | © 2026 AVITEK KUKM – Asosiasi Inovasi Teknologi Koperasi & UKM | © 2026 AVITEK KUKM – Association of Technology Innovation for Cooperatives and SMEs | UI |
 | `footer.privacy` | Kebijakan privasi | Privacy policy | UI |
 | `footer.mockFlag` | Mockup v0.4 bilingual, belum final | Mockup v0.4 bilingual, not final | UI |
 
