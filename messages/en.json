@@ -432,7 +432,7 @@
       "email": "Email",
       "wa": "WhatsApp number",
       "category": "Category",
-      "consent": "I agree to AVITEK KUKM processing this data for membership and communication purposes, as described in the Privacy Policy."
+      "consent": "I agree to AVITEK KUKM processing this data for membership and communication purposes, as described in the <link>Privacy Policy</link>."
     },
     "categories": [
       "Cooperative",
@@ -474,5 +474,67 @@
     "copyright": "© 2026 AVITEK KUKM",
     "privacy": "Privacy policy",
     "mockFlag": "Mockup v0.4 bilingual, not final"
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy — AVITEK KUKM",
+    "title": "Privacy Policy",
+    "effective": "Effective 3 November 2026",
+    "intro": "This page explains how AVITEK KUKM handles the personal data you send through this site, in line with Indonesia's Law No. 27 of 2022 on Personal Data Protection.",
+    "sections": [
+      {
+        "title": "Who manages your data",
+        "text": "Your data is managed by AVITEK KUKM (Association of Technology Innovation for Cooperatives and SMEs). Send questions about personal data to asosiasi.avitek@gmail.com."
+      },
+      {
+        "title": "Data we collect",
+        "text": "We only collect data from the Join form:",
+        "items": [
+          "Data you provide: name, organization or business, email, WhatsApp number, category, and message.",
+          "Data recorded automatically: submission time, page language, browser type, and a hash of your IP address. Your IP address is not stored in its original form."
+        ]
+      },
+      {
+        "title": "How we use it",
+        "text": "We use this data to:",
+        "items": [
+          "Process member registrations and partnership proposals.",
+          "Record event attendance confirmations.",
+          "Contact you about AVITEK KUKM membership, partnerships, and events.",
+          "Prevent spam and misuse of the form."
+        ]
+      },
+      {
+        "title": "Legal basis",
+        "text": "We process your data based on the consent you give by ticking the consent box on the form."
+      },
+      {
+        "title": "Where it is stored",
+        "text": "Form data is stored in Google Sheets, and notification emails go to Gmail, both under the association's account. This site runs on Vercel hosting. These providers' servers may be located outside Indonesia."
+      },
+      {
+        "title": "Who can access it",
+        "text": "Only the AVITEK KUKM board members and secretariat who need the data can access it. We do not sell your personal data."
+      },
+      {
+        "title": "How long we keep it",
+        "text": "We keep data for as long as it is needed:",
+        "items": [
+          "Member registrations and partnership proposals: for as long as the membership or cooperation continues, or until you ask us to delete them.",
+          "Attendance confirmations: deleted 1 year after the event."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "text": "You can ask to access, correct, or delete your data, and withdraw your consent at any time, by emailing asosiasi.avitek@gmail.com. Withdrawing consent does not affect processing carried out before then."
+      },
+      {
+        "title": "Cookies",
+        "text": "This site uses one cookie, NEXT_LOCALE, to remember your language choice. We do not use tracking cookies."
+      },
+      {
+        "title": "Changes to this policy",
+        "text": "If this policy changes, the latest version and its effective date will appear on this page."
+      }
+    ]
   }
 }

@@ -432,7 +432,7 @@
       "email": "Email",
       "wa": "Nomor WhatsApp",
       "category": "Kategori",
-      "consent": "Saya setuju data ini diproses AVITEK KUKM untuk keperluan keanggotaan dan komunikasi, sesuai Kebijakan Privasi."
+      "consent": "Saya setuju data ini diproses AVITEK KUKM untuk keperluan keanggotaan dan komunikasi, sesuai <link>Kebijakan Privasi</link>."
     },
     "categories": [
       "Koperasi",
@@ -474,5 +474,67 @@
     "copyright": "© 2026 AVITEK KUKM",
     "privacy": "Kebijakan privasi",
     "mockFlag": "Mockup v0.4 bilingual, belum final"
+  },
+  "privacy": {
+    "metaTitle": "Kebijakan Privasi — AVITEK KUKM",
+    "title": "Kebijakan Privasi",
+    "effective": "Berlaku sejak 3 November 2026",
+    "intro": "Halaman ini menjelaskan cara AVITEK KUKM mengelola data pribadi yang Anda kirim lewat situs ini, sesuai Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi.",
+    "sections": [
+      {
+        "title": "Pengelola data",
+        "text": "Data dikelola oleh AVITEK KUKM (Asosiasi Inovasi Teknologi Koperasi dan UKM). Pertanyaan tentang data pribadi dapat dikirim ke asosiasi.avitek@gmail.com."
+      },
+      {
+        "title": "Data yang kami kumpulkan",
+        "text": "Kami hanya mengumpulkan data dari formulir Bergabung:",
+        "items": [
+          "Data yang Anda isi: nama, institusi atau usaha, email, nomor WhatsApp, kategori, dan pesan.",
+          "Data yang tercatat otomatis: waktu kiriman, bahasa halaman, jenis browser, dan hash alamat IP. Alamat IP tidak disimpan dalam bentuk asli."
+        ]
+      },
+      {
+        "title": "Tujuan penggunaan",
+        "text": "Data dipakai untuk:",
+        "items": [
+          "Memproses pendaftaran anggota dan pengajuan kemitraan.",
+          "Mencatat konfirmasi kehadiran acara.",
+          "Menghubungi Anda tentang keanggotaan, kemitraan, dan acara AVITEK KUKM.",
+          "Mencegah spam dan penyalahgunaan formulir."
+        ]
+      },
+      {
+        "title": "Dasar pemrosesan",
+        "text": "Kami memproses data berdasarkan persetujuan yang Anda berikan dengan mencentang kotak persetujuan di formulir."
+      },
+      {
+        "title": "Tempat penyimpanan",
+        "text": "Data formulir disimpan di Google Sheet dan email notifikasi dikirim ke Gmail milik akun asosiasi. Situs ini berjalan di layanan hosting Vercel. Server penyedia layanan tersebut dapat berada di luar Indonesia."
+      },
+      {
+        "title": "Siapa yang dapat mengakses",
+        "text": "Data hanya dapat diakses oleh pengurus dan sekretariat AVITEK KUKM yang membutuhkannya. Kami tidak menjual data pribadi Anda."
+      },
+      {
+        "title": "Lama penyimpanan",
+        "text": "Data disimpan selama diperlukan:",
+        "items": [
+          "Pendaftaran anggota dan pengajuan kemitraan: selama keanggotaan atau kerja sama berjalan, atau sampai Anda meminta penghapusan.",
+          "Konfirmasi kehadiran: dihapus 1 tahun setelah acara."
+        ]
+      },
+      {
+        "title": "Hak Anda",
+        "text": "Anda dapat meminta akses, perbaikan, atau penghapusan data, serta menarik persetujuan kapan saja, dengan mengirim email ke asosiasi.avitek@gmail.com. Penarikan persetujuan tidak memengaruhi pemrosesan yang sudah dilakukan sebelumnya."
+      },
+      {
+        "title": "Cookie",
+        "text": "Situs ini hanya memakai satu cookie, NEXT_LOCALE, untuk mengingat pilihan bahasa Anda. Kami tidak memakai cookie pelacak."
+      },
+      {
+        "title": "Perubahan kebijakan",
+        "text": "Jika kebijakan ini berubah, versi terbaru dan tanggal berlakunya akan ditampilkan di halaman ini."
+      }
+    ]
   }
 }

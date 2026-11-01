@@ -34,10 +34,10 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 - [x] **T-14** Uji tata letak EN vs ID di 360px, 390px, 768px, dan 1366px. Perbaiki teks yang terpotong atau meluap.
 
 ## M3 — Formulir dan backend (Senin, 2 Nov, pagi)
-- [ ] **T-15** Google Sheet + Apps Script di akun asosiasi (`docs/07-GOOGLE-SHEET-SETUP.md`). Kode siap, menunggu deploy oleh pemilik
-- [ ] **T-16** `schema.ts` + Server Action + rate limit, dengan galat dan pesan sukses dalam bahasa aktif. Kode siap, menunggu uji ke Google sungguhan
-- [ ] **T-17** Notifikasi email lewat Apps Script ke sekretariat (Bahasa Indonesia, menyebut bahasa pendaftar). Kode siap, menunggu uji ke Google sungguhan
-- [ ] **T-18** Halaman `/id/kebijakan-privasi` dan `/en/privacy-policy` (draf, ditinjau pengurus)
+- [x] **T-15** Google Sheet + Apps Script di akun asosiasi (`docs/07-GOOGLE-SHEET-SETUP.md`)
+- [x] **T-16** `schema.ts` + Server Action + rate limit, dengan galat dan pesan sukses dalam bahasa aktif
+- [x] **T-17** Notifikasi email lewat Apps Script ke sekretariat (Bahasa Indonesia, menyebut bahasa pendaftar)
+- [x] **T-18** Halaman `/id/kebijakan-privasi` dan `/en/privacy-policy` (draf, ditinjau pengurus)
 
 ## M4 — Rilis (Senin, 2 Nov, siang–malam)
 - [ ] **T-19** Metadata per bahasa, `hreflang` + x-default, OG image ID dan EN, sitemap, robots, JSON-LD

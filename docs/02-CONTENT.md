@@ -354,7 +354,7 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `join.fields.email` | Email | Email | UI |
 | `join.fields.wa` | Nomor WhatsApp | WhatsApp number | UI |
 | `join.fields.category` | Kategori | Category | UI |
-| `join.fields.consent` | Saya setuju data ini diproses AVITEK KUKM untuk keperluan keanggotaan dan komunikasi, sesuai Kebijakan Privasi. | I agree to AVITEK KUKM processing this data for membership and communication purposes, as described in the Privacy Policy. | **Usulan** |
+| `join.fields.consent` | Saya setuju data ini diproses AVITEK KUKM untuk keperluan keanggotaan dan komunikasi, sesuai <link>Kebijakan Privasi</link>. | I agree to AVITEK KUKM processing this data for membership and communication purposes, as described in the <link>Privacy Policy</link>. | **Usulan** |
 | `join.categories.0` | Koperasi | Cooperative | UI |
 | `join.categories.1` | UKM | SME | UI |
 | `join.categories.2` | Akademisi / peneliti | Academic / researcher | UI |
@@ -408,6 +408,45 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 - [ ] Judul buku yang diserahkan saat peluncuran (ID/EN)
 - [ ] Status legal: akta dan SK Kemenkumham
 - [ ] Kebijakan privasi (ID dan EN), ditinjau pengurus
+
+## Kebijakan Privasi (`privacy`)
+
+> Draf, wajib ditinjau pengurus sebelum tayang.
+
+| Kunci | Bahasa Indonesia | English | Status |
+|---|---|---|---|
+| `privacy.metaTitle` | Kebijakan Privasi — AVITEK KUKM | Privacy Policy — AVITEK KUKM | **Usulan** |
+| `privacy.title` | Kebijakan Privasi | Privacy Policy | **Usulan** |
+| `privacy.effective` | Berlaku sejak 3 November 2026 | Effective 3 November 2026 | **Usulan** |
+| `privacy.intro` | Halaman ini menjelaskan cara AVITEK KUKM mengelola data pribadi yang Anda kirim lewat situs ini, sesuai Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi. | This page explains how AVITEK KUKM handles the personal data you send through this site, in line with Indonesia's Law No. 27 of 2022 on Personal Data Protection. | **Usulan** |
+| `privacy.sections.0.title` | Pengelola data | Who manages your data | **Usulan** |
+| `privacy.sections.0.text` | Data dikelola oleh AVITEK KUKM (Asosiasi Inovasi Teknologi Koperasi dan UKM). Pertanyaan tentang data pribadi dapat dikirim ke asosiasi.avitek@gmail.com. | Your data is managed by AVITEK KUKM (Association of Technology Innovation for Cooperatives and SMEs). Send questions about personal data to asosiasi.avitek@gmail.com. | **Usulan** |
+| `privacy.sections.1.title` | Data yang kami kumpulkan | Data we collect | **Usulan** |
+| `privacy.sections.1.text` | Kami hanya mengumpulkan data dari formulir Bergabung: | We only collect data from the Join form: | **Usulan** |
+| `privacy.sections.1.items.0` | Data yang Anda isi: nama, institusi atau usaha, email, nomor WhatsApp, kategori, dan pesan. | Data you provide: name, organization or business, email, WhatsApp number, category, and message. | **Usulan** |
+| `privacy.sections.1.items.1` | Data yang tercatat otomatis: waktu kiriman, bahasa halaman, jenis browser, dan hash alamat IP. Alamat IP tidak disimpan dalam bentuk asli. | Data recorded automatically: submission time, page language, browser type, and a hash of your IP address. Your IP address is not stored in its original form. | **Usulan** |
+| `privacy.sections.2.title` | Tujuan penggunaan | How we use it | **Usulan** |
+| `privacy.sections.2.text` | Data dipakai untuk: | We use this data to: | **Usulan** |
+| `privacy.sections.2.items.0` | Memproses pendaftaran anggota dan pengajuan kemitraan. | Process member registrations and partnership proposals. | **Usulan** |
+| `privacy.sections.2.items.1` | Mencatat konfirmasi kehadiran acara. | Record event attendance confirmations. | **Usulan** |
+| `privacy.sections.2.items.2` | Menghubungi Anda tentang keanggotaan, kemitraan, dan acara AVITEK KUKM. | Contact you about AVITEK KUKM membership, partnerships, and events. | **Usulan** |
+| `privacy.sections.2.items.3` | Mencegah spam dan penyalahgunaan formulir. | Prevent spam and misuse of the form. | **Usulan** |
+| `privacy.sections.3.title` | Dasar pemrosesan | Legal basis | **Usulan** |
+| `privacy.sections.3.text` | Kami memproses data berdasarkan persetujuan yang Anda berikan dengan mencentang kotak persetujuan di formulir. | We process your data based on the consent you give by ticking the consent box on the form. | **Usulan** |
+| `privacy.sections.4.title` | Tempat penyimpanan | Where it is stored | **Usulan** |
+| `privacy.sections.4.text` | Data formulir disimpan di Google Sheet dan email notifikasi dikirim ke Gmail milik akun asosiasi. Situs ini berjalan di layanan hosting Vercel. Server penyedia layanan tersebut dapat berada di luar Indonesia. | Form data is stored in Google Sheets, and notification emails go to Gmail, both under the association's account. This site runs on Vercel hosting. These providers' servers may be located outside Indonesia. | **Usulan** |
+| `privacy.sections.5.title` | Siapa yang dapat mengakses | Who can access it | **Usulan** |
+| `privacy.sections.5.text` | Data hanya dapat diakses oleh pengurus dan sekretariat AVITEK KUKM yang membutuhkannya. Kami tidak menjual data pribadi Anda. | Only the AVITEK KUKM board members and secretariat who need the data can access it. We do not sell your personal data. | **Usulan** |
+| `privacy.sections.6.title` | Lama penyimpanan | How long we keep it | **Usulan** |
+| `privacy.sections.6.text` | Data disimpan selama diperlukan: | We keep data for as long as it is needed: | **Usulan** |
+| `privacy.sections.6.items.0` | Pendaftaran anggota dan pengajuan kemitraan: selama keanggotaan atau kerja sama berjalan, atau sampai Anda meminta penghapusan. | Member registrations and partnership proposals: for as long as the membership or cooperation continues, or until you ask us to delete them. | **Usulan** |
+| `privacy.sections.6.items.1` | Konfirmasi kehadiran: dihapus 1 tahun setelah acara. | Attendance confirmations: deleted 1 year after the event. | **Usulan** |
+| `privacy.sections.7.title` | Hak Anda | Your rights | **Usulan** |
+| `privacy.sections.7.text` | Anda dapat meminta akses, perbaikan, atau penghapusan data, serta menarik persetujuan kapan saja, dengan mengirim email ke asosiasi.avitek@gmail.com. Penarikan persetujuan tidak memengaruhi pemrosesan yang sudah dilakukan sebelumnya. | You can ask to access, correct, or delete your data, and withdraw your consent at any time, by emailing asosiasi.avitek@gmail.com. Withdrawing consent does not affect processing carried out before then. | **Usulan** |
+| `privacy.sections.8.title` | Cookie | Cookies | **Usulan** |
+| `privacy.sections.8.text` | Situs ini hanya memakai satu cookie, NEXT_LOCALE, untuk mengingat pilihan bahasa Anda. Kami tidak memakai cookie pelacak. | This site uses one cookie, NEXT_LOCALE, to remember your language choice. We do not use tracking cookies. | **Usulan** |
+| `privacy.sections.9.title` | Perubahan kebijakan | Changes to this policy | **Usulan** |
+| `privacy.sections.9.text` | Jika kebijakan ini berubah, versi terbaru dan tanggal berlakunya akan ditampilkan di halaman ini. | If this policy changes, the latest version and its effective date will appear on this page. | **Usulan** |
 
 ## Sumber
 

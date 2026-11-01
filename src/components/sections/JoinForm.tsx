@@ -19,6 +19,7 @@ import {
   validationMessage,
   type SubmissionInput,
 } from "@/lib/schema";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 type Notice = { tone: "success" | "error"; text: string } | null;
@@ -213,7 +214,21 @@ export function JoinForm({
             name="consent"
             className="mt-0.5 size-[18px] accent-teal"
           />
-          <span>{t("fields.consent")}</span>
+          <span>
+            {t.rich("fields.consent", {
+              // Tab baru agar isian formulir tidak hilang saat membaca kebijakan
+              link: (chunks) => (
+                <Link
+                  href="/kebijakan-privasi"
+                  target="_blank"
+                  rel="noopener"
+                  className="font-semibold text-navy underline"
+                >
+                  {chunks}
+                </Link>
+              ),
+            })}
+          </span>
         </label>
         <Button
           type="submit"
