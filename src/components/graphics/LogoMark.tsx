@@ -1,25 +1,31 @@
-// Logo sementara hasil gambar ulang dari mockup, diganti SVG resmi di T-24.
-// Bentuk A mengikuti warna teks induk: navy di latar terang, putih di footer.
+// Simbol AVITEK KUKM, digambar ulang dari PNG logo (bukan file vektor asli desainer).
+// Bentuk A dan titik bawah mengikuti warna teks induk: navy di header, putih di footer.
 export function LogoMark({ size }: Readonly<{ size: number }>) {
   return (
-    <svg width={size} height={size} viewBox="0 0 64 64" aria-hidden="true">
-      <path
-        d="M14 54 L32 14 L50 54"
+    <svg width={size} height={size} viewBox="66 43 684 692" aria-hidden="true">
+      <circle
+        cx="409.5"
+        cy="404.5"
+        r="309.5"
         fill="none"
-        stroke="currentColor"
-        strokeWidth="7"
+        stroke="#5CC2EC"
+        strokeWidth="22"
+      />
+      <path
+        d="M362.0 81.0L109.7 579.1A44 44 0 0 0 187.9 619.6L274.5 456.0H540.5L627.1 619.6A44 44 0 0 0 705.3 579.1L453.0 81.0A51 51 0 0 0 362.0 81.0ZM407.5 186L516.5 388H298.5Z"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+      <path
+        d="M177 304L408 651L639 304"
+        fill="none"
+        stroke="#01BCA9"
+        strokeWidth="82"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path
-        d="M20 30 L32 52 L44 30"
-        fill="none"
-        stroke="#087F8C"
-        strokeWidth="6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <circle cx="32" cy="9" r="5" fill="#F2B544" />
+      <circle cx="407.5" cy="111.5" r="43" fill="#FDBA06" />
+      <circle cx="407.5" cy="640" r="35" fill="currentColor" />
     </svg>
   );
 }
