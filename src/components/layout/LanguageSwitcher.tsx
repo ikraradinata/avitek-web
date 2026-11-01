@@ -35,7 +35,7 @@ export function LanguageSwitcher() {
           aria-pressed={locale === activeLocale}
           onClick={() => switchTo(locale)}
           className={cn(
-            "cursor-pointer rounded-full px-[11px] py-1.5 text-[.82rem] font-bold tracking-[.02em]",
+            "cursor-pointer rounded-full px-[11px] py-2.5 text-[.82rem] md:py-1.5 font-bold tracking-[.02em]",
             locale === activeLocale
               ? "bg-navy text-white"
               : "text-slate-muted",

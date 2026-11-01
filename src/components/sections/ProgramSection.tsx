@@ -35,7 +35,7 @@ export function ProgramSection() {
               <p className="flex-1 text-[.95rem] text-on-dark-muted">{text}</p>
               <Link
                 href={{ pathname: "/", hash: "gabung" }}
-                className="text-[.93rem] font-bold text-white underline decoration-orange decoration-2 underline-offset-[5px]"
+                className="self-start py-2 text-[.93rem] font-bold text-white underline decoration-orange decoration-2 underline-offset-[5px]"
               >
                 {t("more")}
               </Link>

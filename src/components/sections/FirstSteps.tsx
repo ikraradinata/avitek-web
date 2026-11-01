@@ -56,7 +56,7 @@ export function FirstSteps() {
         </ol>
         <Link
           href={{ pathname: "/", hash: "program" }}
-          className="mt-6 inline-block font-bold text-navy underline decoration-orange underline-offset-[5px]"
+          className="mt-4 inline-block py-2 font-bold text-navy underline decoration-orange underline-offset-[5px]"
         >
           {t("more")}
         </Link>

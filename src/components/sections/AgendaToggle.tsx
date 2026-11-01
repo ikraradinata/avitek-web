@@ -28,7 +28,7 @@ export function AgendaToggle({
         aria-expanded={open}
         aria-controls={MORE_ROWS_ID}
         onClick={() => setOpen(!open)}
-        className="mt-[18px] cursor-pointer py-1.5 font-bold text-navy underline decoration-orange decoration-2 underline-offset-[5px]"
+        className="mt-4 cursor-pointer py-2 font-bold text-navy underline decoration-orange decoration-2 underline-offset-[5px]"
       >
         {t(open ? "hideAll" : "showAll")}
       </button>
