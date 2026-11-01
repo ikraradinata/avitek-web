@@ -2,6 +2,8 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
+import { SiteFooter } from "@/components/layout/SiteFooter";
+import { SiteHeader } from "@/components/layout/SiteHeader";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
@@ -35,7 +37,9 @@ export default async function LocaleLayout({
         <NextIntlClientProvider
           messages={{ nav, join, agenda: { showAll, hideAll } }}
         >
+          <SiteHeader />
           {children}
+          <SiteFooter />
         </NextIntlClientProvider>
       </body>
     </html>

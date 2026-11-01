@@ -19,7 +19,11 @@
     "join": "Join AVITEK",
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
-    "langLabel": "Choose language"
+    "langLabel": "Choose language",
+    "langNames": {
+      "id": "Bahasa Indonesia",
+      "en": "English"
+    }
   },
   "hero": {
     "badge": "AVITEK KUKM launch, 3 November 2026",

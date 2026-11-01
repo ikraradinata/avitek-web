@@ -56,6 +56,8 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `nav.menuOpen` | Buka menu | Open menu | UI |
 | `nav.menuClose` | Tutup menu | Close menu | UI |
 | `nav.langLabel` | Pilih bahasa | Choose language | UI |
+| `nav.langNames.id` | Bahasa Indonesia | Bahasa Indonesia | UI |
+| `nav.langNames.en` | English | English | UI |
 
 ## 2. Hero
 

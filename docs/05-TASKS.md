@@ -21,7 +21,7 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 - [x] **T-04** **Pasang next-intl:** `routing.ts` (id/en, default id, pathnames), `request.ts`, `navigation.ts`, `middleware.ts`, struktur `app/[locale]`, `generateStaticParams`. Tambahkan `"prebuild": "node scripts/check-i18n.mjs"`.
   - Terima: `/` mengalihkan ke `/id`, `/en` tampil, `<html lang>` benar, build gagal jika satu kunci dihapus dari en.json
 - [x] **T-05** Pindahkan field non-teks (`steps.items.*.state`, `agenda.rows.*.key`) dari messages ke `src/config/structure.ts`, lalu sinkronkan kedua JSON
-- [ ] **T-06** `SiteHeader` + **`LanguageSwitcher`** (mempertahankan hash dan menyimpan cookie) + `NavDropdown` + `MobileMenu` + `SiteFooter`
+- [x] **T-06** `SiteHeader` + **`LanguageSwitcher`** (mempertahankan hash dan menyimpan cookie) + `NavDropdown` + `MobileMenu` + `SiteFooter`
 
 ## M2 — Section (Minggu, 1 Nov, siang–malam)
 - [ ] **T-07** `Hero` + `StationGrid` + `WaveBackground` + `DiagonalPattern` + `FigureStrip`

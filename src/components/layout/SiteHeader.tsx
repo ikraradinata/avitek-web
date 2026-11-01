@@ -1,0 +1,84 @@
+import { useTranslations } from "next-intl";
+import { LogoMark } from "@/components/graphics/LogoMark";
+import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
+import { MobileMenu } from "@/components/layout/MobileMenu";
+import { NavDropdown } from "@/components/layout/NavDropdown";
+import { Link } from "@/i18n/navigation";
+
+const MENU_ITEM =
+  "block w-full cursor-pointer rounded-lg px-3.5 py-2.5 text-left md:px-2.5 lg:px-3.5 text-[.95rem] font-semibold text-navy no-underline hover:bg-mist md:w-auto";
+
+const DROPDOWN_LINK =
+  "block rounded-lg px-3 py-2.5 text-[.95rem] no-underline hover:bg-ice";
+
+export function SiteHeader() {
+  const t = useTranslations("nav");
+
+  return (
+    <header className="sticky top-0 z-50 border-b border-mist bg-ice/95 backdrop-blur-[10px] backdrop-saturate-[1.3]">
+      <div className="wrap flex h-[74px] items-center justify-between gap-6">
+        <Link
+          href={{ pathname: "/", hash: "top" }}
+          aria-label={t("home")}
+          className="flex items-center gap-3 text-navy no-underline"
+        >
+          <LogoMark size={42} />
+          <span>
+            <b className="block text-xl font-extrabold leading-none tracking-[.02em]">
+              AVITEK
+            </b>
+            <span className="mt-[3px] block text-[.72rem] font-bold tracking-[.08em] text-teal-ink">
+              KUKM
+            </span>
+          </span>
+        </Link>
+        <MobileMenu languageSwitcher={<LanguageSwitcher />}>
+          <li>
+            <Link href={{ pathname: "/", hash: "tentang" }} className={MENU_ITEM}>
+              {t("about")}
+            </Link>
+          </li>
+          <li>
+            <Link href={{ pathname: "/", hash: "program" }} className={MENU_ITEM}>
+              {t("program")}
+            </Link>
+          </li>
+          <li>
+            <Link href={{ pathname: "/", hash: "kemitraan" }} className={MENU_ITEM}>
+              {t("partnership")}
+            </Link>
+          </li>
+          <li>
+            <NavDropdown label={t("insights")} buttonClassName={MENU_ITEM}>
+              <Link href={{ pathname: "/", hash: "penerima" }} className={DROPDOWN_LINK}>
+                <span>{t("insightsStories")}</span>
+                <small className="block text-[.8rem] text-slate-muted">
+                  {t("insightsStoriesSub")}
+                </small>
+              </Link>
+              <Link href={{ pathname: "/", hash: "jejak" }} className={DROPDOWN_LINK}>
+                <span>{t("insightsTrack")}</span>
+                <small className="block text-[.8rem] text-slate-muted">
+                  {t("insightsTrackSub")}
+                </small>
+              </Link>
+            </NavDropdown>
+          </li>
+          <li>
+            <Link href={{ pathname: "/", hash: "acara" }} className={MENU_ITEM}>
+              {t("events")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={{ pathname: "/", hash: "gabung" }}
+              className="mt-2 block rounded-full bg-navy px-5 py-[11px] text-center text-[.95rem] font-bold text-white no-underline hover:bg-navy-2 md:ml-2 md:mt-0"
+            >
+              {t("join")}
+            </Link>
+          </li>
+        </MobileMenu>
+      </div>
+    </header>
+  );
+}

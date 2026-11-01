@@ -5,6 +5,8 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Tinggi header sticky, agar judul bagian tidak tertutup */
+    scroll-padding-top: 74px;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -47,5 +49,11 @@
     outline: 3px solid theme("colors.orange.DEFAULT");
     outline-offset: 3px;
     border-radius: 4px;
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply relative mx-auto max-w-wrap px-6;
   }
 }

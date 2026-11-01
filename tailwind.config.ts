@@ -7,6 +7,8 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    // Titik henti mengikuti mockup (max-width 560, 860, 1020)
+    screens: { sm: "561px", md: "861px", lg: "1021px" },
     // Palet Warna Resmi AVITEK KUKM, menggantikan seluruh palet bawaan Tailwind
     colors: {
       transparent: "transparent",
@@ -24,6 +26,8 @@ const config: Config = {
       "on-dark": { DEFAULT: "#DCE8F0", muted: "#B8C7D6" },
     },
     extend: {
+      maxWidth: { wrap: "1180px" },
+      boxShadow: { dropdown: "0 18px 40px -22px rgba(11,31,58,.45)" },
       borderRadius: { sm: "6px", md: "12px", lg: "20px" },
       fontFamily: { sans: ["var(--font-jakarta)", "system-ui", "sans-serif"] },
       backgroundImage: {

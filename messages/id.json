@@ -19,7 +19,11 @@
     "join": "Gabung AVITEK",
     "menuOpen": "Buka menu",
     "menuClose": "Tutup menu",
-    "langLabel": "Pilih bahasa"
+    "langLabel": "Pilih bahasa",
+    "langNames": {
+      "id": "Bahasa Indonesia",
+      "en": "English"
+    }
   },
   "hero": {
     "badge": "Peluncuran AVITEK KUKM, 3 November 2026",
