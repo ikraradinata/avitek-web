@@ -35,3 +35,10 @@ export const FOOTER_COLUMNS = [
 
 // Jumlah stasiun pada visual hero, satu stasiun untuk tiap penerima manfaat
 export const STATION_COUNT = 30;
+
+// Warna border atas kartu, urutannya sama dengan why.cards di messages
+export const WHY_CARD_BORDERS = [
+  "border-t-teal",
+  "border-t-orange",
+  "border-t-blue",
+] as const;
