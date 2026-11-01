@@ -15,10 +15,10 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 - [ ] Buat repo GitHub `avitek-web`, salin folder ini sebagai isi awal
 
 ## M1 — Fondasi dan i18n (Minggu, 1 Nov, pagi)
-- [ ] **T-01** Scaffold Next.js 14 + TS strict + Tailwind + ESLint + pnpm (jangan timpa `docs/`, `messages/`, `mockup/`, `scripts/`, `.claude/`, `CLAUDE.md`)
+- [x] **T-01** Scaffold Next.js 14 + TS strict + Tailwind + ESLint + pnpm (jangan timpa `docs/`, `messages/`, `mockup/`, `scripts/`, `.claude/`, `CLAUDE.md`)
 - [ ] **T-02** Token design system (`tailwind.config.ts`, `globals.css`) dan font Plus Jakarta Sans (`latin`, `latin-ext`)
 - [ ] **T-03** shadcn/ui init dan varian Button (`cta` = oranye berteks navy, `dark`, `ghost`)
-- [ ] **T-04** **Pasang next-intl:** `routing.ts` (id/en, default id, pathnames), `request.ts`, `navigation.ts`, `middleware.ts`, struktur `app/[locale]`, `generateStaticParams`. Tambahkan `"prebuild": "node scripts/check-i18n.mjs"`.
+- [x] **T-04** **Pasang next-intl:** `routing.ts` (id/en, default id, pathnames), `request.ts`, `navigation.ts`, `middleware.ts`, struktur `app/[locale]`, `generateStaticParams`. Tambahkan `"prebuild": "node scripts/check-i18n.mjs"`.
   - Terima: `/` mengalihkan ke `/id`, `/en` tampil, `<html lang>` benar, build gagal jika satu kunci dihapus dari en.json
 - [ ] **T-05** Pindahkan field non-teks (`steps.items.*.state`, `agenda.rows.*.key`) dari messages ke `src/config/structure.ts`, lalu sinkronkan kedua JSON
 - [ ] **T-06** `SiteHeader` + **`LanguageSwitcher`** (mempertahankan hash dan menyimpan cookie) + `NavDropdown` + `MobileMenu` + `SiteFooter`
