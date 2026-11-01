@@ -4,6 +4,7 @@ import { Beneficiaries } from "@/components/sections/Beneficiaries";
 import { EcosystemSection } from "@/components/sections/EcosystemSection";
 import { FirstSteps } from "@/components/sections/FirstSteps";
 import { Hero } from "@/components/sections/Hero";
+import { JoinSection } from "@/components/sections/JoinSection";
 import { PartnerGroups } from "@/components/sections/PartnerGroups";
 import { ProgramSection } from "@/components/sections/ProgramSection";
 import { ProjectTimeline } from "@/components/sections/ProjectTimeline";
@@ -28,6 +29,7 @@ export default function HomePage({
       <Beneficiaries />
       <PartnerGroups />
       <AgendaSection />
+      <JoinSection />
     </main>
   );
 }

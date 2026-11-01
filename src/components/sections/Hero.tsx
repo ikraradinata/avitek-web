@@ -3,6 +3,7 @@ import { DiagonalPattern } from "@/components/graphics/DiagonalPattern";
 import { StationGrid } from "@/components/graphics/StationGrid";
 import { WaveBackground } from "@/components/graphics/WaveBackground";
 import { FigureStrip } from "@/components/sections/FigureStrip";
+import { JoinPathLink } from "@/components/sections/JoinPathLink";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
@@ -41,12 +42,12 @@ export function Hero() {
             ))}
           </dl>
           <div className="flex flex-wrap gap-3">
-            <Link
-              href={{ pathname: "/", hash: "gabung" }}
+            <JoinPathLink
+              path="hadir"
               className={buttonVariants({ variant: "cta" })}
             >
               {t("ctaRsvp")}
-            </Link>
+            </JoinPathLink>
             <Link
               href={{ pathname: "/", hash: "acara" }}
               className={buttonVariants({ variant: "ghost" })}

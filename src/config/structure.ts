@@ -45,3 +45,19 @@ export const WHY_CARD_BORDERS = [
   "border-t-orange",
   "border-t-blue",
 ] as const;
+
+export const JOIN_PATHS = ["anggota", "mitra", "hadir"] as const;
+export type JoinPath = (typeof JOIN_PATHS)[number];
+
+// Peristiwa browser untuk memilih jalur formulir dari tombol CTA di luar formulir
+export const JOIN_PATH_EVENT = "avitek:join-path";
+
+// Kode kategori disimpan ke database, urutannya sama dengan join.categories
+export const CATEGORY_CODES = [
+  "koperasi",
+  "ukm",
+  "akademisi",
+  "industri",
+  "pemerintah",
+  "asosiasi",
+] as const;

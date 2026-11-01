@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
+import { JoinPathLink } from "@/components/sections/JoinPathLink";
 import { buttonVariants } from "@/components/ui/button";
 import { SectionHead } from "@/components/ui/section-head";
-import { Link } from "@/i18n/navigation";
 
 type PartnerGroup = { title: string; text: string };
 
@@ -31,12 +31,12 @@ export function PartnerGroups() {
         </div>
         <div className="mt-9 flex flex-wrap items-center justify-between gap-5">
           <p className="max-w-[56ch] text-slate-muted">{t("ctaText")}</p>
-          <Link
-            href={{ pathname: "/", hash: "gabung" }}
+          <JoinPathLink
+            path="mitra"
             className={buttonVariants({ variant: "cta" })}
           >
             {t("cta")}
-          </Link>
+          </JoinPathLink>
         </div>
       </div>
     </section>
