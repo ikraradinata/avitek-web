@@ -137,22 +137,9 @@ Usulkan perbaikan CSS. JANGAN mengubah teks untuk mengatasi masalah tata letak t
 
 ### Fase M3 — Formulir
 
-**T-15: Supabase**
-```
-/task T-15
-Buat supabase/migrations/0001_submissions.sql persis seperti 04-TECH-SPEC.md §5 (termasuk kolom locale) dan .env.example.
-Jelaskan langkah manual di dashboard Supabase dengan bahasa sederhana dan bernomor.
-JANGAN membaca atau membuat .env.local.
-```
+**T-15 s/d T-17: Google Sheet**
 
-**T-16: Server Action**
-```
-/task T-16
-Implementasikan schema.ts (kategori sebagai kode, urutannya sama dengan join.categories),
-supabase-server.ts, rate-limit.ts, dan actions/submit.ts sesuai 04-TECH-SPEC.md §6.
-Pesan sukses dan galat diambil dari messages sesuai locale pengirim.
-Buat daftar uji manual: 3 jalur × 2 bahasa (kiriman valid), kiriman tanpa persetujuan, honeypot, dan rate limit.
-```
+Kode sudah tersedia di `scripts/google-apps-script/Code.gs`, `src/lib/google-sheet.ts`, dan `src/app/actions/submit.ts`. Ikuti `docs/07-GOOGLE-SHEET-SETUP.md`, lalu uji manual: 3 jalur × 2 bahasa, kiriman tanpa persetujuan, dan batas kiriman.
 
 ### Fase M4 — Rilis
 

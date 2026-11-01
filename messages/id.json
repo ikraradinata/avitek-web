@@ -444,7 +444,9 @@
     ],
     "thanks": "Terima kasih, {name}. Sekretariat AVITEK akan menghubungi Anda melalui {email}.",
     "errorFields": "Lengkapi kolom: {fields}. Pastikan email berformat nama@domain.",
-    "errorConsent": "Centang persetujuan pemrosesan data untuk melanjutkan."
+    "errorConsent": "Centang persetujuan pemrosesan data untuk melanjutkan.",
+    "errorRateLimited": "Terlalu banyak kiriman dari jaringan ini. Coba lagi dalam satu jam.",
+    "errorServer": "Formulir belum berhasil terkirim. Coba lagi beberapa saat."
   },
   "footer": {
     "about": "Asosiasi Inovasi Teknologi Koperasi dan UKM. Kolaborasi, inovasi, dan bisnis untuk transformasi digital koperasi dan UKM Indonesia.",

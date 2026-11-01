@@ -16,7 +16,7 @@ const config: Config = {
       current: "currentColor",
       inherit: "inherit",
       navy: { DEFAULT: "#0B1F3A", 2: "#16304F", deep: "#07162A" },
-      teal: { DEFAULT: "#087F8C", ink: "#06707C", soft: "#DDF0F1" },
+      teal: { DEFAULT: "#087F8C", ink: "#06707C", deep: "#05535C", soft: "#DDF0F1" },
       white: "#FFFFFF",
       ice: "#F4F8FB",
       mist: "#DCE8F0",

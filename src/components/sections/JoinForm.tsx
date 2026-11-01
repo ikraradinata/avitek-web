@@ -1,7 +1,8 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useState, type FormEvent } from "react";
+import { submitJoin } from "@/app/actions/submit";
 import { Button } from "@/components/ui/button";
 import { fieldControlClass, Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -12,20 +13,15 @@ import {
   JOIN_PATHS,
   type JoinPath,
 } from "@/config/structure";
+import {
+  invalidFields,
+  submissionSchema,
+  validationMessage,
+  type SubmissionInput,
+} from "@/lib/schema";
 import { cn } from "@/lib/utils";
 
-// Validasi sementara, diganti skema Zod bersama server di T-16
-const EMAIL_PATTERN = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
-const REQUIRED_FIELDS = [
-  { name: "nama", labelKey: "name" },
-  { name: "institusi", labelKey: "org" },
-  { name: "email", labelKey: "email" },
-] as const;
-
-type FormError =
-  | { kind: "fields"; labelKeys: string[] }
-  | { kind: "consent" }
-  | null;
+type Notice = { tone: "success" | "error"; text: string } | null;
 
 export function JoinForm({
   intro,
@@ -34,11 +30,13 @@ export function JoinForm({
 }>) {
   const t = useTranslations("join");
   const [path, setPath] = useState<JoinPath>("anggota");
-  const [error, setError] = useState<FormError>(null);
+  const locale = useLocale();
+  const [notice, setNotice] = useState<Notice>(null);
+  const [submitting, setSubmitting] = useState(false);
 
   function selectPath(nextPath: JoinPath) {
     setPath(nextPath);
-    setError(null);
+    setNotice(null);
   }
 
   useEffect(() => {
@@ -49,45 +47,53 @@ export function JoinForm({
     return () => window.removeEventListener(JOIN_PATH_EVENT, handlePathEvent);
   }, []);
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const form = event.currentTarget;
-
-    const invalidFields = REQUIRED_FIELDS.filter(({ name }) => {
-      const value = (form.elements.namedItem(name) as HTMLInputElement).value.trim();
-      return !value || (name === "email" && !EMAIL_PATTERN.test(value));
-    });
-    if (invalidFields.length > 0) {
-      setError({
-        kind: "fields",
-        labelKeys: invalidFields.map(({ labelKey }) => labelKey),
-      });
-      (form.elements.namedItem(invalidFields[0].name) as HTMLInputElement).focus();
-      return;
-    }
-
-    const consent = form.elements.namedItem("consent") as HTMLInputElement;
-    if (!consent.checked) {
-      setError({ kind: "consent" });
-      consent.focus();
-      return;
-    }
-
-    // TODO(T-16): kirim ke Server Action dan tampilkan pesan sukses dari server.
-    // Sengaja tanpa pesan sukses supaya tidak mengaku terkirim padahal belum.
-    setError(null);
+  function showError(text: string) {
+    setNotice({ tone: "error", text });
   }
 
-  const errorMessage =
-    error?.kind === "fields"
-      ? t("errorFields", {
-          fields: error.labelKeys
-            .map((labelKey) => t(`fields.${labelKey}`))
-            .join(", "),
-        })
-      : error?.kind === "consent"
-        ? t("errorConsent")
-        : null;
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const data = new FormData(form);
+    const input = {
+      locale,
+      path,
+      nama: data.get("nama"),
+      institusi: data.get("institusi"),
+      email: data.get("email"),
+      wa: data.get("wa"),
+      kategori: data.get("kategori") ?? undefined,
+      pesan: data.get("pesan"),
+      consent: data.get("consent") === "on",
+      website: data.get("website"),
+    } as SubmissionInput;
+
+    const parsed = submissionSchema.safeParse(input);
+    if (!parsed.success) {
+      const fields = invalidFields(parsed.error);
+      showError(validationMessage(fields, path, (key, values) => t(key, values)));
+      (form.elements.namedItem(fields[0]) as HTMLElement | null)?.focus();
+      return;
+    }
+
+    setNotice(null);
+    setSubmitting(true);
+    try {
+      const result = await submitJoin(input);
+      if (result.ok) {
+        setNotice({ tone: "success", text: result.message });
+        form.reset();
+      } else if ("fieldErrors" in result) {
+        showError(Object.values(result.fieldErrors)[0]);
+      } else {
+        showError(t(result.error === "rate_limited" ? "errorRateLimited" : "errorServer"));
+      }
+    } catch {
+      showError(t("errorServer"));
+    } finally {
+      setSubmitting(false);
+    }
+  }
 
   return (
     <div className="wrap grid grid-cols-1 items-start gap-14 lg:grid-cols-2">
@@ -201,13 +207,25 @@ export function JoinForm({
           />
           <span>{t("fields.consent")}</span>
         </label>
-        <Button type="submit" className="mt-1.5 w-full justify-center">
+        <Button
+          type="submit"
+          disabled={submitting}
+          aria-busy={submitting}
+          className="mt-1.5 w-full justify-center"
+        >
           {t(`paths.${path}.submit`)}
         </Button>
         <div role="status" aria-live="polite">
-          {errorMessage && (
-            <p className="mt-4 rounded-[10px] bg-orange-soft p-[18px] text-[.95rem] text-orange-ink">
-              {errorMessage}
+          {notice && (
+            <p
+              className={cn(
+                "mt-4 rounded-[10px] p-[18px] text-[.95rem]",
+                notice.tone === "success"
+                  ? "bg-teal-soft text-teal-deep"
+                  : "bg-orange-soft text-orange-ink",
+              )}
+            >
+              {notice.text}
             </p>
           )}
         </div>

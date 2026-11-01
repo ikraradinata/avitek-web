@@ -86,7 +86,7 @@ Satu halaman landing per bahasa, dengan bagian yang sama persis (mengikuti struk
 - `/[locale]/tentang` (`/en/about`): visi-misi, struktur organisasi, pendiri, tata kelola dan legal.
 - `/[locale]/wawasan` (`/en/insights`): berita dan studi kasus (MDX per bahasa; artikel boleh hanya satu bahasa, dengan penanda).
 - `/[locale]/acara/[slug]`: halaman per acara dan dokumentasi peluncuran.
-- Dashboard admin dan ekspor CSV pendaftar (dengan kolom bahasa).
+- Data pendaftar dikelola langsung di Google Sheet asosiasi (dengan kolom bahasa), tanpa dashboard admin terpisah.
 
 ### 5.3 Fase 3
 - **Bahasa Korea (`/ko`)**: arsitekturnya sudah siap, tinggal menambah `messages/ko.json`.
@@ -105,9 +105,9 @@ Pembayaran iuran online, LMS, aplikasi mobile, dan terjemahan otomatis di sisi k
 | F-04 | Rundown agenda bisa dibuka-tutup | Wajib | Default 7 baris. Label tombol berganti sesuai bahasa. |
 | F-05 | Formulir 3 jalur | Wajib | Pilihan jalur mengubah judul, label, dan tombol. Kategori disembunyikan untuk jalur kehadiran. |
 | F-06 | Validasi formulir | Wajib | Galat ditampilkan **dalam bahasa aktif**. Validasi Zod di klien dan server. |
-| F-07 | Simpan pendaftaran | Wajib | Tersimpan di `submissions` **dengan kolom `locale`**. |
+| F-07 | Simpan pendaftaran | Wajib | Tersimpan di Google Sheet akun asosiasi, tab sesuai jalur, **dengan kolom bahasa**. |
 | F-08 | Notifikasi ke sekretariat | Sebaiknya | Email ke sekretariat (selalu dalam Bahasa Indonesia), menyebut bahasa pendaftar. |
-| F-09 | Anti-spam | Wajib | Honeypot dan pembatasan 5 kiriman per IP per jam. |
+| F-09 | Anti-spam | Wajib | Honeypot dan pembatasan per IP per jam: 5 kiriman untuk anggota dan mitra, 30 kiriman untuk kehadiran karena tamu berbagi Wi-Fi lokasi. |
 | F-10 | CTA memilih jalur formulir | Wajib | "Konfirmasi kehadiran" dan "Ajukan kemitraan" langsung memilih jalur yang sesuai. |
 | **F-11** | **Pemilih bahasa ID/EN** | Wajib | Selalu terlihat di header (desktop dan mobile). Berpindah ke URL padanan (`/id#acara` → `/en#acara`) dengan posisi anchor dipertahankan. Pilihan disimpan di cookie `NEXT_LOCALE`. `aria-pressed` diperbarui. |
 | **F-12** | **Deteksi bahasa awal** | Wajib | `/` dialihkan sesuai cookie, lalu `Accept-Language` (bahasa Korea dan bahasa lain diarahkan ke `/en`), lalu default `/id`. Halaman `/id` dan `/en` tidak pernah dialihkan otomatis. |
@@ -115,7 +115,7 @@ Pembayaran iuran online, LMS, aplikasi mobile, dan terjemahan otomatis di sisi k
 | **F-14** | **Paritas kunci** | Wajib | Build gagal jika ada kunci di `id.json` yang tidak ada di `en.json` atau sebaliknya. |
 | F-15 | Metadata dan JSON-LD per bahasa | Wajib | Organization dan Event (peluncuran) dengan `inLanguage`. |
 | F-16 | QR code | Wajib | QR ke `/` (otomatis memilih bahasa). Opsional: QR khusus `/en` untuk delegasi Korea. |
-| F-17 | Ekspor CSV | Sebaiknya (Fase 2) | Ekspor per jalur, dengan kolom bahasa. |
+| F-17 | Ekspor CSV | Sebaiknya (Fase 2) | Tersedia langsung dari Google Sheet, per tab jalur. |
 
 ## 7. Kebutuhan non-fungsional
 
@@ -124,7 +124,7 @@ Pembayaran iuran online, LMS, aplikasi mobile, dan terjemahan otomatis di sisi k
 - **Tata letak tahan teks panjang:** teks EN rata-rata 10–30% berbeda panjangnya dari ID. Tidak boleh ada teks terpotong di 360px untuk kedua bahasa.
 - **Format:** tanggal, angka, dan waktu mengikuti bahasa (ID: `10.00`, `5,5`; EN: `10:00`, `5.5`), memakai `Intl` atau teks di messages.
 - **Privasi:** UU PDP. Kebijakan privasi tersedia di kedua bahasa. Persetujuan eksplisit di formulir.
-- **Keamanan:** kunci *service role* hanya di server. RLS aktif.
+- **Keamanan:** kode rahasia Apps Script hanya di server. Sheet tidak dibagikan publik, dan akun asosiasi memakai verifikasi 2 langkah. Isian disimpan sebagai teks agar tidak dijalankan sebagai rumus.
 
 ## 8. Risiko dan mitigasi
 

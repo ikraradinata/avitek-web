@@ -8,9 +8,9 @@
 | i18n | **next-intl** | Routing `/[locale]`, middleware deteksi bahasa, format ICU (`{name}`), Server Component friendly |
 | Styling | Tailwind CSS + shadcn/ui (Button, Input, Textarea, Select, Checkbox, Label) | Token warna terpusat |
 | Font | `next/font/google` → Plus Jakarta Sans (subset `latin`, `latin-ext`) | |
-| Data formulir | Supabase (Postgres + RLS) | |
+| Data formulir | Google Sheet + Apps Script di akun `asosiasi.avitek@gmail.com` | Tanpa biaya, mudah dikelola sekretariat |
 | Validasi | Zod, dengan pesan galat dari messages | |
-| Email | Resend (opsional) | |
+| Email | MailApp di Apps Script | Sekitar 100 email per hari di akun Gmail biasa |
 | Hosting | Vercel | |
 | Analitik | Vercel Analytics | Tanpa cookie pelacak |
 | Package manager | pnpm | |
@@ -30,6 +30,7 @@ avitek-web/
 ├─ mockup/index.html               # acuan visual + perilaku toggle bahasa
 ├─ public/ (logo-avitek.svg, og-id.png, og-en.png)
 ├─ scripts/check-i18n.mjs          # paritas kunci, dijalankan di prebuild
+├─ scripts/google-apps-script/Code.gs  # ditempel di Sheet, lihat docs/07
 ├─ src/
 │  ├─ i18n/
 │  │  ├─ routing.ts                # locales ['id','en'], defaultLocale 'id', pathnames
@@ -52,8 +53,7 @@ avitek-web/
 │  │  └─ graphics/ (StationGrid, WaveBackground, DiagonalPattern, DotGrid, EcosystemDiagram, LogoMark)
 │  ├─ config/
 │  │  └─ structure.ts              # data non-teks: href, warna kartu, state langkah, baris kunci agenda
-│  └─ lib/ (schema.ts, supabase-server.ts, rate-limit.ts, flags.ts)
-├─ supabase/migrations/0001_submissions.sql
+│  └─ lib/ (schema.ts, google-sheet.ts, flags.ts, utils.ts)
 └─ tailwind.config.ts
 ```
 
@@ -99,35 +99,19 @@ openGraph: { locale: locale === 'id' ? 'id_ID' : 'en_US', alternateLocale: local
 
 ## 5. Model data
 
-```sql
--- supabase/migrations/0001_submissions.sql
-create type submission_path as enum ('anggota', 'mitra', 'hadir');
-create type site_locale as enum ('id', 'en');
+Satu Google Sheet di akun `asosiasi.avitek@gmail.com` dengan tab **Anggota**, **Mitra**, dan **Hadir**. Tab dibuat otomatis oleh `Code.gs`.
 
-create table public.submissions (
-  id          uuid primary key default gen_random_uuid(),
-  created_at  timestamptz not null default now(),
-  path        submission_path not null,
-  locale      site_locale not null default 'id',
-  nama        text not null check (char_length(nama) between 2 and 120),
-  institusi   text not null check (char_length(institusi) between 2 and 160),
-  email       text not null check (email ~* '^[^@\s]+@[^@\s]+\.[^@\s]+$'),
-  wa          text,
-  kategori    text,            -- simpan KODE kategori (lihat §6), bukan label terjemahan
-  pesan       text check (char_length(pesan) <= 2000),
-  consent     boolean not null check (consent = true),
-  user_agent  text,
-  ip_hash     text
-);
-alter table public.submissions enable row level security;
-create index on public.submissions (path, created_at desc);
-```
+Kolom: Waktu (WIB), Bahasa, Nama, Institusi, Email, WhatsApp, Kategori (kode, bukan label terjemahan), Pesan, Persetujuan, User agent, Hash IP.
+
+Alur: `JoinForm` → Server Action (`actions/submit.ts`) → `lib/google-sheet.ts` → Web App Apps Script. Skrip memeriksa kode rahasia, menghitung batas kiriman di `CacheService`, menulis baris dengan `LockService`, lalu mengirim email. Kegagalan email tidak menggagalkan kiriman. Isian yang diawali `=`, `+`, `-`, atau `@` diberi awalan `'` agar tidak dijalankan sebagai rumus.
+
+Batas per IP per jam: 30 untuk jalur `hadir`, 5 gabungan untuk `anggota` dan `mitra`.
 
 ## 6. Kontrak Server Action
 
 ```ts
-// src/lib/schema.ts — kategori disimpan sebagai kode, label diambil dari messages
-export const CATEGORY_CODES = ['koperasi','ukm','akademisi','industri','pemerintah','asosiasi'] as const;
+// src/lib/schema.ts — dipakai browser dan server, kategori disimpan sebagai kode
+// CATEGORY_CODES dan JOIN_PATHS ada di src/config/structure.ts
 
 export const submissionSchema = z.object({
   locale: z.enum(['id', 'en']),
@@ -139,7 +123,7 @@ export const submissionSchema = z.object({
   kategori: z.enum(CATEGORY_CODES).optional(),
   pesan: z.string().max(2000).optional(),
   consent: z.literal(true),
-  website: z.string().max(0).optional(), // honeypot
+  website: z.string().optional(), // honeypot: terisi berarti tampak sukses, tetapi tidak disimpan
 });
 
 type SubmitResult =
@@ -158,17 +142,15 @@ Urutan `join.categories` di messages **harus sama** dengan `CATEGORY_CODES`.
 ## 8. Variabel lingkungan
 
 ```
-SUPABASE_URL=
-SUPABASE_SERVICE_ROLE_KEY=      # server-only
-IP_HASH_SALT=
-RESEND_API_KEY=                 # opsional
-NOTIFY_EMAIL_TO=
+GOOGLE_SCRIPT_URL=              # server-only
+GOOGLE_SCRIPT_SECRET=           # server-only, sama dengan AVITEK_SECRET di Script Properties
+IP_HASH_SALT=                   # server-only
 NEXT_PUBLIC_SITE_URL=https://
 NEXT_PUBLIC_SHOW_PROPOSED=false # berlaku untuk ID dan EN sekaligus
 ```
 
 ## 9. Keamanan
-Header di `next.config.js` (`nosniff`, `Referrer-Policy`, `X-Frame-Options: DENY`, `Permissions-Policy`). `supabase-server.ts` memakai `import 'server-only'`. IP tidak disimpan mentah.
+Header di `next.config.js` (`nosniff`, `Referrer-Policy`, `X-Frame-Options: DENY`, `Permissions-Policy`). `google-sheet.ts` memakai `import 'server-only'`. IP tidak disimpan mentah.
 
 ## 10. Definition of Done (per PR)
 - [ ] `pnpm lint`, `pnpm typecheck`, `pnpm build` (termasuk `check-i18n`) lulus

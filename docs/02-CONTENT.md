@@ -364,6 +364,8 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `join.thanks` | Terima kasih, {name}. Sekretariat AVITEK akan menghubungi Anda melalui {email}. | Thank you, {name}. The AVITEK secretariat will contact you at {email}. | UI |
 | `join.errorFields` | Lengkapi kolom: {fields}. Pastikan email berformat nama@domain. | Please complete: {fields}. Make sure your email looks like name@domain. | UI |
 | `join.errorConsent` | Centang persetujuan pemrosesan data untuk melanjutkan. | Tick the data processing consent box to continue. | UI |
+| `join.errorRateLimited` | Terlalu banyak kiriman dari jaringan ini. Coba lagi dalam satu jam. | Too many submissions from this network. Please try again in an hour. | UI |
+| `join.errorServer` | Formulir belum berhasil terkirim. Coba lagi beberapa saat. | We couldn't send your form. Please try again in a moment. | UI |
 
 ## 13. Footer
 

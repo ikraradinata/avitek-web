@@ -11,6 +11,9 @@ import { ProjectTimeline } from "@/components/sections/ProjectTimeline";
 import { WhySection } from "@/components/sections/WhySection";
 import { SHOW_PROPOSED } from "@/lib/flags";
 
+// Beri waktu Server Action menunggu balasan Apps Script
+export const maxDuration = 20;
+
 export default function HomePage({
   params: { locale },
 }: Readonly<{

@@ -14,10 +14,11 @@ Pemilik membangun lewat vibe coding dan **bukan programmer**. Jelaskan keputusan
 - `docs/03-DESIGN-SYSTEM.md`: token Palet Warna Resmi AVITEK KUKM, tipografi, komponen, aturan teks panjang
 - `docs/04-TECH-SPEC.md`: next-intl, struktur folder, model data, Server Action, DoD
 - `docs/05-TASKS.md`: urutan task T-01 s/d T-24
+- `docs/07-GOOGLE-SHEET-SETUP.md`: panduan menyambungkan formulir ke Google Sheet
 - `mockup/index.html`: **acuan visual dan perilaku** (tombol ID/EN berfungsi). Jangan diedit.
 
 ## Stack
-Next.js 14 App Router · TypeScript strict · **next-intl** · Tailwind CSS · shadcn/ui · Zod · Supabase · Vercel · pnpm
+Next.js 14 App Router · TypeScript strict · **next-intl** · Tailwind CSS · shadcn/ui · Zod · Google Sheet + Apps Script · Vercel · pnpm
 
 ## Perintah
 ```bash
@@ -38,7 +39,7 @@ node scripts/check-i18n.mjs    # cek paritas kunci ID/EN
 7. **Tata letak harus tahan teks EN** yang bisa lebih panjang: jangan memakai lebar tetap untuk teks, dan uji kedua bahasa di 360px.
 8. **Kode:** komentar dalam Bahasa Indonesia, nama variabel/fungsi dalam Bahasa Inggris.
 9. **Komponen:** Server Component secara default. `"use client"` hanya untuk LanguageSwitcher, menu mobile, dropdown, toggle agenda, dan formulir.
-10. **Rahasia:** service role key hanya di server (`import 'server-only'`). Jangan membaca atau menampilkan `.env*`.
+10. **Rahasia:** `GOOGLE_SCRIPT_URL`, `GOOGLE_SCRIPT_SECRET`, dan `IP_HASH_SALT` hanya di server (`import 'server-only'`). Jangan menulis kode rahasia di `Code.gs`. Jangan membaca atau menampilkan `.env*`.
 11. **Ruang lingkup:** satu task per sesi. Jangan refactor bagian lain tanpa diminta.
 
 ## Cara kerja per task
@@ -57,4 +58,6 @@ node scripts/check-i18n.mjs    # cek paritas kunci ID/EN
 - Satu momen animasi: 30 stasiun di hero
 - Flag `NEXT_PUBLIC_SHOW_PROPOSED` menyembunyikan konten Usulan di **kedua** bahasa
 - Jumlah tenaga ahli **tidak ditampilkan** sampai ada angka realisasi
+- Data formulir: Google Sheet di akun `asosiasi.avitek@gmail.com`, lewat Apps Script (menggantikan Supabase). Notifikasi email dan batas kiriman ada di skrip yang sama.
+- Flag `SHOW_PROPOSED` hanya menyembunyikan Program dan Lima Langkah (opsi B). Konten Usulan lain harus disetujui pengurus sebelum tayang.
 - Terjemahan EN masih draf Claude dan **menunggu peninjau** (T-22)

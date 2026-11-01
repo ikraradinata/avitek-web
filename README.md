@@ -24,7 +24,7 @@ Website resmi Asosiasi Inovasi Teknologi Koperasi dan UKM, dalam **Bahasa Indone
 | `mockup/archive-v02-inopi.html` | Arsip v0.2 (palet INOPI, satu bahasa), bukan acuan |
 
 ## Stack
-Next.js 14 · next-intl · TypeScript · Tailwind · shadcn/ui · Supabase · Vercel · pnpm
+Next.js 14 · next-intl · TypeScript · Tailwind · shadcn/ui · Google Sheet + Apps Script · Vercel · pnpm
 
 ## Masih menunggu dari pengurus
 Nama resmi AVITEK dalam bahasa Inggris · peninjau terjemahan EN · logo SVG resmi · konfirmasi hex Digital Teal · domain · email sekretariat · persetujuan konten Usulan · izin tampil koperasi dan mitra. Daftar lengkap ada di `docs/02-CONTENT.md §14`.

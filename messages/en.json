@@ -444,7 +444,9 @@
     ],
     "thanks": "Thank you, {name}. The AVITEK secretariat will contact you at {email}.",
     "errorFields": "Please complete: {fields}. Make sure your email looks like name@domain.",
-    "errorConsent": "Tick the data processing consent box to continue."
+    "errorConsent": "Tick the data processing consent box to continue.",
+    "errorRateLimited": "Too many submissions from this network. Please try again in an hour.",
+    "errorServer": "We couldn't send your form. Please try again in a moment."
   },
   "footer": {
     "about": "Association of Technology Innovation for Cooperatives and SMEs. Collaboration, innovation, and business for the digital transformation of Indonesia's cooperatives and SMEs.",
