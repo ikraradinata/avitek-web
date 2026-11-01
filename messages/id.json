@@ -189,32 +189,27 @@
       {
         "title": "Peluncuran & MoU dengan INNOBIZ",
         "text": "Peresmian AVITEK KUKM dan penandatanganan nota kesepahaman dengan INNOBIZ Association Korea.",
-        "tag": "3 November 2026",
-        "state": "now"
+        "tag": "3 November 2026"
       },
       {
         "title": "Peta jalan asosiasi",
         "text": "Menyusun prioritas lima tahun bersama anggota pendiri, mitra, dan pemerintah.",
-        "tag": "Direncanakan",
-        "state": "planned"
+        "tag": "Direncanakan"
       },
       {
         "title": "Pendampingan lanjutan 30 penerima manfaat",
         "text": "Memastikan sistem smart factory yang sudah terpasang tetap dipakai dan dikembangkan.",
-        "tag": "Direncanakan",
-        "state": "planned"
+        "tag": "Direncanakan"
       },
       {
         "title": "Kelas publik Smart Factory Training Center",
         "text": "Membuka pelatihan untuk koperasi, UKM, dan industri di luar penerima manfaat proyek.",
-        "tag": "Terbuka untuk kolaborasi",
-        "state": "open"
+        "tag": "Terbuka untuk kolaborasi"
       },
       {
         "title": "Platform anggota & direktori",
         "text": "Ruang daring untuk direktori anggota, berbagi studi kasus, dan mencari mitra proyek.",
-        "tag": "Direncanakan",
-        "state": "planned"
+        "tag": "Direncanakan"
       }
     ]
   },
@@ -321,86 +316,72 @@
       {
         "time": "09.30–10.00",
         "title": "Registrasi",
-        "sub": "",
-        "key": "0"
+        "sub": ""
       },
       {
         "time": "10.05–10.15",
         "title": "Sambutan INNOBIZ Association",
-        "sub": "Mr. Jeong Kwang Cheon, Chairman",
-        "key": "0"
+        "sub": "Mr. Jeong Kwang Cheon, Chairman"
       },
       {
         "time": "10.25–10.35",
         "title": "Sambutan Kementerian Koperasi",
-        "sub": "Ferry Juliantono, Menteri Koperasi",
-        "key": "0"
+        "sub": "Ferry Juliantono, Menteri Koperasi"
       },
       {
         "time": "10.35–10.45",
         "title": "Sambutan Duta Besar Korea untuk Indonesia",
-        "sub": "H.E. Yun Sun Gu",
-        "key": "0"
+        "sub": "H.E. Yun Sun Gu"
       },
       {
         "time": "10.45–10.55",
         "title": "Sambutan Ministry of SMEs and Startups Korea",
-        "sub": "Mr. Yoon Sung Woong",
-        "key": "0"
+        "sub": "Mr. Yoon Sung Woong"
       },
       {
         "time": "10.55–11.05",
         "title": "Peluncuran AVITEK KUKM & penyerahan buku",
-        "sub": "Prof. Meyliana, Ketua AVITEK KUKM",
-        "key": "1"
+        "sub": "Prof. Meyliana, Ketua AVITEK KUKM"
       },
       {
         "time": "11.05–11.15",
         "title": "Penandatanganan MoU AVITEK KUKM & INNOBIZ Association",
-        "sub": "",
-        "key": "1"
+        "sub": ""
       },
       {
         "time": "11.15–11.25",
         "title": "Penandatanganan PKS Internex dan EM Focus",
-        "sub": "",
-        "key": "0"
+        "sub": ""
       },
       {
         "time": "11.30–11.45",
         "title": "Capaian pelaksanaan proyek ODA Smart Factory",
-        "sub": "Seungkyu Oh, INNOBIZ Association",
-        "key": "0"
+        "sub": "Seungkyu Oh, INNOBIZ Association"
       },
       {
         "time": "11.45–12.00",
         "title": "Testimoni penerima manfaat",
-        "sub": "Perwakilan tiga koperasi",
-        "key": "0"
+        "sub": "Perwakilan tiga koperasi"
       },
       {
         "time": "12.00–12.15",
         "title": "Presentasi EM Focus",
-        "sub": "",
-        "key": "0"
+        "sub": ""
       },
       {
         "time": "12.15–12.30",
         "title": "Peran dan fasilitas Smart Factory Training Center",
-        "sub": "Prof. Meyliana, BINUS University",
-        "key": "0"
+        "sub": "Prof. Meyliana, BINUS University"
       },
       {
         "time": "12.30–13.25",
         "title": "Penghargaan dan sertifikat",
-        "sub": "Untuk Steering Committee, mitra proyek, BINUS University, dan 30 koperasi dan UKM penerima manfaat",
-        "key": "0"
+        "sub": "Untuk Steering Committee, mitra proyek, BINUS University, dan 30 koperasi dan UKM penerima manfaat"
       },
       {
         "time": "13.30–14.30",
         "title": "Networking luncheon",
-        "sub": "",
-        "key": "0"
+        "sub": ""
       }
     ],
     "showAll": "Tampilkan agenda lengkap",

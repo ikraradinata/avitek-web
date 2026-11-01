@@ -189,32 +189,27 @@
       {
         "title": "Launch & MoU with INNOBIZ",
         "text": "The official launch of AVITEK KUKM and the signing of an MoU with Korea's INNOBIZ Association.",
-        "tag": "3 November 2026",
-        "state": "now"
+        "tag": "3 November 2026"
       },
       {
         "title": "Association roadmap",
         "text": "Setting five-year priorities with founding members, partners, and government.",
-        "tag": "Planned",
-        "state": "planned"
+        "tag": "Planned"
       },
       {
         "title": "Continued support for the 30 beneficiaries",
         "text": "Making sure the installed smart factory systems stay in use and keep improving.",
-        "tag": "Planned",
-        "state": "planned"
+        "tag": "Planned"
       },
       {
         "title": "Public Smart Factory Training Center classes",
         "text": "Opening training to cooperatives, SMEs, and industry beyond the project's beneficiaries.",
-        "tag": "Open for collaboration",
-        "state": "open"
+        "tag": "Open for collaboration"
       },
       {
         "title": "Member platform & directory",
         "text": "An online space for the member directory, shared case studies, and finding project partners.",
-        "tag": "Planned",
-        "state": "planned"
+        "tag": "Planned"
       }
     ]
   },
@@ -321,86 +316,72 @@
       {
         "time": "09:30–10:00",
         "title": "Registration",
-        "sub": "",
-        "key": "0"
+        "sub": ""
       },
       {
         "time": "10:05–10:15",
         "title": "Welcome remarks, INNOBIZ Association",
-        "sub": "Mr. Jeong Kwang Cheon, Chairman",
-        "key": "0"
+        "sub": "Mr. Jeong Kwang Cheon, Chairman"
       },
       {
         "time": "10:25–10:35",
         "title": "Remarks, Ministry of Cooperatives",
-        "sub": "Ferry Juliantono, Minister of Cooperatives",
-        "key": "0"
+        "sub": "Ferry Juliantono, Minister of Cooperatives"
       },
       {
         "time": "10:35–10:45",
         "title": "Congratulatory remarks, Ambassador of the Republic of Korea to Indonesia",
-        "sub": "H.E. Yun Sun Gu",
-        "key": "0"
+        "sub": "H.E. Yun Sun Gu"
       },
       {
         "time": "10:45–10:55",
         "title": "Congratulatory remarks, Ministry of SMEs and Startups, Korea",
-        "sub": "Mr. Yoon Sung Woong",
-        "key": "0"
+        "sub": "Mr. Yoon Sung Woong"
       },
       {
         "time": "10:55–11:05",
         "title": "AVITEK KUKM launch & book handover",
-        "sub": "Prof. Meyliana, Chair of AVITEK KUKM",
-        "key": "1"
+        "sub": "Prof. Meyliana, Chair of AVITEK KUKM"
       },
       {
         "time": "11:05–11:15",
         "title": "MoU signing, AVITEK KUKM & INNOBIZ Association",
-        "sub": "",
-        "key": "1"
+        "sub": ""
       },
       {
         "time": "11:15–11:25",
         "title": "Cooperation agreement signing, Internex and EM Focus",
-        "sub": "",
-        "key": "0"
+        "sub": ""
       },
       {
         "time": "11:30–11:45",
         "title": "Smart Factory ODA project results",
-        "sub": "Seungkyu Oh, INNOBIZ Association",
-        "key": "0"
+        "sub": "Seungkyu Oh, INNOBIZ Association"
       },
       {
         "time": "11:45–12:00",
         "title": "Beneficiary testimonials",
-        "sub": "Representatives of three cooperatives",
-        "key": "0"
+        "sub": "Representatives of three cooperatives"
       },
       {
         "time": "12:00–12:15",
         "title": "EM Focus presentation",
-        "sub": "",
-        "key": "0"
+        "sub": ""
       },
       {
         "time": "12:15–12:30",
         "title": "Role and facilities of the Smart Factory Training Center",
-        "sub": "Prof. Meyliana, BINUS University",
-        "key": "0"
+        "sub": "Prof. Meyliana, BINUS University"
       },
       {
         "time": "12:30–13:25",
         "title": "Awards and certificates",
-        "sub": "For the Steering Committee, project partners, BINUS University, and the 30 beneficiary cooperatives and SMEs",
-        "key": "0"
+        "sub": "For the Steering Committee, project partners, BINUS University, and the 30 beneficiary cooperatives and SMEs"
       },
       {
         "time": "13:30–14:30",
         "title": "Networking luncheon",
-        "sub": "",
-        "key": "0"
+        "sub": ""
       }
     ],
     "showAll": "Show full agenda",
