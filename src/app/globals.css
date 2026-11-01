@@ -56,4 +56,60 @@
   .wrap {
     @apply relative mx-auto max-w-wrap px-6;
   }
+
+  /* Satu-satunya momen animasi: 30 stasiun menyala, lalu hub emas muncul */
+  .station {
+    @apply relative aspect-square rounded-[7px] bg-navy-2;
+    animation: station-lit 0.5s ease forwards;
+    animation-delay: calc(var(--i) * 55ms + 300ms);
+  }
+
+  .station::after {
+    content: "";
+    @apply absolute inset-[30%] rounded-full bg-transparent;
+    animation: station-dot 0.5s ease forwards;
+    animation-delay: inherit;
+  }
+
+  .hub-pop {
+    @apply scale-[.6] opacity-0;
+    animation: hub-pop 0.6s cubic-bezier(0.3, 1.6, 0.5, 1) forwards;
+    animation-delay: 2.1s;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .station {
+      @apply bg-teal;
+      animation: none;
+    }
+
+    .station::after {
+      @apply bg-ice/90;
+      animation: none;
+    }
+
+    .hub-pop {
+      @apply scale-100 opacity-100;
+      animation: none;
+    }
+  }
+}
+
+@keyframes station-lit {
+  to {
+    background: theme("colors.teal.DEFAULT");
+  }
+}
+
+@keyframes station-dot {
+  to {
+    background: theme("colors.ice / 90%");
+  }
+}
+
+@keyframes hub-pop {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

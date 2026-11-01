@@ -1,17 +1,16 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
+import { Hero } from "@/components/sections/Hero";
 
-// Halaman uji sementara T-04, diganti rangkaian section mulai T-07
-export default async function HomePage({
+export default function HomePage({
   params: { locale },
 }: Readonly<{
   params: { locale: string };
 }>) {
   setRequestLocale(locale);
-  const t = await getTranslations("hero");
 
   return (
-    <main>
-      <h1>{t("title")}</h1>
+    <main id="top">
+      <Hero />
     </main>
   );
 }

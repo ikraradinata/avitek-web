@@ -32,3 +32,6 @@ export const FOOTER_COLUMNS = [
     hashes: ["gabung", "gabung", "gabung", "gabung"],
   },
 ] as const;
+
+// Jumlah stasiun pada visual hero, satu stasiun untuk tiap penerima manfaat
+export const STATION_COUNT = 30;

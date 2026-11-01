@@ -4,13 +4,13 @@ import * as React from "react";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex cursor-pointer items-center gap-2.5 rounded-full border-2 border-transparent px-[22px] py-3.5 text-base font-bold no-underline transition-colors disabled:cursor-not-allowed disabled:opacity-60",
+  "inline-flex cursor-pointer items-center gap-2.5 rounded-full border-2 px-[22px] py-3.5 text-base font-bold no-underline transition-colors disabled:cursor-not-allowed disabled:opacity-60",
   {
     variants: {
       variant: {
         // Teks wajib navy: teks putih di atas oranye hanya 2,8:1
-        cta: "bg-orange text-navy hover:bg-orange-hover",
-        dark: "bg-navy text-white hover:bg-navy-2",
+        cta: "border-transparent bg-orange text-navy hover:bg-orange-hover",
+        dark: "border-transparent bg-navy text-white hover:bg-navy-2",
         ghost: "border-navy bg-transparent text-navy hover:bg-navy hover:text-white",
       },
     },

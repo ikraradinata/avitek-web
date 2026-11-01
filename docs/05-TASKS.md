@@ -24,7 +24,7 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 - [x] **T-06** `SiteHeader` + **`LanguageSwitcher`** (mempertahankan hash dan menyimpan cookie) + `NavDropdown` + `MobileMenu` + `SiteFooter`
 
 ## M2 — Section (Minggu, 1 Nov, siang–malam)
-- [ ] **T-07** `Hero` + `StationGrid` + `WaveBackground` + `DiagonalPattern` + `FigureStrip`
+- [x] **T-07** `Hero` + `StationGrid` + `WaveBackground` + `DiagonalPattern` + `FigureStrip`
 - [ ] **T-08** `ProjectTimeline`
 - [ ] **T-09** `WhySection` + `EcosystemSection` (label SVG diambil dari messages)
 - [ ] **T-10** `ProgramSection` + `FirstSteps` (flag `SHOW_PROPOSED`)
