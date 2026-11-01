@@ -1,10 +1,12 @@
+import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { routing } from "@/i18n/routing";
+import { openGraphFor, SITE_URL } from "@/lib/seo";
 import "../globals.css";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -15,6 +17,29 @@ const jakarta = Plus_Jakarta_Sans({
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params: { locale },
+}: Readonly<{
+  params: { locale: string };
+}>): Promise<Metadata> {
+  if (!hasLocale(routing.locales, locale)) return {};
+  const t = await getTranslations({ locale, namespace: "meta" });
+  const title = t("title");
+  const description = t("description");
+
+  return {
+    metadataBase: new URL(SITE_URL),
+    title,
+    description,
+    alternates: {
+      canonical: `/${locale}`,
+      languages: { id: "/id", en: "/en", "x-default": "/id" },
+    },
+    openGraph: openGraphFor(locale, title, description, `/${locale}`),
+    twitter: { card: "summary_large_image", title, description },
+  };
 }
 
 export default async function LocaleLayout({

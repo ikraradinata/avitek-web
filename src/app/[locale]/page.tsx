@@ -1,4 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { AgendaSection } from "@/components/sections/AgendaSection";
 import { Beneficiaries } from "@/components/sections/Beneficiaries";
 import { EcosystemSection } from "@/components/sections/EcosystemSection";
@@ -23,6 +24,7 @@ export default function HomePage({
 
   return (
     <main id="top">
+      <JsonLd locale={locale} />
       <Hero />
       <ProjectTimeline />
       <WhySection />

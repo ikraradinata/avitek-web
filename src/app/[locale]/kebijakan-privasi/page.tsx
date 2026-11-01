@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getPathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { openGraphFor } from "@/lib/seo";
 
 type PrivacySection = { title: string; text: string; items?: string[] };
 
@@ -15,8 +16,14 @@ export async function generateMetadata({
   const pathFor = (target: string) =>
     getPathname({ href: "/kebijakan-privasi", locale: target });
 
+  const title = t("metaTitle");
+  const description = t("intro");
+
   return {
-    title: t("metaTitle"),
+    title,
+    description,
+    openGraph: openGraphFor(locale, title, description, pathFor(locale)),
+    twitter: { card: "summary_large_image", title, description },
     alternates: {
       canonical: pathFor(locale),
       languages: {

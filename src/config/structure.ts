@@ -61,3 +61,7 @@ export const CATEGORY_CODES = [
   "pemerintah",
   "asosiasi",
 ] as const;
+
+// Waktu acara peluncuran untuk data terstruktur, WIB
+export const EVENT_START = "2026-11-03T10:00:00+07:00";
+export const EVENT_END = "2026-11-03T14:30:00+07:00";

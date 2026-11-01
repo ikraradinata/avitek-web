@@ -40,7 +40,7 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 - [x] **T-18** Halaman `/id/kebijakan-privasi` dan `/en/privacy-policy` (draf, ditinjau pengurus)
 
 ## M4 — Rilis (Senin, 2 Nov, siang–malam)
-- [ ] **T-19** Metadata per bahasa, `hreflang` + x-default, OG image ID dan EN, sitemap, robots, JSON-LD
+- [x] **T-19** Metadata per bahasa, `hreflang` + x-default, OG image ID dan EN, sitemap, robots, JSON-LD
 - [ ] **T-20** Header keamanan
 - [ ] **T-21** Deploy Vercel, env, domain
 - [ ] **T-22** **Masukkan hasil tinjauan terjemahan EN**, lalu jalankan `/cek-i18n`
