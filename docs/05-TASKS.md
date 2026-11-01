@@ -28,7 +28,7 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 - [x] **T-08** `ProjectTimeline`
 - [x] **T-09** `WhySection` + `EcosystemSection` (label SVG diambil dari messages)
 - [x] **T-10** `ProgramSection` + `FirstSteps` (flag `SHOW_PROPOSED`)
-- [ ] **T-11** `Beneficiaries` + mitra + `PartnerGroups`
+- [x] **T-11** `Beneficiaries` + mitra + `PartnerGroups`
 - [ ] **T-12** `AgendaSection` (toggle; format waktu mengikuti bahasa)
 - [ ] **T-13** `JoinSection` UI (3 jalur, kategori berbasis kode, persetujuan, honeypot)
 - [ ] **T-14** Uji tata letak EN vs ID di 360px, 390px, 768px, dan 1366px. Perbaiki teks yang terpotong atau meluap.

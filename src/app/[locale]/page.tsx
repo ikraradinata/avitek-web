@@ -1,7 +1,9 @@
 import { setRequestLocale } from "next-intl/server";
+import { Beneficiaries } from "@/components/sections/Beneficiaries";
 import { EcosystemSection } from "@/components/sections/EcosystemSection";
 import { FirstSteps } from "@/components/sections/FirstSteps";
 import { Hero } from "@/components/sections/Hero";
+import { PartnerGroups } from "@/components/sections/PartnerGroups";
 import { ProgramSection } from "@/components/sections/ProgramSection";
 import { ProjectTimeline } from "@/components/sections/ProjectTimeline";
 import { WhySection } from "@/components/sections/WhySection";
@@ -22,6 +24,8 @@ export default function HomePage({
       <EcosystemSection />
       {SHOW_PROPOSED && <ProgramSection />}
       {SHOW_PROPOSED && <FirstSteps />}
+      <Beneficiaries />
+      <PartnerGroups />
     </main>
   );
 }
