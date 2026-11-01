@@ -1,0 +1,491 @@
+{
+  "meta": {
+    "title": "AVITEK KUKM — Asosiasi Inovasi Teknologi Koperasi dan UKM",
+    "description": "AVITEK KUKM melanjutkan hasil proyek ODA Smart Factory Korea–Indonesia 2023–2026 dan menghubungkan koperasi, UKM, akademisi, industri, dan pemerintah.",
+    "fullName": "Asosiasi Inovasi Teknologi Koperasi dan UKM",
+    "tagline": "Kolaborasi, inovasi, bisnis"
+  },
+  "nav": {
+    "home": "AVITEK KUKM, ke beranda",
+    "about": "Tentang",
+    "program": "Program",
+    "partnership": "Kemitraan",
+    "insights": "Wawasan",
+    "insightsStories": "Kisah penerima manfaat",
+    "insightsStoriesSub": "Koperasi dan UKM yang sudah menerapkan smart factory",
+    "insightsTrack": "Jejak proyek ODA",
+    "insightsTrackSub": "Perjalanan 2023–2026",
+    "events": "Acara",
+    "join": "Gabung AVITEK",
+    "menuOpen": "Buka menu",
+    "menuClose": "Tutup menu",
+    "langLabel": "Pilih bahasa"
+  },
+  "hero": {
+    "badge": "Peluncuran AVITEK KUKM, 3 November 2026",
+    "title": "Smart factory tidak berhenti saat proyek selesai.",
+    "lede": "Selama 2023–2026, proyek ODA Smart Factory Korea–Indonesia mendampingi 30 koperasi dan UKM mengadopsi teknologi produksi cerdas. AVITEK KUKM hadir agar hasil itu terus dipakai, dikembangkan, dan ditularkan ke lebih banyak pelaku usaha.",
+    "dateLabel": "Tanggal",
+    "date": "Selasa, 3 November 2026",
+    "timeLabel": "Waktu",
+    "time": "10.00 WIB sampai selesai (registrasi 09.30)",
+    "venueLabel": "Tempat",
+    "venue": "Auditorium Lantai 2, Kementerian Koperasi RI, Jl. H.R. Rasuna Said Kav. 3–4, Jakarta Selatan",
+    "ctaRsvp": "Konfirmasi kehadiran",
+    "ctaAgenda": "Lihat agenda",
+    "visualLabel": "Ilustrasi 30 koperasi dan UKM penerima manfaat yang terhubung ke AVITEK KUKM",
+    "visualCaption": "koperasi dan UKM sudah menerapkan smart factory",
+    "hubName": "AVITEK KUKM",
+    "hubText": "menjadi rumah bersama mereka setelah masa proyek ODA berakhir."
+  },
+  "figures": [
+    {
+      "value": "30",
+      "label": "Koperasi dan UKM penerima manfaat",
+      "note": ""
+    },
+    {
+      "value": "USD 5,5 juta",
+      "label": "Nilai hibah ODA dari pemerintah Korea",
+      "note": "sekitar Rp84 miliar saat penandatanganan"
+    },
+    {
+      "value": "2023–2026",
+      "label": "Masa pelaksanaan proyek",
+      "note": ""
+    },
+    {
+      "value": "1",
+      "label": "Smart Factory Training Center pertama di Indonesia, BINUS @Bekasi",
+      "note": ""
+    }
+  ],
+  "track": {
+    "kicker": "Jejak proyek ODA",
+    "title": "Empat tahun kerja sama Korea–Indonesia",
+    "intro": "AVITEK lahir dari perjalanan panjang. Ini tonggak-tonggak utamanya sejak nota kesepahaman ditandatangani.",
+    "items": [
+      {
+        "year": "2023",
+        "title": "Nota kesepahaman",
+        "text": "Kemenkop UKM dan INNOBIZ Association menandatangani MoU proyek smart factory di Jakarta pada 28 Februari."
+      },
+      {
+        "year": "2024",
+        "title": "Pusat pelatihan dibuka",
+        "text": "Smart Factory Training Center diresmikan di BINUS @Bekasi pada 2 Desember."
+      },
+      {
+        "year": "2025",
+        "title": "Belajar langsung di Korea",
+        "text": "Pelatihan dua minggu di pabrik-pabrik smart factory Korea dan seminar kerja sama bisnis di SFTC."
+      },
+      {
+        "year": "2026",
+        "title": "Berbagi hasil",
+        "text": "Seminar di BINUS Alam Sutera, tempat penerima manfaat membagikan dampak penerapan smart factory."
+      },
+      {
+        "year": "Nov 2026",
+        "title": "AVITEK KUKM diluncurkan",
+        "text": "Proyek dilaporkan, dan asosiasi resmi mengambil alih keberlanjutannya."
+      }
+    ]
+  },
+  "why": {
+    "kicker": "Mengapa AVITEK",
+    "title": "Teknologinya sudah terpasang. Sekarang ekosistemnya yang harus dirawat.",
+    "intro": "Hibah punya batas waktu, tapi kebutuhan pendampingan, pelatihan, dan jejaring tidak. Tanpa wadah lanjutan, pengetahuan yang dibangun empat tahun mudah tercerai-berai. AVITEK dibentuk agar hasilnya terus tumbuh.",
+    "cards": [
+      {
+        "title": "Untuk anggota",
+        "text": "Koperasi dan UKM mendapat jalur lanjutan untuk meningkatkan kapasitas produksi dan daya saing.",
+        "points": [
+          "Pendampingan teknis lanjutan",
+          "Akses pelatihan di SFTC",
+          "Forum berbagi praktik antaranggota"
+        ]
+      },
+      {
+        "title": "Untuk mitra",
+        "text": "Industri, penyedia teknologi, dan kampus menemukan mitra implementasi yang sudah siap secara digital.",
+        "points": [
+          "Lokasi uji coba dan pilot project",
+          "Kolaborasi riset terapan",
+          "Jejaring dengan mitra Korea"
+        ]
+      },
+      {
+        "title": "Untuk Indonesia",
+        "text": "Transformasi digital koperasi dan UKM berjalan berkelanjutan, tidak bergantung pada satu proyek.",
+        "points": [
+          "Model replikasi smart factory skala UKM",
+          "Masukan kebijakan berbasis data lapangan",
+          "Tenaga ahli lokal yang bersertifikat"
+        ]
+      }
+    ]
+  },
+  "eco": {
+    "kicker": "Ekosistem inovasi",
+    "title": "Satu simpul untuk koperasi, kampus, industri, dan pemerintah.",
+    "diagramLabel": "Diagram ekosistem: AVITEK di tengah, terhubung dengan koperasi dan UKM, akademisi, industri, pemerintah, dan mitra Korea",
+    "nodeCoop1": "Koperasi",
+    "nodeCoop2": "& UKM",
+    "nodeAcademia": "Akademisi",
+    "nodeIndustry": "Industri",
+    "nodeGov": "Pemerintah",
+    "nodeKorea1": "Mitra",
+    "nodeKorea2": "Korea",
+    "pillars": [
+      {
+        "title": "Riset terapan",
+        "text": "Masalah produksi nyata di lantai pabrik koperasi dan UKM menjadi bahan riset kampus."
+      },
+      {
+        "title": "Kolaborasi aktif",
+        "text": "Penyedia teknologi dan anggota bekerja dalam proyek bersama, bukan sekadar seminar."
+      },
+      {
+        "title": "Advokasi kebijakan",
+        "text": "Data dan pengalaman anggota disampaikan ke pemerintah sebagai masukan program digitalisasi."
+      }
+    ]
+  },
+  "program": {
+    "kicker": "Program strategis",
+    "title": "Empat bidang kerja AVITEK",
+    "intro": "Setiap bidang punya peran yang jelas, dari menghasilkan pengetahuan sampai mencetak tenaga ahli.",
+    "more": "Selengkapnya",
+    "cards": [
+      {
+        "role": "Pusat kajian",
+        "title": "Riset & Inovasi Teknologi",
+        "text": "Kajian penerapan smart factory, IoT, dan analitik data yang pas untuk skala koperasi dan UKM."
+      },
+      {
+        "role": "Pelaksana",
+        "title": "Pendampingan Implementasi",
+        "text": "Pendampingan lanjutan bagi 30 penerima manfaat dan perluasan ke koperasi dan UKM baru."
+      },
+      {
+        "role": "Pembangun jejaring",
+        "title": "Kemitraan & Kerja Sama Internasional",
+        "text": "Kerja sama dengan INNOBIZ Association, industri nasional, dan lembaga pemerintah."
+      },
+      {
+        "role": "Penguat kapasitas",
+        "title": "Pelatihan & Sertifikasi",
+        "text": "Kelas dan sertifikasi tenaga ahli smart factory bersama Smart Factory Training Center."
+      }
+    ]
+  },
+  "steps": {
+    "kicker": "Program prioritas tahun pertama",
+    "title": "Lima langkah awal",
+    "intro": "Urutan kerja AVITEK sejak peluncuran sampai platform kolaborasi berjalan.",
+    "more": "Lihat semua program",
+    "items": [
+      {
+        "title": "Peluncuran & MoU dengan INNOBIZ",
+        "text": "Peresmian AVITEK KUKM dan penandatanganan nota kesepahaman dengan INNOBIZ Association Korea.",
+        "tag": "3 November 2026",
+        "state": "now"
+      },
+      {
+        "title": "Peta jalan asosiasi",
+        "text": "Menyusun prioritas lima tahun bersama anggota pendiri, mitra, dan pemerintah.",
+        "tag": "Direncanakan",
+        "state": "planned"
+      },
+      {
+        "title": "Pendampingan lanjutan 30 penerima manfaat",
+        "text": "Memastikan sistem smart factory yang sudah terpasang tetap dipakai dan dikembangkan.",
+        "tag": "Direncanakan",
+        "state": "planned"
+      },
+      {
+        "title": "Kelas publik Smart Factory Training Center",
+        "text": "Membuka pelatihan untuk koperasi, UKM, dan industri di luar penerima manfaat proyek.",
+        "tag": "Terbuka untuk kolaborasi",
+        "state": "open"
+      },
+      {
+        "title": "Platform anggota & direktori",
+        "text": "Ruang daring untuk direktori anggota, berbagi studi kasus, dan mencari mitra proyek.",
+        "tag": "Direncanakan",
+        "state": "planned"
+      }
+    ]
+  },
+  "bene": {
+    "kicker": "Dari lantai produksi",
+    "title": "Koperasi yang sudah menjalaninya",
+    "intro": "Perwakilan penerima manfaat akan membagikan dampak smart factory pada forum 3 November. Kisah lengkap mereka menyusul di halaman Wawasan.",
+    "items": [
+      {
+        "loc": "Pangalengan, Jawa Barat",
+        "name": "Koperasi Peternak Bandung Selatan (KPBS) Pangalengan",
+        "text": "Koperasi susu yang membagikan pengalaman penerapan smart factory pada seminar Juni 2026."
+      },
+      {
+        "loc": "Tegal, Jawa Tengah",
+        "name": "Koperasi Tegal Manufaktur",
+        "text": "Koperasi manufaktur penerima manfaat proyek ODA Smart Factory."
+      },
+      {
+        "loc": "Kuningan, Jawa Barat",
+        "name": "Koperasi Produsen Susu Karya Nugraha Jaya",
+        "text": "Koperasi produsen susu penerima manfaat proyek ODA Smart Factory."
+      }
+    ],
+    "supportedBy": "Didukung oleh",
+    "partners": [
+      {
+        "name": "Kementerian Koperasi RI",
+        "role": "Pemerintah Indonesia"
+      },
+      {
+        "name": "Ministry of SMEs and Startups",
+        "role": "Republik Korea"
+      },
+      {
+        "name": "INNOBIZ Association",
+        "role": "Pelaksana proyek"
+      },
+      {
+        "name": "BINUS University",
+        "role": "Mitra kampus & SFTC"
+      },
+      {
+        "name": "Wincom",
+        "role": "Mitra proyek"
+      },
+      {
+        "name": "EO Buddy",
+        "role": "Mitra proyek"
+      },
+      {
+        "name": "GINT",
+        "role": "Mitra proyek"
+      },
+      {
+        "name": "KMAC",
+        "role": "Mitra proyek"
+      }
+    ]
+  },
+  "partners": {
+    "kicker": "Ekosistem kolaborasi",
+    "title": "Siapa yang bisa bergabung",
+    "intro": "AVITEK terbuka bagi siapa pun yang ingin mempercepat transformasi digital koperasi dan UKM di Indonesia.",
+    "groups": [
+      {
+        "title": "Koperasi",
+        "text": "Koperasi produsen dan jasa yang ingin mendigitalkan proses produksinya."
+      },
+      {
+        "title": "UKM manufaktur",
+        "text": "Pelaku usaha yang siap meningkatkan efisiensi dan mutu produksi."
+      },
+      {
+        "title": "Akademisi & peneliti",
+        "text": "Dosen dan peneliti di bidang manufaktur, IoT, AI, dan sistem informasi."
+      },
+      {
+        "title": "Industri & penyedia teknologi",
+        "text": "Perusahaan teknologi, integrator sistem, dan produsen perangkat."
+      },
+      {
+        "title": "Pemerintah & regulator",
+        "text": "Kementerian dan dinas yang membina koperasi, UKM, dan industri."
+      },
+      {
+        "title": "Asosiasi & komunitas profesi",
+        "text": "Asosiasi industri, komunitas insinyur, dan jejaring internasional."
+      }
+    ],
+    "ctaText": "Punya program, teknologi, atau lokasi uji coba yang ingin dikembangkan bersama anggota AVITEK?",
+    "cta": "Ajukan kemitraan"
+  },
+  "agenda": {
+    "kicker": "Agenda & forum",
+    "title": "Acara terdekat",
+    "intro": "Peluncuran AVITEK KUKM berlangsung dalam Korea–Indonesia Smart Factory Project Report, Dissemination and Appreciation Forum.",
+    "day": "03",
+    "month": "November 2026",
+    "when": "Selasa, 09.30–14.30 WIB",
+    "eventTitle": "Peluncuran AVITEK KUKM & Forum Smart Factory Korea–Indonesia",
+    "where": "Auditorium Lantai 2, Kementerian Koperasi RI, Jakarta Selatan",
+    "rows": [
+      {
+        "time": "09.30–10.00",
+        "title": "Registrasi",
+        "sub": "",
+        "key": "0"
+      },
+      {
+        "time": "10.05–10.15",
+        "title": "Sambutan INNOBIZ Association",
+        "sub": "Mr. Jeong Kwang Cheon, Chairman",
+        "key": "0"
+      },
+      {
+        "time": "10.25–10.35",
+        "title": "Sambutan Kementerian Koperasi",
+        "sub": "Ferry Juliantono, Menteri Koperasi",
+        "key": "0"
+      },
+      {
+        "time": "10.35–10.45",
+        "title": "Sambutan Duta Besar Korea untuk Indonesia",
+        "sub": "H.E. Yun Sun Gu",
+        "key": "0"
+      },
+      {
+        "time": "10.45–10.55",
+        "title": "Sambutan Ministry of SMEs and Startups Korea",
+        "sub": "Mr. Yoon Sung Woong",
+        "key": "0"
+      },
+      {
+        "time": "10.55–11.05",
+        "title": "Peluncuran AVITEK KUKM & penyerahan buku",
+        "sub": "Prof. Meyliana, Ketua AVITEK KUKM",
+        "key": "1"
+      },
+      {
+        "time": "11.05–11.15",
+        "title": "Penandatanganan MoU AVITEK KUKM & INNOBIZ Association",
+        "sub": "",
+        "key": "1"
+      },
+      {
+        "time": "11.15–11.25",
+        "title": "Penandatanganan PKS Internex dan EM Focus",
+        "sub": "",
+        "key": "0"
+      },
+      {
+        "time": "11.30–11.45",
+        "title": "Capaian pelaksanaan proyek ODA Smart Factory",
+        "sub": "Seungkyu Oh, INNOBIZ Association",
+        "key": "0"
+      },
+      {
+        "time": "11.45–12.00",
+        "title": "Testimoni penerima manfaat",
+        "sub": "Perwakilan tiga koperasi",
+        "key": "0"
+      },
+      {
+        "time": "12.00–12.15",
+        "title": "Presentasi EM Focus",
+        "sub": "",
+        "key": "0"
+      },
+      {
+        "time": "12.15–12.30",
+        "title": "Peran dan fasilitas Smart Factory Training Center",
+        "sub": "Prof. Meyliana, BINUS University",
+        "key": "0"
+      },
+      {
+        "time": "12.30–13.25",
+        "title": "Penghargaan dan sertifikat",
+        "sub": "Untuk Steering Committee, mitra proyek, BINUS University, dan 30 koperasi dan UKM penerima manfaat",
+        "key": "0"
+      },
+      {
+        "time": "13.30–14.30",
+        "title": "Networking luncheon",
+        "sub": "",
+        "key": "0"
+      }
+    ],
+    "showAll": "Tampilkan agenda lengkap",
+    "hideAll": "Sembunyikan agenda lengkap",
+    "note": "Agenda bersifat sementara dan dapat berubah."
+  },
+  "join": {
+    "kicker": "Bergabung sekarang",
+    "title": "Jadi bagian dari gerakan smart factory koperasi dan UKM.",
+    "lede": "Pilih cara Anda terlibat. Sekretariat akan menghubungi Anda setelah formulir diterima.",
+    "groupLabel": "Pilih cara bergabung",
+    "paths": {
+      "anggota": {
+        "label": "Daftar sebagai anggota",
+        "hint": "Koperasi, UKM, akademisi, atau praktisi",
+        "title": "Daftar sebagai anggota",
+        "sub": "Isi data singkat Anda. Kolom bertanda * wajib diisi.",
+        "msg": "Apa yang ingin Anda kembangkan bersama AVITEK?",
+        "submit": "Kirim pendaftaran",
+        "ok": "Pendaftaran terkirim"
+      },
+      "mitra": {
+        "label": "Ajukan kemitraan",
+        "hint": "Industri, lembaga, atau asosiasi",
+        "title": "Ajukan kemitraan",
+        "sub": "Ceritakan lembaga Anda dan bentuk kerja sama yang diusulkan.",
+        "msg": "Usulan kerja sama",
+        "submit": "Kirim pengajuan",
+        "ok": "Pengajuan kemitraan terkirim"
+      },
+      "hadir": {
+        "label": "Konfirmasi kehadiran 3 November",
+        "hint": "Untuk tamu undangan peluncuran",
+        "title": "Konfirmasi kehadiran 3 November",
+        "sub": "Untuk tamu undangan peluncuran AVITEK KUKM di Kementerian Koperasi RI.",
+        "msg": "Catatan untuk panitia (opsional)",
+        "submit": "Konfirmasi kehadiran",
+        "ok": "Kehadiran terkonfirmasi"
+      }
+    },
+    "fields": {
+      "name": "Nama lengkap",
+      "org": "Institusi / usaha",
+      "email": "Email",
+      "wa": "Nomor WhatsApp",
+      "category": "Kategori",
+      "consent": "Saya setuju data ini diproses AVITEK KUKM untuk keperluan keanggotaan dan komunikasi, sesuai Kebijakan Privasi."
+    },
+    "categories": [
+      "Koperasi",
+      "UKM",
+      "Akademisi / peneliti",
+      "Industri / penyedia teknologi",
+      "Pemerintah",
+      "Asosiasi / komunitas"
+    ],
+    "thanks": "Terima kasih, {name}. Sekretariat AVITEK akan menghubungi Anda melalui {email}.",
+    "errorFields": "Lengkapi kolom: {fields}. Pastikan email berformat nama@domain.",
+    "errorConsent": "Centang persetujuan pemrosesan data untuk melanjutkan."
+  },
+  "footer": {
+    "about": "Asosiasi Inovasi Teknologi Koperasi dan UKM. Kolaborasi, inovasi, dan bisnis untuk transformasi digital koperasi dan UKM Indonesia.",
+    "colOrg": "Organisasi",
+    "orgLinks": [
+      "Tentang AVITEK",
+      "Struktur organisasi",
+      "Anggota pendiri",
+      "Tata kelola & legal"
+    ],
+    "colProgram": "Program",
+    "programLinks": [
+      "Program",
+      "Kemitraan",
+      "Acara",
+      "Wawasan"
+    ],
+    "colJoin": "Bergabung",
+    "joinLinks": [
+      "Keanggotaan",
+      "Direktori anggota",
+      "Ajukan kemitraan",
+      "Kontak"
+    ],
+    "copyright": "© 2026 AVITEK KUKM",
+    "privacy": "Kebijakan privasi",
+    "mockFlag": "Mockup v0.4 bilingual, belum final"
+  }
+}

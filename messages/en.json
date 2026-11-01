@@ -1,0 +1,491 @@
+{
+  "meta": {
+    "title": "AVITEK KUKM — Association of Technology Innovation for Cooperatives and SMEs",
+    "description": "AVITEK KUKM carries forward the results of the 2023–2026 Korea–Indonesia Smart Factory ODA project and connects cooperatives, SMEs, academia, industry, and government.",
+    "fullName": "Association of Technology Innovation for Cooperatives and SMEs",
+    "tagline": "Collaboration, innovation, business"
+  },
+  "nav": {
+    "home": "AVITEK KUKM, go to homepage",
+    "about": "About",
+    "program": "Programs",
+    "partnership": "Partnership",
+    "insights": "Insights",
+    "insightsStories": "Beneficiary stories",
+    "insightsStoriesSub": "Cooperatives and SMEs already running smart factories",
+    "insightsTrack": "ODA project timeline",
+    "insightsTrackSub": "The 2023–2026 journey",
+    "events": "Events",
+    "join": "Join AVITEK",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "langLabel": "Choose language"
+  },
+  "hero": {
+    "badge": "AVITEK KUKM launch, 3 November 2026",
+    "title": "Smart factories don't stop when the project ends.",
+    "lede": "From 2023 to 2026, the Korea–Indonesia Smart Factory ODA project helped 30 cooperatives and SMEs adopt smart production technology. AVITEK KUKM exists so those results keep being used, improved, and passed on to more businesses.",
+    "dateLabel": "Date",
+    "date": "Tuesday, 3 November 2026",
+    "timeLabel": "Time",
+    "time": "10:00 WIB until close (registration 09:30)",
+    "venueLabel": "Venue",
+    "venue": "2nd Floor Auditorium, Ministry of Cooperatives of the Republic of Indonesia, Jl. H.R. Rasuna Said Kav. 3–4, South Jakarta",
+    "ctaRsvp": "Confirm attendance",
+    "ctaAgenda": "See the agenda",
+    "visualLabel": "Illustration of the 30 beneficiary cooperatives and SMEs connected to AVITEK KUKM",
+    "visualCaption": "cooperatives and SMEs already run smart factories",
+    "hubName": "AVITEK KUKM",
+    "hubText": "becomes their shared home after the ODA project ends."
+  },
+  "figures": [
+    {
+      "value": "30",
+      "label": "Beneficiary cooperatives and SMEs",
+      "note": ""
+    },
+    {
+      "value": "USD 5.5M",
+      "label": "ODA grant from the Korean government",
+      "note": "about IDR 84 billion at signing"
+    },
+    {
+      "value": "2023–2026",
+      "label": "Project period",
+      "note": ""
+    },
+    {
+      "value": "1",
+      "label": "Indonesia's first Smart Factory Training Center, BINUS @Bekasi",
+      "note": ""
+    }
+  ],
+  "track": {
+    "kicker": "ODA project timeline",
+    "title": "Four years of Korea–Indonesia cooperation",
+    "intro": "AVITEK grew out of a long journey. These are the key milestones since the memorandum of understanding was signed.",
+    "items": [
+      {
+        "year": "2023",
+        "title": "Memorandum of understanding",
+        "text": "Indonesia's Ministry of Cooperatives and SMEs and the INNOBIZ Association signed the smart factory project MoU in Jakarta on 28 February."
+      },
+      {
+        "year": "2024",
+        "title": "Training center opens",
+        "text": "The Smart Factory Training Center opened at BINUS @Bekasi on 2 December."
+      },
+      {
+        "year": "2025",
+        "title": "Learning on site in Korea",
+        "text": "Two weeks of training inside Korean smart factories, plus a business cooperation seminar at the SFTC."
+      },
+      {
+        "year": "2026",
+        "title": "Sharing results",
+        "text": "A seminar at BINUS Alam Sutera where beneficiaries shared the impact of their smart factories."
+      },
+      {
+        "year": "Nov 2026",
+        "title": "AVITEK KUKM launches",
+        "text": "The project reports its results, and the association formally takes over its continuity."
+      }
+    ]
+  },
+  "why": {
+    "kicker": "Why AVITEK",
+    "title": "The technology is installed. Now the ecosystem needs looking after.",
+    "intro": "Grants end; the need for mentoring, training, and networks doesn't. Without a home to carry it on, four years of know-how can easily scatter. AVITEK was formed so the results keep growing.",
+    "cards": [
+      {
+        "title": "For members",
+        "text": "Cooperatives and SMEs get a clear path to keep raising production capacity and competitiveness.",
+        "points": [
+          "Ongoing technical mentoring",
+          "Access to SFTC training",
+          "A forum for members to share practices"
+        ]
+      },
+      {
+        "title": "For partners",
+        "text": "Industry, technology providers, and universities find implementation partners that are already digitally ready.",
+        "points": [
+          "Test sites and pilot projects",
+          "Applied research collaboration",
+          "Links with Korean partners"
+        ]
+      },
+      {
+        "title": "For Indonesia",
+        "text": "Digital transformation of cooperatives and SMEs keeps going, without depending on a single project.",
+        "points": [
+          "A replicable smart factory model for SMEs",
+          "Policy input grounded in field data",
+          "Certified local experts"
+        ]
+      }
+    ]
+  },
+  "eco": {
+    "kicker": "Innovation ecosystem",
+    "title": "One hub for cooperatives, universities, industry, and government.",
+    "diagramLabel": "Ecosystem diagram: AVITEK at the center, connected to cooperatives and SMEs, academia, industry, government, and Korean partners",
+    "nodeCoop1": "Co-ops",
+    "nodeCoop2": "& SMEs",
+    "nodeAcademia": "Academia",
+    "nodeIndustry": "Industry",
+    "nodeGov": "Government",
+    "nodeKorea1": "Korean",
+    "nodeKorea2": "partners",
+    "pillars": [
+      {
+        "title": "Applied research",
+        "text": "Real production problems on cooperative and SME factory floors become university research topics."
+      },
+      {
+        "title": "Active collaboration",
+        "text": "Technology providers and members work on joint projects, not just seminars."
+      },
+      {
+        "title": "Policy advocacy",
+        "text": "Member data and experience are passed to government as input for digitalization programs."
+      }
+    ]
+  },
+  "program": {
+    "kicker": "Strategic programs",
+    "title": "AVITEK's four work areas",
+    "intro": "Each area has a clear role, from producing knowledge to developing experts.",
+    "more": "Learn more",
+    "cards": [
+      {
+        "role": "Think tank",
+        "title": "Research & Technology Innovation",
+        "text": "Studies on smart factory, IoT, and data analytics suited to the scale of cooperatives and SMEs."
+      },
+      {
+        "role": "Implementer",
+        "title": "Implementation Support",
+        "text": "Continued support for the 30 beneficiaries and expansion to new cooperatives and SMEs."
+      },
+      {
+        "role": "Network builder",
+        "title": "Partnerships & International Cooperation",
+        "text": "Cooperation with the INNOBIZ Association, national industry, and government agencies."
+      },
+      {
+        "role": "Capacity builder",
+        "title": "Training & Certification",
+        "text": "Smart factory expert classes and certification with the Smart Factory Training Center."
+      }
+    ]
+  },
+  "steps": {
+    "kicker": "First-year priorities",
+    "title": "Five first steps",
+    "intro": "AVITEK's sequence of work from launch to a running collaboration platform.",
+    "more": "See all programs",
+    "items": [
+      {
+        "title": "Launch & MoU with INNOBIZ",
+        "text": "The official launch of AVITEK KUKM and the signing of an MoU with Korea's INNOBIZ Association.",
+        "tag": "3 November 2026",
+        "state": "now"
+      },
+      {
+        "title": "Association roadmap",
+        "text": "Setting five-year priorities with founding members, partners, and government.",
+        "tag": "Planned",
+        "state": "planned"
+      },
+      {
+        "title": "Continued support for the 30 beneficiaries",
+        "text": "Making sure the installed smart factory systems stay in use and keep improving.",
+        "tag": "Planned",
+        "state": "planned"
+      },
+      {
+        "title": "Public Smart Factory Training Center classes",
+        "text": "Opening training to cooperatives, SMEs, and industry beyond the project's beneficiaries.",
+        "tag": "Open for collaboration",
+        "state": "open"
+      },
+      {
+        "title": "Member platform & directory",
+        "text": "An online space for the member directory, shared case studies, and finding project partners.",
+        "tag": "Planned",
+        "state": "planned"
+      }
+    ]
+  },
+  "bene": {
+    "kicker": "From the factory floor",
+    "title": "Cooperatives that have done it",
+    "intro": "Beneficiary representatives will share the impact of their smart factories at the 3 November forum. Their full stories will follow on the Insights page.",
+    "items": [
+      {
+        "loc": "Pangalengan, West Java",
+        "name": "Koperasi Peternak Bandung Selatan (KPBS) Pangalengan",
+        "text": "A dairy cooperative that shared its smart factory experience at the June 2026 seminar."
+      },
+      {
+        "loc": "Tegal, Central Java",
+        "name": "Koperasi Tegal Manufaktur",
+        "text": "A manufacturing cooperative and beneficiary of the Smart Factory ODA project."
+      },
+      {
+        "loc": "Kuningan, West Java",
+        "name": "Koperasi Produsen Susu Karya Nugraha Jaya",
+        "text": "A dairy producers' cooperative and beneficiary of the Smart Factory ODA project."
+      }
+    ],
+    "supportedBy": "Supported by",
+    "partners": [
+      {
+        "name": "Ministry of Cooperatives, Republic of Indonesia",
+        "role": "Government of Indonesia"
+      },
+      {
+        "name": "Ministry of SMEs and Startups",
+        "role": "Republic of Korea"
+      },
+      {
+        "name": "INNOBIZ Association",
+        "role": "Project implementer"
+      },
+      {
+        "name": "BINUS University",
+        "role": "University partner & SFTC"
+      },
+      {
+        "name": "Wincom",
+        "role": "Project partner"
+      },
+      {
+        "name": "EO Buddy",
+        "role": "Project partner"
+      },
+      {
+        "name": "GINT",
+        "role": "Project partner"
+      },
+      {
+        "name": "KMAC",
+        "role": "Project partner"
+      }
+    ]
+  },
+  "partners": {
+    "kicker": "Collaboration ecosystem",
+    "title": "Who can join",
+    "intro": "AVITEK is open to anyone who wants to speed up the digital transformation of Indonesia's cooperatives and SMEs.",
+    "groups": [
+      {
+        "title": "Cooperatives",
+        "text": "Producer and service cooperatives that want to digitize their production."
+      },
+      {
+        "title": "Manufacturing SMEs",
+        "text": "Businesses ready to raise production efficiency and quality."
+      },
+      {
+        "title": "Academics & researchers",
+        "text": "Lecturers and researchers in manufacturing, IoT, AI, and information systems."
+      },
+      {
+        "title": "Industry & technology providers",
+        "text": "Technology companies, system integrators, and equipment makers."
+      },
+      {
+        "title": "Government & regulators",
+        "text": "Ministries and agencies that support cooperatives, SMEs, and industry."
+      },
+      {
+        "title": "Associations & professional communities",
+        "text": "Industry associations, engineering communities, and international networks."
+      }
+    ],
+    "ctaText": "Have a program, technology, or test site you'd like to develop with AVITEK members?",
+    "cta": "Propose a partnership"
+  },
+  "agenda": {
+    "kicker": "Agenda & forum",
+    "title": "Upcoming event",
+    "intro": "AVITEK KUKM launches during the Korea–Indonesia Smart Factory Project Report, Dissemination and Appreciation Forum.",
+    "day": "03",
+    "month": "November 2026",
+    "when": "Tuesday, 09:30–14:30 WIB",
+    "eventTitle": "AVITEK KUKM Launch & Korea–Indonesia Smart Factory Forum",
+    "where": "2nd Floor Auditorium, Ministry of Cooperatives, South Jakarta",
+    "rows": [
+      {
+        "time": "09:30–10:00",
+        "title": "Registration",
+        "sub": "",
+        "key": "0"
+      },
+      {
+        "time": "10:05–10:15",
+        "title": "Welcome remarks, INNOBIZ Association",
+        "sub": "Mr. Jeong Kwang Cheon, Chairman",
+        "key": "0"
+      },
+      {
+        "time": "10:25–10:35",
+        "title": "Remarks, Ministry of Cooperatives",
+        "sub": "Ferry Juliantono, Minister of Cooperatives",
+        "key": "0"
+      },
+      {
+        "time": "10:35–10:45",
+        "title": "Congratulatory remarks, Ambassador of the Republic of Korea to Indonesia",
+        "sub": "H.E. Yun Sun Gu",
+        "key": "0"
+      },
+      {
+        "time": "10:45–10:55",
+        "title": "Congratulatory remarks, Ministry of SMEs and Startups, Korea",
+        "sub": "Mr. Yoon Sung Woong",
+        "key": "0"
+      },
+      {
+        "time": "10:55–11:05",
+        "title": "AVITEK KUKM launch & book handover",
+        "sub": "Prof. Meyliana, Chair of AVITEK KUKM",
+        "key": "1"
+      },
+      {
+        "time": "11:05–11:15",
+        "title": "MoU signing, AVITEK KUKM & INNOBIZ Association",
+        "sub": "",
+        "key": "1"
+      },
+      {
+        "time": "11:15–11:25",
+        "title": "Cooperation agreement signing, Internex and EM Focus",
+        "sub": "",
+        "key": "0"
+      },
+      {
+        "time": "11:30–11:45",
+        "title": "Smart Factory ODA project results",
+        "sub": "Seungkyu Oh, INNOBIZ Association",
+        "key": "0"
+      },
+      {
+        "time": "11:45–12:00",
+        "title": "Beneficiary testimonials",
+        "sub": "Representatives of three cooperatives",
+        "key": "0"
+      },
+      {
+        "time": "12:00–12:15",
+        "title": "EM Focus presentation",
+        "sub": "",
+        "key": "0"
+      },
+      {
+        "time": "12:15–12:30",
+        "title": "Role and facilities of the Smart Factory Training Center",
+        "sub": "Prof. Meyliana, BINUS University",
+        "key": "0"
+      },
+      {
+        "time": "12:30–13:25",
+        "title": "Awards and certificates",
+        "sub": "For the Steering Committee, project partners, BINUS University, and the 30 beneficiary cooperatives and SMEs",
+        "key": "0"
+      },
+      {
+        "time": "13:30–14:30",
+        "title": "Networking luncheon",
+        "sub": "",
+        "key": "0"
+      }
+    ],
+    "showAll": "Show full agenda",
+    "hideAll": "Hide full agenda",
+    "note": "The agenda is provisional and may change."
+  },
+  "join": {
+    "kicker": "Join now",
+    "title": "Be part of the smart factory movement for cooperatives and SMEs.",
+    "lede": "Choose how you'd like to take part. The secretariat will contact you once we receive your form.",
+    "groupLabel": "Choose how to join",
+    "paths": {
+      "anggota": {
+        "label": "Register as a member",
+        "hint": "Cooperatives, SMEs, academics, or practitioners",
+        "title": "Register as a member",
+        "sub": "Fill in a few details. Fields marked * are required.",
+        "msg": "What would you like to develop with AVITEK?",
+        "submit": "Send registration",
+        "ok": "Registration sent"
+      },
+      "mitra": {
+        "label": "Propose a partnership",
+        "hint": "Industry, institutions, or associations",
+        "title": "Propose a partnership",
+        "sub": "Tell us about your organization and the cooperation you have in mind.",
+        "msg": "Proposed cooperation",
+        "submit": "Send proposal",
+        "ok": "Partnership proposal sent"
+      },
+      "hadir": {
+        "label": "Confirm attendance on 3 November",
+        "hint": "For invited launch guests",
+        "title": "Confirm attendance on 3 November",
+        "sub": "For invited guests at the AVITEK KUKM launch at the Ministry of Cooperatives.",
+        "msg": "Note for the organizers (optional)",
+        "submit": "Confirm attendance",
+        "ok": "Attendance confirmed"
+      }
+    },
+    "fields": {
+      "name": "Full name",
+      "org": "Organization / business",
+      "email": "Email",
+      "wa": "WhatsApp number",
+      "category": "Category",
+      "consent": "I agree to AVITEK KUKM processing this data for membership and communication purposes, as described in the Privacy Policy."
+    },
+    "categories": [
+      "Cooperative",
+      "SME",
+      "Academic / researcher",
+      "Industry / technology provider",
+      "Government",
+      "Association / community"
+    ],
+    "thanks": "Thank you, {name}. The AVITEK secretariat will contact you at {email}.",
+    "errorFields": "Please complete: {fields}. Make sure your email looks like name@domain.",
+    "errorConsent": "Tick the data processing consent box to continue."
+  },
+  "footer": {
+    "about": "Association of Technology Innovation for Cooperatives and SMEs. Collaboration, innovation, and business for the digital transformation of Indonesia's cooperatives and SMEs.",
+    "colOrg": "Organization",
+    "orgLinks": [
+      "About AVITEK",
+      "Organizational structure",
+      "Founding members",
+      "Governance & legal"
+    ],
+    "colProgram": "Programs",
+    "programLinks": [
+      "Programs",
+      "Partnership",
+      "Events",
+      "Insights"
+    ],
+    "colJoin": "Get involved",
+    "joinLinks": [
+      "Membership",
+      "Member directory",
+      "Propose a partnership",
+      "Contact"
+    ],
+    "copyright": "© 2026 AVITEK KUKM",
+    "privacy": "Privacy policy",
+    "mockFlag": "Mockup v0.4 bilingual, not final"
+  }
+}
