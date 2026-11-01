@@ -44,7 +44,7 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 - [x] **T-20** Header keamanan
 - [ ] **T-21** Deploy Vercel, env, domain
 - [ ] **T-22** **Masukkan hasil tinjauan terjemahan EN**, lalu jalankan `/cek-i18n`
-- [ ] **T-23** QA kedua bahasa di HP asli, Lighthouse `/id` dan `/en`, uji 3 jalur formulir × 2 bahasa
+- [x] **T-23** QA kedua bahasa di HP asli, Lighthouse `/id` dan `/en`, uji 3 jalur formulir × 2 bahasa
 - [ ] **T-24** QR code (ke `/`; opsional QR khusus `/en`), ganti logo dengan SVG resmi, setel `SHOW_PROPOSED`
 
 ## M5 — Pascaperistiwa (3–30 Nov) → Fase 2
