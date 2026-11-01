@@ -1,8 +1,15 @@
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
+
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-jakarta",
+});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -23,7 +30,7 @@ export default async function LocaleLayout({
   const { showAll, hideAll } = agenda as Record<string, string>;
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={jakarta.variable}>
       <body>
         <NextIntlClientProvider
           messages={{ nav, join, agenda: { showAll, hideAll } }}

@@ -16,7 +16,7 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 
 ## M1 — Fondasi dan i18n (Minggu, 1 Nov, pagi)
 - [x] **T-01** Scaffold Next.js 14 + TS strict + Tailwind + ESLint + pnpm (jangan timpa `docs/`, `messages/`, `mockup/`, `scripts/`, `.claude/`, `CLAUDE.md`)
-- [ ] **T-02** Token design system (`tailwind.config.ts`, `globals.css`) dan font Plus Jakarta Sans (`latin`, `latin-ext`)
+- [x] **T-02** Token design system (`tailwind.config.ts`, `globals.css`) dan font Plus Jakarta Sans (`latin`, `latin-ext`)
 - [ ] **T-03** shadcn/ui init dan varian Button (`cta` = oranye berteks navy, `dark`, `ghost`)
 - [x] **T-04** **Pasang next-intl:** `routing.ts` (id/en, default id, pathnames), `request.ts`, `navigation.ts`, `middleware.ts`, struktur `app/[locale]`, `generateStaticParams`. Tambahkan `"prebuild": "node scripts/check-i18n.mjs"`.
   - Terima: `/` mengalihkan ke `/id`, `/en` tampil, `<html lang>` benar, build gagal jika satu kunci dihapus dari en.json
