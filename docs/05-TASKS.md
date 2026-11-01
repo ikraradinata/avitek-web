@@ -41,7 +41,7 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 
 ## M4 — Rilis (Senin, 2 Nov, siang–malam)
 - [x] **T-19** Metadata per bahasa, `hreflang` + x-default, OG image ID dan EN, sitemap, robots, JSON-LD
-- [ ] **T-20** Header keamanan
+- [x] **T-20** Header keamanan
 - [ ] **T-21** Deploy Vercel, env, domain
 - [ ] **T-22** **Masukkan hasil tinjauan terjemahan EN**, lalu jalankan `/cek-i18n`
 - [ ] **T-23** QA kedua bahasa di HP asli, Lighthouse `/id` dan `/en`, uji 3 jalur formulir × 2 bahasa

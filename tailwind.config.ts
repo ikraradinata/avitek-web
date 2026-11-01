@@ -35,7 +35,14 @@ const config: Config = {
       maxWidth: { wrap: "1180px" },
       boxShadow: { dropdown: "0 18px 40px -22px rgba(11,31,58,.45)" },
       borderRadius: { sm: "6px", md: "12px", lg: "20px" },
-      fontFamily: { sans: ["var(--font-jakarta)", "system-ui", "sans-serif"] },
+      fontFamily: {
+        sans: [
+          "var(--font-jakarta-ext)",
+          "var(--font-jakarta)",
+          "system-ui",
+          "sans-serif",
+        ],
+      },
       backgroundImage: {
         "grad-navy-teal": "linear-gradient(135deg, #0B1F3A, #087F8C)",
         "grad-teal-blue": "linear-gradient(135deg, #087F8C, #2563EB)",

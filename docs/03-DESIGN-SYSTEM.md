@@ -70,7 +70,7 @@ Semua warna **hanya boleh dipanggil lewat token** (CSS variable atau Tailwind th
 
 ## 3. Tipografi
 
-- **Keluarga:** Plus Jakarta Sans (Google Fonts, dimuat lewat `next/font/google`). Satu keluarga, dengan ketebalan 400, 500, 600, 700, dan 800. Bentuknya geometris tegas sehingga cocok dengan wordmark AVITEK.
+- **Keluarga:** Plus Jakarta Sans (disimpan di proyek, dimuat lewat `next/font/local`). Satu keluarga, dengan ketebalan 400, 500, 600, 700, dan 800. Bentuknya geometris tegas sehingga cocok dengan wordmark AVITEK.
 - Huruf kapital renggang seperti "TECHNOLOGY-DRIVEN | INCLUSIVE" di dokumen palet **tidak dipakai di UI** karena terbaca sebagai template. Pengecualiannya tagline logo "Kolaborasi • Inovasi • Bisnis", yang hanya boleh muncul sebagai bagian dari logo.
 
 | Peran | Ukuran | Berat | Line-height | Tracking |

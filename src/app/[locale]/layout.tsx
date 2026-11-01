@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
@@ -9,10 +9,20 @@ import { routing } from "@/i18n/routing";
 import { openGraphFor, SITE_URL } from "@/lib/seo";
 import "../globals.css";
 
-const jakarta = Plus_Jakarta_Sans({
-  subsets: ["latin", "latin-ext"],
-  weight: ["400", "500", "600", "700", "800"],
+// File font ada di proyek agar build tidak bergantung pada Google Fonts.
+// Huruf yang tidak ada di subset latin-ext jatuh ke subset latin.
+const jakartaLatin = localFont({
+  src: "../fonts/plus-jakarta-sans-latin-wght-normal.woff2",
+  weight: "200 800",
   variable: "--font-jakarta",
+});
+
+const jakartaLatinExt = localFont({
+  src: "../fonts/plus-jakarta-sans-latin-ext-wght-normal.woff2",
+  weight: "200 800",
+  variable: "--font-jakarta-ext",
+  preload: false,
+  adjustFontFallback: false,
 });
 
 export function generateStaticParams() {
@@ -57,7 +67,10 @@ export default async function LocaleLayout({
   const { showAll, hideAll } = agenda as Record<string, string>;
 
   return (
-    <html lang={locale} className={jakarta.variable}>
+    <html
+      lang={locale}
+      className={`${jakartaLatin.variable} ${jakartaLatinExt.variable}`}
+    >
       <body>
         <NextIntlClientProvider
           messages={{ nav, join, agenda: { showAll, hideAll } }}

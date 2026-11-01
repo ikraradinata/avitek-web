@@ -7,7 +7,7 @@
 | Framework | **Next.js 14 (App Router)** + TypeScript strict | Stack standar pemilik produk; SSG per bahasa |
 | i18n | **next-intl** | Routing `/[locale]`, middleware deteksi bahasa, format ICU (`{name}`), Server Component friendly |
 | Styling | Tailwind CSS + shadcn/ui (Button, Input, Textarea, Select, Checkbox, Label) | Token warna terpusat |
-| Font | `next/font/google` → Plus Jakarta Sans (subset `latin`, `latin-ext`) | |
+| Font | `next/font/local` → Plus Jakarta Sans variabel di `src/app/fonts/` (subset `latin`, `latin-ext`, lisensi SIL OFL) | Build tidak bergantung pada Google Fonts |
 | Data formulir | Google Sheet + Apps Script di akun `asosiasi.avitek@gmail.com` | Tanpa biaya, mudah dikelola sekretariat |
 | Validasi | Zod, dengan pesan galat dari messages | |
 | Email | MailApp di Apps Script | Sekitar 100 email per hari di akun Gmail biasa |
@@ -145,7 +145,7 @@ Urutan `join.categories` di messages **harus sama** dengan `CATEGORY_CODES`.
 GOOGLE_SCRIPT_URL=              # server-only
 GOOGLE_SCRIPT_SECRET=           # server-only, sama dengan AVITEK_SECRET di Script Properties
 IP_HASH_SALT=                   # server-only
-NEXT_PUBLIC_SITE_URL=https://
+NEXT_PUBLIC_SITE_URL=           # wajib diisi di Vercel
 NEXT_PUBLIC_SHOW_PROPOSED=false # berlaku untuk ID dan EN sekaligus
 ```
 
