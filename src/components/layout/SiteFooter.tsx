@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { LogoMark } from "@/components/graphics/LogoMark";
 import { FOOTER_COLUMNS } from "@/config/structure";
 import { Link } from "@/i18n/navigation";
+import { SHOW_PROPOSED } from "@/lib/flags";
 
 const FOOTER_LINK = "no-underline hover:text-white hover:underline";
 
@@ -35,16 +36,19 @@ export function SiteFooter() {
                 {t(titleKey)}
               </h2>
               <ul className="grid gap-[9px]">
-                {(t.raw(linksKey) as string[]).map((label, index) => (
-                  <li key={label}>
-                    <Link
-                      href={{ pathname: "/", hash: hashes[index] }}
-                      className={FOOTER_LINK}
-                    >
-                      {label}
-                    </Link>
-                  </li>
-                ))}
+                {(t.raw(linksKey) as string[]).map((label, index) =>
+                  // Bagian Program ikut disembunyikan oleh SHOW_PROPOSED
+                  !SHOW_PROPOSED && hashes[index] === "program" ? null : (
+                    <li key={label}>
+                      <Link
+                        href={{ pathname: "/", hash: hashes[index] }}
+                        className={FOOTER_LINK}
+                      >
+                        {label}
+                      </Link>
+                    </li>
+                  ),
+                )}
               </ul>
             </div>
           ))}

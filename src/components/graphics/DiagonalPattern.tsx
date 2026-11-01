@@ -19,3 +19,15 @@ export function DiagonalPattern() {
     </svg>
   );
 }
+
+export function ProgramDiagonal() {
+  return (
+    <svg
+      viewBox="0 0 400 300"
+      aria-hidden="true"
+      className="pointer-events-none absolute -bottom-[60px] -left-20 w-[380px] opacity-[.12]"
+    >
+      <path d="M120 0 L260 0 L140 300 L0 300Z" fill="#087F8C" />
+    </svg>
+  );
+}

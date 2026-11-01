@@ -22,8 +22,13 @@ const config: Config = {
       mist: "#DCE8F0",
       slate: { DEFAULT: "#64748B", muted: "#56657A" },
       gold: { DEFAULT: "#F2B544", soft: "#FDF1D8", ink: "#6B4A0E" },
-      blue: { DEFAULT: "#2563EB", soft: "#DCE7FD" },
-      orange: { DEFAULT: "#F97316", hover: "#FB8A3C", soft: "#FEE9D8" },
+      blue: { DEFAULT: "#2563EB", soft: "#DCE7FD", ink: "#1D4ED8" },
+      orange: {
+        DEFAULT: "#F97316",
+        hover: "#FB8A3C",
+        soft: "#FEE9D8",
+        ink: "#9A3D0A",
+      },
       "on-dark": { DEFAULT: "#DCE8F0", muted: "#B8C7D6" },
     },
     extend: {

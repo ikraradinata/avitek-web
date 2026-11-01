@@ -4,6 +4,7 @@ import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
 import { MobileMenu } from "@/components/layout/MobileMenu";
 import { NavDropdown } from "@/components/layout/NavDropdown";
 import { Link } from "@/i18n/navigation";
+import { SHOW_PROPOSED } from "@/lib/flags";
 
 const MENU_ITEM =
   "block w-full cursor-pointer rounded-lg px-3.5 py-2.5 text-left md:px-2.5 lg:px-3.5 text-[.95rem] font-semibold text-navy no-underline hover:bg-mist md:w-auto";
@@ -38,11 +39,13 @@ export function SiteHeader() {
               {t("about")}
             </Link>
           </li>
-          <li>
-            <Link href={{ pathname: "/", hash: "program" }} className={MENU_ITEM}>
-              {t("program")}
-            </Link>
-          </li>
+          {SHOW_PROPOSED && (
+            <li>
+              <Link href={{ pathname: "/", hash: "program" }} className={MENU_ITEM}>
+                {t("program")}
+              </Link>
+            </li>
+          )}
           <li>
             <Link href={{ pathname: "/", hash: "kemitraan" }} className={MENU_ITEM}>
               {t("partnership")}
