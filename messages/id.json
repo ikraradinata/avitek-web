@@ -131,6 +131,41 @@
       }
     ]
   },
+  "logoMeaning": {
+    "kicker": "Identitas visual",
+    "title": "Makna di balik logo AVITEK KUKM",
+    "imageAlt": "Logo AVITEK KUKM",
+    "shapesTitle": "Bentuk",
+    "colorsTitle": "Warna",
+    "shapes": [
+      {
+        "name": "Monogram A–V",
+        "text": "Identitas AVITEK"
+      },
+      {
+        "name": "Simpul terhubung",
+        "text": "Kolaborasi asosiasi dan ekosistem KUKM"
+      },
+      {
+        "name": "Gerak ke atas",
+        "text": "Inovasi dan bisnis yang bertumbuh"
+      }
+    ],
+    "colors": [
+      {
+        "name": "Navy",
+        "text": "Kredibilitas dan profesionalisme"
+      },
+      {
+        "name": "Teal",
+        "text": "Teknologi dan transformasi"
+      },
+      {
+        "name": "Emas",
+        "text": "Kualitas dan prestise"
+      }
+    ]
+  },
   "eco": {
     "kicker": "Ekosistem inovasi",
     "title": "Satu simpul untuk koperasi, kampus, industri, dan pemerintah.",

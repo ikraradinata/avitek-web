@@ -34,7 +34,7 @@ export function SiteFooter() {
               <Image
                 src="/logo-avitek-dark.svg"
                 alt=""
-                width={118}
+                width={117}
                 height={44}
                 unoptimized
               />

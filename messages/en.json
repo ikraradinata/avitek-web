@@ -131,6 +131,41 @@
       }
     ]
   },
+  "logoMeaning": {
+    "kicker": "Visual identity",
+    "title": "The meaning behind the AVITEK KUKM logo",
+    "imageAlt": "AVITEK KUKM logo",
+    "shapesTitle": "Shape",
+    "colorsTitle": "Color",
+    "shapes": [
+      {
+        "name": "A–V monogram",
+        "text": "AVITEK's identity"
+      },
+      {
+        "name": "Connected nodes",
+        "text": "Collaboration across the association and the cooperative and SME ecosystem"
+      },
+      {
+        "name": "Upward movement",
+        "text": "Innovation and growing businesses"
+      }
+    ],
+    "colors": [
+      {
+        "name": "Navy",
+        "text": "Credibility and professionalism"
+      },
+      {
+        "name": "Teal",
+        "text": "Technology and transformation"
+      },
+      {
+        "name": "Gold",
+        "text": "Quality and prestige"
+      }
+    ]
+  },
   "eco": {
     "kicker": "Innovation ecosystem",
     "title": "One hub for cooperatives, universities, industry, and government.",

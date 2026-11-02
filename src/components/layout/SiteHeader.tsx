@@ -26,7 +26,7 @@ export function SiteHeader() {
           <Image
             src="/logo-avitek.svg"
             alt=""
-            width={118}
+            width={117}
             height={44}
             priority
             unoptimized

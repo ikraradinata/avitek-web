@@ -36,6 +36,9 @@ export const FOOTER_MORE_HASHES = ["gabung", "mitra"] as const;
 // Jumlah stasiun pada visual hero, satu stasiun untuk tiap penerima manfaat
 export const STATION_COUNT = 30;
 
+// Warna contoh di bagian Makna logo, urutannya sama dengan logoMeaning.colors
+export const LOGO_SWATCHES = ["bg-logo-navy", "bg-logo-teal", "bg-logo-gold"] as const;
+
 // Warna border atas kartu, urutannya sama dengan why.cards di messages
 export const WHY_CARD_BORDERS = [
   "border-t-teal",

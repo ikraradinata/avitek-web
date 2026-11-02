@@ -30,6 +30,8 @@ const config: Config = {
         ink: "#9A3D0A",
       },
       "on-dark": { DEFAULT: "#DCE8F0", muted: "#B8C7D6" },
+      // Warna logo resmi, hanya untuk contoh warna di bagian Makna logo
+      logo: { navy: "#112A46", teal: "#00A5A6", gold: "#C79B3B" },
     },
     extend: {
       maxWidth: { wrap: "1180px" },

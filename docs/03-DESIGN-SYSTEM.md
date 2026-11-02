@@ -128,9 +128,22 @@ Hanya ada **satu** momen animasi: 30 stasiun menyala teal, lalu hub emas muncul.
 
 ## 8. Logo
 
-- Logo di mockup adalah **gambar ulang sementara** dalam bentuk SVG (A navy, V teal, titik gold). Untuk produksi, ganti dengan file SVG resmi.
-- Di latar gelap (footer), bentuk A berwarna putih, sedangkan V dan titik tetap teal dan gold.
-- Jangan mewarnai ulang logo di luar dua varian tersebut.
+- **Acuan resmi:** `docs/logo-resmi-avitek-kukm.png`, keputusan pengurus. Ujung lengan V dirapikan menjadi bulat bersih atas persetujuan pemilik.
+- File situs adalah vektor murni dari acuan itu, dengan latar transparan dan huruf berupa bentuk, jadi tidak butuh font:
+
+| File | Dipakai di |
+|---|---|
+| `public/logo-avitek.svg` | Header, latar terang (horizontal) |
+| `public/logo-avitek-dark.svg` | Footer dan gambar pratinjau, latar gelap (horizontal) |
+| `public/logo-avitek-full.svg` | Tampilan besar, lengkap dengan nama dan tagline |
+| `public/logo-avitek-mark.svg` | Simbol saja |
+| `src/app/icon.svg`, `src/app/apple-icon.png` | Favicon dan ikon HP: tanpa lingkaran, latar putih |
+
+- Warna logo: navy `#112A46`, teal `#00A5A6`, emas `#C79B3B`, busur `#E6EAED` dan `#E0F4F3`. Warna ini hanya untuk logo dan contoh warna di bagian Makna logo (token `logo-*`). Teks dan tombol situs tetap memakai token §1, karena teal logo hanya 2,98:1 di atas putih.
+- Versi horizontal, versi gelap, dan favicon diturunkan dari acuan resmi, bukan bagian dari gambar pengurus.
+- Di latar gelap, bentuk A, titik bawah, dan tulisan AVITEK berwarna putih, sedangkan V, KUKM, dan titik emas tetap. Busur dipakai dengan opasitas 32%.
+- Versi lengkap dengan tagline tidak dipakai di bawah lebar 240px karena tulisannya tidak terbaca.
+- Jangan mewarnai ulang logo di luar varian tersebut.
 
 ## 9. Tailwind theme (salin ke `tailwind.config.ts`)
 

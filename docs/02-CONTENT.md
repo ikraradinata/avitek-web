@@ -142,6 +142,28 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `why.cards.2.points.1` | Masukan kebijakan berbasis data lapangan | Policy input grounded in field data | **Usulan** |
 | `why.cards.2.points.2` | Pengembangan kapasitas tenaga ahli lokal | Building the capacity of local experts | **Usulan** |
 
+## 5A. Makna logo
+
+| Kunci | Bahasa Indonesia | English | Status |
+|---|---|---|---|
+| `logoMeaning.kicker` | Identitas visual | Visual identity | **Usulan** |
+| `logoMeaning.title` | Makna di balik logo AVITEK KUKM | The meaning behind the AVITEK KUKM logo | **Usulan** |
+| `logoMeaning.imageAlt` | Logo AVITEK KUKM | AVITEK KUKM logo | UI |
+| `logoMeaning.shapesTitle` | Bentuk | Shape | UI |
+| `logoMeaning.colorsTitle` | Warna | Color | UI |
+| `logoMeaning.shapes.0.name` | Monogram A–V | A–V monogram | Terverifikasi [S12] |
+| `logoMeaning.shapes.0.text` | Identitas AVITEK | AVITEK's identity | Terverifikasi [S12] |
+| `logoMeaning.shapes.1.name` | Simpul terhubung | Connected nodes | Terverifikasi [S12] |
+| `logoMeaning.shapes.1.text` | Kolaborasi asosiasi dan ekosistem KUKM | Collaboration across the association and the cooperative and SME ecosystem | Terverifikasi [S12] |
+| `logoMeaning.shapes.2.name` | Gerak ke atas | Upward movement | Terverifikasi [S12] |
+| `logoMeaning.shapes.2.text` | Inovasi dan bisnis yang bertumbuh | Innovation and growing businesses | Terverifikasi [S12] |
+| `logoMeaning.colors.0.name` | Navy | Navy | Terverifikasi [S12] |
+| `logoMeaning.colors.0.text` | Kredibilitas dan profesionalisme | Credibility and professionalism | Terverifikasi [S12] |
+| `logoMeaning.colors.1.name` | Teal | Teal | Terverifikasi [S12] |
+| `logoMeaning.colors.1.text` | Teknologi dan transformasi | Technology and transformation | Terverifikasi [S12] |
+| `logoMeaning.colors.2.name` | Emas | Gold | Terverifikasi [S12] |
+| `logoMeaning.colors.2.text` | Kualitas dan prestise | Quality and prestige | Terverifikasi [S12] |
+
 ## 6. Ekosistem inovasi
 
 | Kunci | Bahasa Indonesia | English | Status |
@@ -456,3 +478,4 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 - **[S9]** Asia Economy: seminar 25 Juni 2025 di SFTC. https://www.asiae.co.kr/en/article/2025062608112355242
 - **[S10]** SWA: seminar 18 Juni 2026, BINUS Alam Sutera. https://swa.co.id/read/474045/innobiz-korea-dampingi-12-perusahaan-indonesia-terapkan-smart-factory
 - **[S11]** Wowtale: SFTC sebagai pusat pendidikan smart factory pertama di Indonesia. https://en.wowtale.net/2024/12/03/228099/
+- **[S12]** Keterangan makna logo dari pemilik situs, 2 November 2026. Versi EN adalah draf.
