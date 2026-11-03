@@ -33,8 +33,8 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 
 | Kunci | Bahasa Indonesia | English | Status |
 |---|---|---|---|
-| `meta.title` | AVITEK KUKM — Asosiasi Inovasi Teknologi Koperasi dan UKM | AVITEK KUKM — Association of Technology Innovation for Cooperatives and SMEs | **Usulan** |
-| `meta.description` | AVITEK KUKM melanjutkan hasil proyek ODA Smart Factory Korea–Indonesia 2023–2026 dan menghubungkan koperasi, UKM, akademisi, industri, dan pemerintah. | AVITEK KUKM carries forward the results of the 2023–2026 Korea–Indonesia Smart Factory ODA project and connects cooperatives, SMEs, academia, industry, and government. | **Usulan** |
+| `meta.title` | AVITEK KUKM | Ekosistem Inovasi Teknologi untuk Koperasi dan UKM | AVITEK KUKM | Technology Innovation Ecosystem for Cooperatives and SMEs | **Usulan** |
+| `meta.description` | AVITEK KUKM mempertemukan koperasi, UKM, kampus, industri, pemerintah, dan mitra untuk menerapkan inovasi teknologi yang relevan dan berkelanjutan. | AVITEK KUKM brings together cooperatives, SMEs, universities, industry, government, and partners to apply technology innovation that is relevant and lasting. | **Usulan** |
 | `meta.fullName` | Asosiasi Inovasi Teknologi Koperasi dan UKM | Association of Technology Innovation for Cooperatives and SMEs | **Usulan** |
 | `meta.tagline` | Kolaborasi, inovasi, bisnis | Collaboration, innovation, business | Terverifikasi |
 
@@ -64,17 +64,11 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 
 | Kunci | Bahasa Indonesia | English | Status |
 |---|---|---|---|
-| `hero.badge` | Peluncuran AVITEK KUKM, 3 November 2026 | AVITEK KUKM launch, 3 November 2026 | Terverifikasi |
-| `hero.title` | Smart factory tidak berhenti saat proyek selesai. | Smart factories don't stop when the project ends. | **Usulan** |
-| `hero.lede` | Selama 2023–2026, proyek ODA Smart Factory Korea–Indonesia mendampingi 30 koperasi dan UKM mengadopsi teknologi produksi cerdas. AVITEK KUKM hadir agar hasil itu terus dipakai, dikembangkan, dan ditularkan ke lebih banyak pelaku usaha. | From 2023 to 2026, the Korea–Indonesia Smart Factory ODA project helped 30 cooperatives and SMEs adopt smart production technology. AVITEK KUKM exists so those results keep being used, improved, and passed on to more businesses. | **Usulan** |
-| `hero.dateLabel` | Tanggal | Date | UI |
-| `hero.date` | Selasa, 3 November 2026 | Tuesday, 3 November 2026 | Terverifikasi |
-| `hero.timeLabel` | Waktu | Time | UI |
-| `hero.time` | 10.00 WIB sampai selesai (registrasi 09.30) | 10:00 WIB until close (registration 09:30) | Terverifikasi |
-| `hero.venueLabel` | Tempat | Venue | UI |
-| `hero.venue` | Auditorium Lantai 2, Kementerian Koperasi RI, Jl. H.R. Rasuna Said Kav. 3–4, Jakarta Selatan | 2nd Floor Auditorium, Ministry of Cooperatives of the Republic of Indonesia, Jl. H.R. Rasuna Said Kav. 3–4, South Jakarta | Terverifikasi |
-| `hero.ctaRsvp` | Konfirmasi kehadiran | Confirm attendance | UI |
-| `hero.ctaAgenda` | Lihat agenda | See the agenda | UI |
+| `hero.badge` | Diluncurkan 3 November 2026 | Launched 3 November 2026 | **Usulan** |
+| `hero.title` | Inovasi teknologi yang bekerja untuk koperasi dan UKM. | Technology innovation that works for cooperatives and SMEs. | **Usulan** |
+| `hero.lede` | AVITEK KUKM adalah ekosistem kolaborasi yang membantu koperasi dan UKM Indonesia mengubah kebutuhan nyata di lapangan menjadi langkah penerapan teknologi, pembelajaran bersama, dan peluang kerja sama. | AVITEK KUKM is a collaborative ecosystem that helps Indonesian cooperatives and SMEs turn real needs on the ground into steps for applying technology, shared learning, and opportunities to work together. | **Usulan** |
+| `hero.ctaPrimary` | Temukan jalur Anda | Find your path | **Usulan** |
+| `hero.ctaSecondary` | Daftar minat keanggotaan | Register membership interest | **Usulan** |
 | `hero.visualLabel` | Ilustrasi 30 koperasi dan UKM penerima manfaat yang terhubung ke AVITEK KUKM | Illustration of the 30 beneficiary cooperatives and SMEs connected to AVITEK KUKM | UI |
 | `hero.visualCaption` | koperasi dan UKM sudah menerapkan smart factory | cooperatives and SMEs already run smart factories | Terverifikasi |
 | `hero.hubName` | AVITEK KUKM | AVITEK KUKM | Nama diri |
@@ -236,7 +230,7 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 |---|---|---|---|
 | `bene.kicker` | Dari lantai produksi | From the factory floor | UI |
 | `bene.title` | Koperasi yang sudah menjalaninya | Cooperatives that have done it | **Usulan** |
-| `bene.intro` | Perwakilan penerima manfaat akan membagikan dampak smart factory pada forum 3 November. Kisah lengkap mereka menyusul di halaman Wawasan. | Beneficiary representatives will share the impact of their smart factories at the 3 November forum. Their full stories will follow on the Insights page. | Terverifikasi |
+| `bene.intro` | Tiga di antara 30 koperasi dan UKM penerima manfaat proyek ODA Smart Factory. Kisah lengkap mereka diterbitkan setelah mendapat persetujuan. | Three of the 30 cooperatives and SMEs that benefited from the Smart Factory ODA project. Their full stories will be published once approved. | **Usulan** |
 | `bene.items.0.loc` | Pangalengan, Jawa Barat | Pangalengan, West Java | Terverifikasi |
 | `bene.items.0.name` | Koperasi Peternak Bandung Selatan (KPBS) Pangalengan | Koperasi Peternak Bandung Selatan (KPBS) Pangalengan | Nama diri |
 | `bene.items.0.text` | Koperasi susu yang membagikan pengalaman penerapan smart factory pada seminar Juni 2026. | A dairy cooperative that shared its smart factory experience at the June 2026 seminar. | Terverifikasi |
@@ -292,8 +286,8 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 
 | Kunci | Bahasa Indonesia | English | Status |
 |---|---|---|---|
-| `agenda.kicker` | Agenda & forum | Agenda & forum | UI |
-| `agenda.title` | Acara terdekat | Upcoming event | UI |
+| `agenda.kicker` | Arsip acara | Event archive | **Usulan** |
+| `agenda.title` | Peluncuran AVITEK KUKM | The AVITEK KUKM launch | **Usulan** |
 | `agenda.intro` | Peluncuran AVITEK KUKM berlangsung dalam Korea–Indonesia Smart Factory Project Report, Dissemination and Appreciation Forum. | AVITEK KUKM launches during the Korea–Indonesia Smart Factory Project Report, Dissemination and Appreciation Forum. | Terverifikasi |
 | `agenda.day` | 03 | 03 | Terverifikasi |
 | `agenda.month` | November 2026 | November 2026 | Terverifikasi |
@@ -339,7 +333,7 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `agenda.rows.13.title` | Networking luncheon | Networking luncheon | Terverifikasi |
 | `agenda.showAll` | Tampilkan agenda lengkap | Show full agenda | UI |
 | `agenda.hideAll` | Sembunyikan agenda lengkap | Hide full agenda | UI |
-| `agenda.note` | Agenda bersifat sementara dan dapat berubah. | The agenda is provisional and may change. | UI |
+| `agenda.note` | Ini adalah susunan acara yang direncanakan sebelum hari pelaksanaan. Pelaksanaannya dapat berbeda. | This is the agenda as planned before the event. What took place on the day may differ. | **Usulan** |
 
 > Slot 10.15–10.25 kosong di surat asli. Konfirmasi ke panitia. Typo di surat asli sudah diperbaiki.
 
@@ -351,13 +345,13 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `join.title` | Jadi bagian dari gerakan smart factory koperasi dan UKM. | Be part of the smart factory movement for cooperatives and SMEs. | **Usulan** |
 | `join.lede` | Pilih cara Anda terlibat. Sekretariat akan menghubungi Anda setelah formulir diterima. | Choose how you'd like to take part. The secretariat will contact you once we receive your form. | **Usulan** |
 | `join.groupLabel` | Pilih cara bergabung | Choose how to join | UI |
-| `join.paths.anggota.label` | Daftar sebagai anggota | Register as a member | UI |
+| `join.paths.anggota.label` | Daftar minat keanggotaan | Register membership interest | **Usulan** |
 | `join.paths.anggota.hint` | Koperasi, UKM, akademisi, atau praktisi | Cooperatives, SMEs, academics, or practitioners | UI |
-| `join.paths.anggota.title` | Daftar sebagai anggota | Register as a member | UI |
-| `join.paths.anggota.sub` | Isi data singkat Anda. Kolom bertanda * wajib diisi. | Fill in a few details. Fields marked * are required. | UI |
+| `join.paths.anggota.title` | Daftar minat keanggotaan AVITEK KUKM | Register your interest in AVITEK KUKM membership | **Usulan** |
+| `join.paths.anggota.sub` | Ceritakan singkat organisasi dan kebutuhan Anda. Pengisian formulir ini belum berarti keanggotaan disetujui. Kolom bertanda * wajib diisi. | Tell us briefly about your organization and needs. Submitting this form does not mean membership is approved. Fields marked * are required. | **Usulan** |
 | `join.paths.anggota.msg` | Apa yang ingin Anda kembangkan bersama AVITEK? | What would you like to develop with AVITEK? | UI |
-| `join.paths.anggota.submit` | Kirim pendaftaran | Send registration | UI |
-| `join.paths.anggota.ok` | Pendaftaran terkirim | Registration sent | UI |
+| `join.paths.anggota.submit` | Kirim minat keanggotaan | Submit membership interest | **Usulan** |
+| `join.paths.anggota.ok` | Minat Anda telah diterima | Your interest has been received | **Usulan** |
 | `join.paths.mitra.label` | Ajukan kemitraan | Propose a partnership | UI |
 | `join.paths.mitra.hint` | Industri, lembaga, atau asosiasi | Industry, institutions, or associations | UI |
 | `join.paths.mitra.title` | Ajukan kemitraan | Propose a partnership | UI |
@@ -365,13 +359,6 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `join.paths.mitra.msg` | Usulan kerja sama | Proposed cooperation | UI |
 | `join.paths.mitra.submit` | Kirim pengajuan | Send proposal | UI |
 | `join.paths.mitra.ok` | Pengajuan kemitraan terkirim | Partnership proposal sent | UI |
-| `join.paths.hadir.label` | Konfirmasi kehadiran 3 November | Confirm attendance on 3 November | UI |
-| `join.paths.hadir.hint` | Untuk tamu undangan peluncuran | For invited launch guests | UI |
-| `join.paths.hadir.title` | Konfirmasi kehadiran 3 November | Confirm attendance on 3 November | UI |
-| `join.paths.hadir.sub` | Untuk tamu undangan peluncuran AVITEK KUKM di Kementerian Koperasi RI. | For invited guests at the AVITEK KUKM launch at the Ministry of Cooperatives. | UI |
-| `join.paths.hadir.msg` | Catatan untuk panitia (opsional) | Note for the organizers (optional) | UI |
-| `join.paths.hadir.submit` | Konfirmasi kehadiran | Confirm attendance | UI |
-| `join.paths.hadir.ok` | Kehadiran terkonfirmasi | Attendance confirmed | UI |
 | `join.fields.name` | Nama lengkap | Full name | UI |
 | `join.fields.org` | Institusi / usaha | Organization / business | UI |
 | `join.fields.email` | Email | Email | UI |

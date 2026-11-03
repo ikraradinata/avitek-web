@@ -8,12 +8,6 @@ import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
 
-const EVENT_DETAILS = [
-  ["dateLabel", "date"],
-  ["timeLabel", "time"],
-  ["venueLabel", "venue"],
-] as const;
-
 export function Hero() {
   const t = useTranslations("hero");
   const figures = useTranslations("figures");
@@ -33,27 +27,19 @@ export function Hero() {
           <p className="mb-[30px] max-w-[62ch] text-[1.15rem] text-slate-muted">
             {t("lede")}
           </p>
-          <dl className="mb-[34px] grid grid-cols-[auto_1fr] gap-x-[18px] gap-y-2.5 rounded-r-md border-l-4 border-orange bg-white px-[22px] py-5 text-[.98rem]">
-            {EVENT_DETAILS.map(([labelKey, valueKey]) => (
-              <div key={labelKey} className="contents">
-                <dt className="font-bold text-navy">{t(labelKey)}</dt>
-                <dd className="min-w-0">{t(valueKey)}</dd>
-              </div>
-            ))}
-          </dl>
           <div className="flex flex-wrap gap-3">
-            <JoinPathLink
-              path="hadir"
+            <Link
+              href={{ pathname: "/", hash: "kemitraan" }}
               className={buttonVariants({ variant: "cta" })}
             >
-              {t("ctaRsvp")}
-            </JoinPathLink>
-            <Link
-              href={{ pathname: "/", hash: "acara" }}
+              {t("ctaPrimary")}
+            </Link>
+            <JoinPathLink
+              path="anggota"
               className={buttonVariants({ variant: "ghost" })}
             >
-              {t("ctaAgenda")}
-            </Link>
+              {t("ctaSecondary")}
+            </JoinPathLink>
           </div>
         </div>
         <figure

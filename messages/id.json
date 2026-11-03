@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "AVITEK KUKM — Asosiasi Inovasi Teknologi Koperasi dan UKM",
-    "description": "AVITEK KUKM melanjutkan hasil proyek ODA Smart Factory Korea–Indonesia 2023–2026 dan menghubungkan koperasi, UKM, akademisi, industri, dan pemerintah.",
+    "title": "AVITEK KUKM | Ekosistem Inovasi Teknologi untuk Koperasi dan UKM",
+    "description": "AVITEK KUKM mempertemukan koperasi, UKM, kampus, industri, pemerintah, dan mitra untuk menerapkan inovasi teknologi yang relevan dan berkelanjutan.",
     "fullName": "Asosiasi Inovasi Teknologi Koperasi dan UKM",
     "tagline": "Kolaborasi, inovasi, bisnis"
   },
@@ -27,17 +27,11 @@
     }
   },
   "hero": {
-    "badge": "Peluncuran AVITEK KUKM, 3 November 2026",
-    "title": "Smart factory tidak berhenti saat proyek selesai.",
-    "lede": "Selama 2023–2026, proyek ODA Smart Factory Korea–Indonesia mendampingi 30 koperasi dan UKM mengadopsi teknologi produksi cerdas. AVITEK KUKM hadir agar hasil itu terus dipakai, dikembangkan, dan ditularkan ke lebih banyak pelaku usaha.",
-    "dateLabel": "Tanggal",
-    "date": "Selasa, 3 November 2026",
-    "timeLabel": "Waktu",
-    "time": "10.00 WIB sampai selesai (registrasi 09.30)",
-    "venueLabel": "Tempat",
-    "venue": "Auditorium Lantai 2, Kementerian Koperasi RI, Jl. H.R. Rasuna Said Kav. 3–4, Jakarta Selatan",
-    "ctaRsvp": "Konfirmasi kehadiran",
-    "ctaAgenda": "Lihat agenda",
+    "badge": "Diluncurkan 3 November 2026",
+    "title": "Inovasi teknologi yang bekerja untuk koperasi dan UKM.",
+    "lede": "AVITEK KUKM adalah ekosistem kolaborasi yang membantu koperasi dan UKM Indonesia mengubah kebutuhan nyata di lapangan menjadi langkah penerapan teknologi, pembelajaran bersama, dan peluang kerja sama.",
+    "ctaPrimary": "Temukan jalur Anda",
+    "ctaSecondary": "Daftar minat keanggotaan",
     "visualLabel": "Ilustrasi 30 koperasi dan UKM penerima manfaat yang terhubung ke AVITEK KUKM",
     "visualCaption": "koperasi dan UKM sudah menerapkan smart factory",
     "hubName": "AVITEK KUKM",
@@ -256,7 +250,7 @@
   "bene": {
     "kicker": "Dari lantai produksi",
     "title": "Koperasi yang sudah menjalaninya",
-    "intro": "Perwakilan penerima manfaat akan membagikan dampak smart factory pada forum 3 November. Kisah lengkap mereka menyusul di halaman Wawasan.",
+    "intro": "Tiga di antara 30 koperasi dan UKM penerima manfaat proyek ODA Smart Factory. Kisah lengkap mereka diterbitkan setelah mendapat persetujuan.",
     "items": [
       {
         "loc": "Pangalengan, Jawa Barat",
@@ -344,8 +338,8 @@
     "cta": "Ajukan kemitraan"
   },
   "agenda": {
-    "kicker": "Agenda & forum",
-    "title": "Acara terdekat",
+    "kicker": "Arsip acara",
+    "title": "Peluncuran AVITEK KUKM",
     "intro": "Peluncuran AVITEK KUKM berlangsung dalam Korea–Indonesia Smart Factory Project Report, Dissemination and Appreciation Forum.",
     "day": "03",
     "month": "November 2026",
@@ -426,7 +420,7 @@
     ],
     "showAll": "Tampilkan agenda lengkap",
     "hideAll": "Sembunyikan agenda lengkap",
-    "note": "Agenda bersifat sementara dan dapat berubah."
+    "note": "Ini adalah susunan acara yang direncanakan sebelum hari pelaksanaan. Pelaksanaannya dapat berbeda."
   },
   "join": {
     "kicker": "Bergabung sekarang",
@@ -435,13 +429,13 @@
     "groupLabel": "Pilih cara bergabung",
     "paths": {
       "anggota": {
-        "label": "Daftar sebagai anggota",
+        "label": "Daftar minat keanggotaan",
         "hint": "Koperasi, UKM, akademisi, atau praktisi",
-        "title": "Daftar sebagai anggota",
-        "sub": "Isi data singkat Anda. Kolom bertanda * wajib diisi.",
+        "title": "Daftar minat keanggotaan AVITEK KUKM",
+        "sub": "Ceritakan singkat organisasi dan kebutuhan Anda. Pengisian formulir ini belum berarti keanggotaan disetujui. Kolom bertanda * wajib diisi.",
         "msg": "Apa yang ingin Anda kembangkan bersama AVITEK?",
-        "submit": "Kirim pendaftaran",
-        "ok": "Pendaftaran terkirim"
+        "submit": "Kirim minat keanggotaan",
+        "ok": "Minat Anda telah diterima"
       },
       "mitra": {
         "label": "Ajukan kemitraan",
@@ -451,15 +445,6 @@
         "msg": "Usulan kerja sama",
         "submit": "Kirim pengajuan",
         "ok": "Pengajuan kemitraan terkirim"
-      },
-      "hadir": {
-        "label": "Konfirmasi kehadiran 3 November",
-        "hint": "Untuk tamu undangan peluncuran",
-        "title": "Konfirmasi kehadiran 3 November",
-        "sub": "Untuk tamu undangan peluncuran AVITEK KUKM di Kementerian Koperasi RI.",
-        "msg": "Catatan untuk panitia (opsional)",
-        "submit": "Konfirmasi kehadiran",
-        "ok": "Kehadiran terkonfirmasi"
       }
     },
     "fields": {

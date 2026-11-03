@@ -46,7 +46,7 @@ export const WHY_CARD_BORDERS = [
   "border-t-blue",
 ] as const;
 
-export const JOIN_PATHS = ["anggota", "mitra", "hadir"] as const;
+export const JOIN_PATHS = ["anggota", "mitra"] as const;
 export type JoinPath = (typeof JOIN_PATHS)[number];
 
 // Peristiwa browser untuk memilih jalur formulir dari tombol CTA di luar formulir

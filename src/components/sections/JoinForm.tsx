@@ -176,30 +176,28 @@ export function JoinForm({
             <Input id="join-wa" name="wa" type="tel" autoComplete="tel" />
           </div>
         </div>
-        {path !== "hadir" && (
-          <div className="mb-4 grid gap-1.5">
-            <Label htmlFor="join-category">{t("fields.category")}</Label>
-            <div className="relative">
-              <select
-                id="join-category"
-                name="kategori"
-                className={cn(fieldControlClass, "appearance-none pr-10")}
-              >
-                {(t.raw("categories") as string[]).map((label, index) => (
-                  <option key={CATEGORY_CODES[index]} value={CATEGORY_CODES[index]}>
-                    {label}
-                  </option>
-                ))}
-              </select>
-              <span
-                aria-hidden="true"
-                className="pointer-events-none absolute right-3.5 top-1/2 -translate-y-1/2 text-navy"
-              >
-                ▾
-              </span>
-            </div>
+        <div className="mb-4 grid gap-1.5">
+          <Label htmlFor="join-category">{t("fields.category")}</Label>
+          <div className="relative">
+            <select
+              id="join-category"
+              name="kategori"
+              className={cn(fieldControlClass, "appearance-none pr-10")}
+            >
+              {(t.raw("categories") as string[]).map((label, index) => (
+                <option key={CATEGORY_CODES[index]} value={CATEGORY_CODES[index]}>
+                  {label}
+                </option>
+              ))}
+            </select>
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute right-3.5 top-1/2 -translate-y-1/2 text-navy"
+            >
+              ▾
+            </span>
           </div>
-        )}
+        </div>
         <div className="mb-4 grid gap-1.5">
           <Label htmlFor="join-message">{t(`paths.${path}.msg`)}</Label>
           <Textarea id="join-message" name="pesan" />
