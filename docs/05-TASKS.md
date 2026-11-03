@@ -53,6 +53,13 @@ Tenggat keras: **tayang sebelum Selasa, 3 November 2026, pukul 09.00 WIB.**
 - [ ] `/[locale]/tentang`, `/[locale]/wawasan` (MDX per bahasa), `/[locale]/acara/[slug]`
 - [ ] Kajian penambahan bahasa Korea (`/ko`)
 
+## M6 — Profil organisasi dan pendiri
+- [x] **T-25** Menu Tentang jadi dropdown, halaman `/tentang` (`/en/about`) dan `/tentang/pendiri` (`/en/about/founders`), 4 kartu pendiri dengan inisial
+- [ ] **T-26** Foto asli dan izin tertulis 4 pendiri, ganti inisial dengan foto (`founders.ts` → `photo`)
+- [ ] **T-27** Profil singkat 50–80 kata per pendiri (ID, EN)
+- [ ] **T-28** Pendiri ke-5 sampai ke-19, bertahap sesuai data dan izin (lembar isian `docs/09-DATA-PENDIRI.md`, kartu penanda sudah ada)
+- [ ] **T-29** Halaman Tata kelola (struktur pengurus, dokumen resmi)
+
 ## Catatan risiko jadwal
 - Jika peninjau EN belum selesai pada Senin sore, **tayangkan dengan EN draf**. Draf sudah disusun hati-hati dan lebih baik daripada tidak ada halaman EN saat delegasi Korea hadir. Perbaiki setelah acara.
 - Jika M3 tidak selesai Senin siang, tayangkan dulu dengan formulir sementara Google Form (ID dan EN).

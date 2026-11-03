@@ -24,7 +24,11 @@
     "langNames": {
       "id": "Bahasa Indonesia",
       "en": "English"
-    }
+    },
+    "aboutProfile": "Profil AVITEK",
+    "aboutProfileSub": "Jejak proyek dan makna logo",
+    "aboutFounders": "Pendiri",
+    "aboutFoundersSub": "Orang-orang di balik AVITEK KUKM"
   },
   "hero": {
     "badge": "Diluncurkan 3 November 2026",
@@ -159,6 +163,43 @@
         "text": "Kualitas dan prestise"
       }
     ]
+  },
+  "about": {
+    "metaTitle": "Tentang — AVITEK KUKM",
+    "metaDescription": "Profil AVITEK KUKM: jejak proyek Smart Factory Korea–Indonesia, makna logo, dan para pendiri.",
+    "kicker": "Tentang AVITEK KUKM",
+    "title": "Menjaga pembelajaran, memperluas kolaborasi.",
+    "intro": "AVITEK KUKM dibangun sebagai wadah kolaborasi inovasi teknologi untuk koperasi dan UKM Indonesia. Kami menghubungkan pengalaman lapangan, keahlian, teknologi, riset, dan peluang kemitraan agar transformasi digital dapat berlangsung lebih terarah dan berkelanjutan."
+  },
+  "founders": {
+    "metaTitle": "Pendiri — AVITEK KUKM",
+    "metaDescription": "Mengenal para pendiri AVITEK KUKM, Asosiasi Inovasi Teknologi Koperasi dan UKM.",
+    "kicker": "Pendiri",
+    "title": "Orang-orang di balik AVITEK KUKM",
+    "intro": "Para pendiri AVITEK KUKM berasal dari kalangan akademisi dan pelaku usaha teknologi. Berikut sebagian dari mereka.",
+    "more": "Profil pendiri lainnya akan ditambahkan setelah data dan persetujuannya lengkap.",
+    "moreCard": "Pendiri lainnya",
+    "moreCardSub": "Profil menyusul",
+    "teaserKicker": "Di antara para pendiri",
+    "teaserCta": "Kenali para pendiri",
+    "items": {
+      "meyliana": {
+        "role": "Pendiri & Ketua",
+        "affiliation": "Profesor Sistem Informasi, BINUS University"
+      },
+      "idha-kristiana": {
+        "role": "Pendiri",
+        "affiliation": "Pendiri & CEO, PT Viktori Aksara Teknologi Indonesia (V-TEKI)"
+      },
+      "ikrar-adinata-arin": {
+        "role": "Pendiri",
+        "affiliation": "Dosen dan Peneliti, BINUS University"
+      },
+      "sunardi": {
+        "role": "Pendiri",
+        "affiliation": "Salah satu Pendiri & CEO, SUNEDU ID"
+      }
+    }
   },
   "eco": {
     "kicker": "Ekosistem inovasi",
@@ -345,7 +386,7 @@
     "month": "November 2026",
     "when": "Selasa, 09.30–14.30 WIB",
     "eventTitle": "Peluncuran AVITEK KUKM & Forum Smart Factory Korea–Indonesia",
-    "where": "Auditorium Lantai 2, Kementerian Koperasi RI, Jakarta Selatan",
+    "where": "Auditorium Margono Djojohadikoesoemo, Lantai 2, Kementerian Koperasi RI, Jakarta Selatan",
     "rows": [
       {
         "time": "09.30–10.00",

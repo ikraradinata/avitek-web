@@ -21,12 +21,12 @@ export const CONTACT_EMAIL = "asosiasi.avitek@gmail.com";
 
 // Kolom Menu di footer, labelnya dari namespace nav
 export const FOOTER_MENU = [
-  { labelKey: "homeLink", hash: "top" },
-  { labelKey: "about", hash: "tentang" },
-  { labelKey: "program", hash: "program" },
-  { labelKey: "partnership", hash: "kemitraan" },
-  { labelKey: "insights", hash: "penerima" },
-  { labelKey: "events", hash: "acara" },
+  { labelKey: "homeLink", href: { pathname: "/", hash: "top" } },
+  { labelKey: "about", href: { pathname: "/tentang" } },
+  { labelKey: "program", href: { pathname: "/", hash: "program" } },
+  { labelKey: "partnership", href: { pathname: "/", hash: "kemitraan" } },
+  { labelKey: "insights", href: { pathname: "/", hash: "penerima" } },
+  { labelKey: "events", href: { pathname: "/", hash: "acara" } },
 ] as const;
 
 // Tujuan kolom Lainnya, urutannya sama dengan footer.moreLinks.

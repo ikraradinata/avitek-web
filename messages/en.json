@@ -24,7 +24,11 @@
     "langNames": {
       "id": "Bahasa Indonesia",
       "en": "English"
-    }
+    },
+    "aboutProfile": "AVITEK profile",
+    "aboutProfileSub": "Project journey and logo meaning",
+    "aboutFounders": "Founders",
+    "aboutFoundersSub": "The people behind AVITEK KUKM"
   },
   "hero": {
     "badge": "Launched 3 November 2026",
@@ -159,6 +163,43 @@
         "text": "Quality and prestige"
       }
     ]
+  },
+  "about": {
+    "metaTitle": "About — AVITEK KUKM",
+    "metaDescription": "About AVITEK KUKM: the Korea–Indonesia Smart Factory project journey, the meaning of the logo, and the founders.",
+    "kicker": "About AVITEK KUKM",
+    "title": "Keeping the learning, widening the collaboration.",
+    "intro": "AVITEK KUKM was built as a hub for technology innovation and collaboration among Indonesian cooperatives and SMEs. We connect field experience, expertise, technology, research, and partnership opportunities so that digital transformation can be more focused and lasting."
+  },
+  "founders": {
+    "metaTitle": "Founders — AVITEK KUKM",
+    "metaDescription": "Meet the founders of AVITEK KUKM, the Association of Technology Innovation for Cooperatives and SMEs.",
+    "kicker": "Founders",
+    "title": "The people behind AVITEK KUKM",
+    "intro": "AVITEK KUKM's founders come from academia and technology businesses. Here are some of them.",
+    "more": "Profiles of the other founders will be added once their details and consent are complete.",
+    "moreCard": "Other founders",
+    "moreCardSub": "Profiles coming soon",
+    "teaserKicker": "Among the founders",
+    "teaserCta": "Meet the founders",
+    "items": {
+      "meyliana": {
+        "role": "Founder & Chairperson",
+        "affiliation": "Professor in Information Systems, BINUS University"
+      },
+      "idha-kristiana": {
+        "role": "Founder",
+        "affiliation": "Founder & CEO, PT Viktori Aksara Teknologi Indonesia (V-TEKI)"
+      },
+      "ikrar-adinata-arin": {
+        "role": "Founder",
+        "affiliation": "Lecturer & Researcher, BINUS University"
+      },
+      "sunardi": {
+        "role": "Founder",
+        "affiliation": "Co-Founder & CEO, SUNEDU ID"
+      }
+    }
   },
   "eco": {
     "kicker": "Innovation ecosystem",
@@ -345,7 +386,7 @@
     "month": "November 2026",
     "when": "Tuesday, 09:30–14:30 WIB",
     "eventTitle": "AVITEK KUKM Launch & Korea–Indonesia Smart Factory Forum",
-    "where": "2nd Floor Auditorium, Ministry of Cooperatives, South Jakarta",
+    "where": "Margono Djojohadikoesoemo Auditorium, 2nd Floor, Ministry of Cooperatives, South Jakarta",
     "rows": [
       {
         "time": "09:30–10:00",

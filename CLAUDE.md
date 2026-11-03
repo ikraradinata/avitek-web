@@ -16,6 +16,7 @@ Pemilik membangun lewat vibe coding dan **bukan programmer**. Jelaskan keputusan
 - `docs/05-TASKS.md`: urutan task T-01 s/d T-24
 - `docs/07-GOOGLE-SHEET-SETUP.md`: panduan menyambungkan formulir ke Google Sheet
 - `docs/08-VERCEL-DEPLOY.md`: panduan deploy ke Vercel
+- `docs/09-DATA-PENDIRI.md`: lembar isian data pendiri untuk kartu di halaman Pendiri
 - `mockup/index.html`: **acuan visual dan perilaku** (tombol ID/EN berfungsi). Jangan diedit.
 
 ## Stack

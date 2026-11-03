@@ -17,7 +17,7 @@ export function SiteFooter() {
   const values = t.raw("values") as string[];
   // Bagian Program ikut disembunyikan oleh SHOW_PROPOSED
   const menu = FOOTER_MENU.filter(
-    ({ hash }) => SHOW_PROPOSED || hash !== "program",
+    ({ labelKey }) => SHOW_PROPOSED || labelKey !== "program",
   );
 
   return (
@@ -57,9 +57,9 @@ export function SiteFooter() {
           <div>
             <h2 className={COLUMN_TITLE}>{t("colMenu")}</h2>
             <ul className="grid gap-[9px]">
-              {menu.map(({ labelKey, hash }) => (
-                <li key={hash}>
-                  <Link href={{ pathname: "/", hash }} className={FOOTER_LINK}>
+              {menu.map(({ labelKey, href }) => (
+                <li key={labelKey}>
+                  <Link href={href} className={FOOTER_LINK}>
                     {nav(labelKey)}
                   </Link>
                 </li>

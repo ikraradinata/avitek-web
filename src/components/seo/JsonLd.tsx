@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { FOUNDERS } from "@/config/founders";
 import { EVENT_END, EVENT_START } from "@/config/structure";
 import { SITE_URL } from "@/lib/seo";
 
@@ -14,6 +15,7 @@ export async function JsonLd({ locale }: Readonly<{ locale: string }>) {
     alternateName: englishMeta("fullName"),
     url: SITE_URL,
     logo: `${SITE_URL}/logo-avitek.svg`,
+    founder: FOUNDERS.map(({ plainName }) => ({ "@type": "Person", name: plainName })),
   };
   const data = {
     "@context": "https://schema.org",

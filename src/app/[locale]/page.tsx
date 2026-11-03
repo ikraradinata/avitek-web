@@ -4,9 +4,9 @@ import { AgendaSection } from "@/components/sections/AgendaSection";
 import { Beneficiaries } from "@/components/sections/Beneficiaries";
 import { EcosystemSection } from "@/components/sections/EcosystemSection";
 import { FirstSteps } from "@/components/sections/FirstSteps";
+import { FoundersTeaser } from "@/components/sections/FoundersTeaser";
 import { Hero } from "@/components/sections/Hero";
 import { JoinSection } from "@/components/sections/JoinSection";
-import { LogoMeaningSection } from "@/components/sections/LogoMeaningSection";
 import { PartnerGroups } from "@/components/sections/PartnerGroups";
 import { ProgramSection } from "@/components/sections/ProgramSection";
 import { ProjectTimeline } from "@/components/sections/ProjectTimeline";
@@ -29,7 +29,7 @@ export default function HomePage({
       <Hero />
       <ProjectTimeline />
       <WhySection />
-      <LogoMeaningSection />
+      <FoundersTeaser />
       <EcosystemSection />
       {SHOW_PROPOSED && <ProgramSection />}
       {SHOW_PROPOSED && <FirstSteps />}

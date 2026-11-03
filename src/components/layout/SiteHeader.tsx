@@ -39,9 +39,20 @@ export function SiteHeader() {
             </Link>
           </li>
           <li>
-            <Link href={{ pathname: "/", hash: "tentang" }} className={MENU_ITEM}>
-              {t("about")}
-            </Link>
+            <NavDropdown label={t("about")} buttonClassName={MENU_ITEM}>
+              <Link href="/tentang" className={DROPDOWN_LINK}>
+                <span>{t("aboutProfile")}</span>
+                <small className="block text-[.8rem] text-slate-muted">
+                  {t("aboutProfileSub")}
+                </small>
+              </Link>
+              <Link href="/tentang/pendiri" className={DROPDOWN_LINK}>
+                <span>{t("aboutFounders")}</span>
+                <small className="block text-[.8rem] text-slate-muted">
+                  {t("aboutFoundersSub")}
+                </small>
+              </Link>
+            </NavDropdown>
           </li>
           {SHOW_PROPOSED && (
             <li>

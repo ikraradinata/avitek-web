@@ -9,5 +9,7 @@ export const routing = defineRouting({
   pathnames: {
     "/": "/",
     "/kebijakan-privasi": { id: "/kebijakan-privasi", en: "/privacy-policy" },
+    "/tentang": { id: "/tentang", en: "/about" },
+    "/tentang/pendiri": { id: "/tentang/pendiri", en: "/about/founders" },
   },
 });

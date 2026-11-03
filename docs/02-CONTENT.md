@@ -158,6 +158,40 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `logoMeaning.colors.2.name` | Emas | Gold | Terverifikasi [S12] |
 | `logoMeaning.colors.2.text` | Kualitas dan prestise | Quality and prestige | Terverifikasi [S12] |
 
+## 5B. Halaman Tentang dan Pendiri
+
+Nama dan gelar pendiri ada di `src/config/founders.ts` (nama diri, tidak diterjemahkan). Terjemahan peran dan jabatan ke ID adalah draf.
+
+| Kunci | Bahasa Indonesia | English | Status |
+|---|---|---|---|
+| `nav.aboutProfile` | Profil AVITEK | AVITEK profile | UI |
+| `nav.aboutProfileSub` | Jejak proyek dan makna logo | Project journey and logo meaning | UI |
+| `nav.aboutFounders` | Pendiri | Founders | UI |
+| `nav.aboutFoundersSub` | Orang-orang di balik AVITEK KUKM | The people behind AVITEK KUKM | UI |
+| `about.metaTitle` | Tentang — AVITEK KUKM | About — AVITEK KUKM | **Usulan** |
+| `about.metaDescription` | Profil AVITEK KUKM: jejak proyek Smart Factory Korea–Indonesia, makna logo, dan para pendiri. | About AVITEK KUKM: the Korea–Indonesia Smart Factory project journey, the meaning of the logo, and the founders. | **Usulan** |
+| `about.kicker` | Tentang AVITEK KUKM | About AVITEK KUKM | **Usulan** |
+| `about.title` | Menjaga pembelajaran, memperluas kolaborasi. | Keeping the learning, widening the collaboration. | **Usulan** |
+| `about.intro` | AVITEK KUKM dibangun sebagai wadah kolaborasi inovasi teknologi untuk koperasi dan UKM Indonesia. Kami menghubungkan pengalaman lapangan, keahlian, teknologi, riset, dan peluang kemitraan agar transformasi digital dapat berlangsung lebih terarah dan berkelanjutan. | AVITEK KUKM was built as a hub for technology innovation and collaboration among Indonesian cooperatives and SMEs. We connect field experience, expertise, technology, research, and partnership opportunities so that digital transformation can be more focused and lasting. | **Usulan** |
+| `founders.metaTitle` | Pendiri — AVITEK KUKM | Founders — AVITEK KUKM | **Usulan** |
+| `founders.metaDescription` | Mengenal para pendiri AVITEK KUKM, Asosiasi Inovasi Teknologi Koperasi dan UKM. | Meet the founders of AVITEK KUKM, the Association of Technology Innovation for Cooperatives and SMEs. | **Usulan** |
+| `founders.kicker` | Pendiri | Founders | UI |
+| `founders.title` | Orang-orang di balik AVITEK KUKM | The people behind AVITEK KUKM | **Usulan** |
+| `founders.intro` | Para pendiri AVITEK KUKM berasal dari kalangan akademisi dan pelaku usaha teknologi. Berikut sebagian dari mereka. | AVITEK KUKM's founders come from academia and technology businesses. Here are some of them. | **Usulan** |
+| `founders.more` | Profil pendiri lainnya akan ditambahkan setelah data dan persetujuannya lengkap. | Profiles of the other founders will be added once their details and consent are complete. | **Usulan** |
+| `founders.moreCard` | Pendiri lainnya | Other founders | UI |
+| `founders.moreCardSub` | Profil menyusul | Profiles coming soon | UI |
+| `founders.teaserKicker` | Di antara para pendiri | Among the founders | UI |
+| `founders.teaserCta` | Kenali para pendiri | Meet the founders | UI |
+| `founders.items.meyliana.role` | Pendiri & Ketua | Founder & Chairperson | Terverifikasi [S13] |
+| `founders.items.meyliana.affiliation` | Profesor Sistem Informasi, BINUS University | Professor in Information Systems, BINUS University | Terverifikasi [S13] |
+| `founders.items.idha-kristiana.role` | Pendiri | Founder | Terverifikasi [S13] |
+| `founders.items.idha-kristiana.affiliation` | Pendiri & CEO, PT Viktori Aksara Teknologi Indonesia (V-TEKI) | Founder & CEO, PT Viktori Aksara Teknologi Indonesia (V-TEKI) | Terverifikasi [S13] |
+| `founders.items.ikrar-adinata-arin.role` | Pendiri | Founder | Terverifikasi [S13] |
+| `founders.items.ikrar-adinata-arin.affiliation` | Dosen dan Peneliti, BINUS University | Lecturer & Researcher, BINUS University | Terverifikasi [S13] |
+| `founders.items.sunardi.role` | Pendiri | Founder | Terverifikasi [S13] |
+| `founders.items.sunardi.affiliation` | Salah satu Pendiri & CEO, SUNEDU ID | Co-Founder & CEO, SUNEDU ID | Terverifikasi [S13] |
+
 ## 6. Ekosistem inovasi
 
 | Kunci | Bahasa Indonesia | English | Status |
@@ -293,7 +327,7 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 | `agenda.month` | November 2026 | November 2026 | Terverifikasi |
 | `agenda.when` | Selasa, 09.30–14.30 WIB | Tuesday, 09:30–14:30 WIB | Terverifikasi |
 | `agenda.eventTitle` | Peluncuran AVITEK KUKM & Forum Smart Factory Korea–Indonesia | AVITEK KUKM Launch & Korea–Indonesia Smart Factory Forum | Terverifikasi |
-| `agenda.where` | Auditorium Lantai 2, Kementerian Koperasi RI, Jakarta Selatan | 2nd Floor Auditorium, Ministry of Cooperatives, South Jakarta | Terverifikasi |
+| `agenda.where` | Auditorium Margono Djojohadikoesoemo, Lantai 2, Kementerian Koperasi RI, Jakarta Selatan | Margono Djojohadikoesoemo Auditorium, 2nd Floor, Ministry of Cooperatives, South Jakarta | Terverifikasi [S13] |
 | `agenda.rows.0.time` | 09.30–10.00 | 09:30–10:00 | Terverifikasi |
 | `agenda.rows.0.title` | Registrasi | Registration | Terverifikasi |
 | `agenda.rows.1.time` | 10.05–10.15 | 10:05–10:15 | Terverifikasi |
@@ -466,3 +500,4 @@ Dokumen ini adalah **versi baca** dari `messages/id.json` dan `messages/en.json`
 - **[S10]** SWA: seminar 18 Juni 2026, BINUS Alam Sutera. https://swa.co.id/read/474045/innobiz-korea-dampingi-12-perusahaan-indonesia-terapkan-smart-factory
 - **[S11]** Wowtale: SFTC sebagai pusat pendidikan smart factory pertama di Indonesia. https://en.wowtale.net/2024/12/03/228099/
 - **[S12]** Keterangan makna logo dari pemilik situs, 2 November 2026. Versi EN adalah draf.
+- **[S13]** Poster "Officially Launched" AVITEK KUKM, 3 November 2026 (dari pemilik situs): nama, gelar, peran, dan jabatan 4 pendiri.

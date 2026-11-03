@@ -3,7 +3,7 @@ import { getPathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/seo";
 
-const PAGES = ["/", "/kebijakan-privasi"] as const;
+const PAGES = ["/", "/tentang", "/tentang/pendiri", "/kebijakan-privasi"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return PAGES.flatMap((href) => {
